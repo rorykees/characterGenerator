@@ -27,15 +27,48 @@ const dhCharacters = [
     "Evie",
     "Avi",
     "Babolax",
-    "Cumpen",
+    "Yurk",
     "Davil",
     "Embric",
     "Emmek",
-    "Floon"
+    "Floon",
+    "Jorn",
+    "Hrangor",
+    "Lif",
+    "Nim",
+    "Otis",
+    "Renaer",
+    "Tashlyn",
+    "Trench",
+    "Vajra",
+    "Volo",
+    "Yagra"
 ];
-var cosCharacter = cosCharacters[Math.floor(Math.random()*cosCharacters.length)]; 
 
-console.log(cosCharacter); 
+const orreryCharacters = [
+    "Andros",
+    "Dyre",
+    "Kitty", 
+    "Brawn",
+    "Ecstasy", 
+    "Frahl",
+    "Gildha",
+    "Gorkoh",
+    "Grunka",
+    "Guthildi",
+    "Jutt",
+    "Meff",
+    "Lottie",
+    "Omin",
+    "Patsky", 
+    "Sildar",
+    "Talanatha",
+    "Thetsis",
+    "Wizzy",
+    "Wester",
+    "Tordit"
+]
+var allCharacters = cosCharacters.concat(dhCharacters, orreryCharacters); 
 
 // get elements 
 var beginButton = document.querySelector("#begin-button"); 
@@ -58,5 +91,5 @@ addEventListener("click",function(event) {
 
 //action listener for generate button 
 beginButton.addEventListener("click",function(event) {
-    characterText.textContent = cosCharacters[Math.floor(Math.random()*cosCharacters.length)];
+    characterText.textContent = allCharacters[Math.floor(Math.random()*allCharacters.length)];
 }); 
