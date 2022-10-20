@@ -1,5 +1,38 @@
-const {cosCharacters} = require("./strahd")
+const cosCharacters = [
+    "Krue",
+    "Skoll",
+    "Nia",
+    "Ezmerelda", 
+    "Ireena", 
+    "Yesper", 
+    "Rictavio", 
+    "The Abbot (Jude Law)",
+    "Baron Vallakovich",
+    "Blinksy",
+    "Christopher", 
+    "Exethanter", 
+    "Godfrey",
+    "Ismark",
+    "Mordenkainen",
+    "Neferon",
+    "Pidlwick",
+    "Rahadin",
+    "Strahd",
+    "Victor"
+];
 
+const dhCharacters = [
+    "Ruik",
+    "Briar",
+    "Evie",
+    "Avi",
+    "Babolax",
+    "Cumpen",
+    "Davil",
+    "Embric",
+    "Emmek",
+    "Floon"
+];
 var cosCharacter = cosCharacters[Math.floor(Math.random()*cosCharacters.length)]; 
 
 console.log(cosCharacter); 
