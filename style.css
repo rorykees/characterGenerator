@@ -1,0 +1,27 @@
+/* element selectors */
+body {
+    background-color: #F4D58D;
+    font-family: sans-serif;
+}
+
+section {
+    width: 50%;
+    padding-top: 20px;
+    margin: auto;
+}
+
+/* class selectors */
+.hidden {
+    display: none;
+}
+
+.btn {
+    background-color: #708D81;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#begin-page {
+    text-align: center;
+}

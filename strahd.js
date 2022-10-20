@@ -1,0 +1,22 @@
+exports.cosCharacters = [
+    "Krue",
+    "Skoll",
+    "Nia",
+    "Ezmerelda", 
+    "Ireena", 
+    "Yesper", 
+    "Rictavio", 
+    "The Abbot (Jude Law)",
+    "Baron Vallakovich",
+    "Blinksy",
+    "Christopher", 
+    "Exethanter", 
+    "Godfrey",
+    "Ismark",
+    "Mordenkainen",
+    "Neferon",
+    "Pidlwick",
+    "Rahadin",
+    "Strahd",
+    "Victor"
+]
