@@ -748,12 +748,6 @@ beginButton.addEventListener("click",function(event) {
         
         campaignList.appendChild(campaignItem); 
     }
-    // for(let i = 0; i < allCharacters[index].Campaigns.length; i++) {
-    //     if(i > 0) {
-    //         campaignText.textContent += ", "; 
-    //     }
-    //     campaignText.textContent += allCharacters[index].Campaigns[i]; 
-    // }
 }); 
 
 //action listener for player button
@@ -762,11 +756,13 @@ playerButton.addEventListener("click",function(event) {
     playerCharacterText.textContent = playerCharacters[index].Name;
 
     playerCampaignText.textContent = "Campaign(s): "
+    let playerCampaignList = document.querySelector("#player-campaigns"); 
+    playerCampaignList.innerHTML = ""; 
     for(let i = 0; i < playerCharacters[index].Campaigns.length; i++) {
-        if(i > 0) {
-            playerCampaignText.textContent += ", "; 
-        }
-        playerCampaignText.textContent += playerCharacters[index].Campaigns[i]; 
+        let playerCampaignItem = document.createElement("li"); 
+        playerCampaignItem.innerText = playerCharacters[index].Campaigns[i]; 
+        
+        playerCampaignList.appendChild(playerCampaignItem); 
     }
 }); 
 
