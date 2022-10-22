@@ -739,9 +739,11 @@ beginButton.addEventListener("click",function(event) {
     let index = Math.floor(Math.random()*allCharacters.length); 
     characterText.textContent = allCharacters[index].Name;
 
-    campaignText.textContent = "Campaign(s):"
+    campaignText.textContent = "Campaign(s): "
     for(let i = 0; i < allCharacters[index].Campaigns.length; i++) {
-        campaignText.textContent += " "; 
+        if(i > 0) {
+            campaignText.textContent += " "; 
+        }
         campaignText.textContent += allCharacters[index].Campaigns[i]; 
     }
 }); 
@@ -751,9 +753,11 @@ playerButton.addEventListener("click",function(event) {
     let index = Math.floor(Math.random()*playerCharacters.length); 
     playerCharacterText.textContent = playerCharacters[index].Name;
 
-    playerCampaignText.textContent = "Campaign(s):"
+    playerCampaignText.textContent = "Campaign(s): "
     for(let i = 0; i < playerCharacters[index].Campaigns.length; i++) {
-        playerCampaignText.textContent += " "; 
+        if(i > 0) {
+            playerCampaignText.textContent += ", "; 
+        }
         playerCampaignText.textContent += playerCharacters[index].Campaigns[i]; 
     }
 }); 
