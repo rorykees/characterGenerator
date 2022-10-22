@@ -223,400 +223,400 @@ const orreryCharacters = [
 const witchlightCharacters = [
     {
         "Name": "Amidor",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Bavlorna Blightstraw",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     }, 
     {
         "Name": "Bloody Toes",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     }, 
     {
         "Name": "Candlefoot",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight","Lost Laboratory of Kwalish"]
     }, 
     {
         "Name": "Charm",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight","Lost Laboratory of Kwalish"]
     }, 
     {
         "Name": "Clapperclaw",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Dumphrey Frogart",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Elidon",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Elkhorn",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Endelyn Moongrave",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Ewyn",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Gleam",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight","Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Glister",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight","Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Feenia",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Hati",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd","Wild Beyond the Witchlight"]
     },
     {
         "Name": "Jingle Jangle",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Jord",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Juniper",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Lamorna",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Molliver",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Mr. Light",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Mr. Witch",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Pollenella",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Selise",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Skabatha Nightshade",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight","Dungeon of the Mad Mage"]
     },
     {
         "Name": "Sir Talavar",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Thaco",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight","Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Tsu",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Will of the Feywild",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     },
     {
         "Name": "Zybilna",
-        "Campaigns": []
+        "Campaigns": ["Wild Beyond the Witchlight"]
     }
 ]
 
 const strixhavenY1Characters = [
     {
         "Name": "Zaria",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Abel",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Aurora",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Cadoras",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Nassari",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Tullus",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Drazhomir",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Dusty",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     }, 
     {
         "Name": "Prismari",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Genevayne",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Glitter Dew",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Grayson",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Ivan",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Javenesh",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Larine",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Melwythorne",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Mina",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Nora",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Pewter",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Brenneth",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Lang",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Ruxa",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Prydevere",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Quentillius",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Rampart",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Roberta",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Roneca",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Rosie",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Rubina",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Ruslana",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Shuvadri",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Tilana",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Urzmaktok",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Vel",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Velastrias",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Whippoorwill",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Zanther",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     }
 ]
 
 const lostLabCharacters = [
     {
         "Name": "Abi-Dalzim",
-        "Campaigns": []
+        "Campaigns": ["Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Aurora de L'aunaie",
-        "Campaigns": []
+        "Campaigns": ["Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Bone Devil",
-        "Campaigns": []
+        "Campaigns": ["Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Darcy",
-        "Campaigns": []
+        "Campaigns": ["Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Eclipse",
-        "Campaigns": []
+        "Campaigns": ["Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Escher",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd","Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Evard",
-        "Campaigns": []
+        "Campaigns": ["Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Father Taps",
-        "Campaigns": []
+        "Campaigns": ["Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Fox",
-        "Campaigns": []
+        "Campaigns": ["Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Gearbox",
-        "Campaigns": []
+        "Campaigns": ["Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Gloine Nathair-Nathair",
-        "Campaigns": []
+        "Campaigns": ["Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Jery",
-        "Campaigns": []
+        "Campaigns": ["Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Kwalish",
-        "Campaigns": []
+        "Campaigns": ["Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Mary",
-        "Campaigns": []
+        "Campaigns": ["Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Oberon",
-        "Campaigns": []
+        "Campaigns": ["Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Tzunk",
-        "Campaigns": []
+        "Campaigns": ["Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Tenser",
-        "Campaigns": []
+        "Campaigns": ["Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Rusty Bucket",
-        "Campaigns": []
+        "Campaigns": ["Lost Laboratory of Kwalish"]
     }
 ]
 
 const madMageCharacters = [ 
     {
         "Name": "Halleth",
-        "Campaigns": []
+        "Campaigns": ["Dungeon of the Mad Mage"]
     },
     {
         "Name": "Mirabelle",
-        "Campaigns": []
+        "Campaigns": ["Dungeon of the Mad Mage"]
     },
     {
         "Name": "Wobbles",
-        "Campaigns": []
+        "Campaigns": ["Dungeon of the Mad Mage"]
     },
     {
         "Name": "Darribeth",
-        "Campaigns": []
+        "Campaigns": ["Dungeon of the Mad Mage"]
     },
     {
         "Name": "Lucian",
-        "Campaigns": []
+        "Campaigns": ["Dungeon of the Mad Mage"]
     },
     {
         "Name": "Esvele",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Dungeon of the Mad Mage"]
     },
     {
         "Name": "Felrax",
-        "Campaigns": []
+        "Campaigns": ["Dungeon of the Mad Mage"]
     },
     {
         "Name": "Frerk",
-        "Campaigns": []
+        "Campaigns": ["Dungeon of the Mad Mage"]
     },
     {
         "Name": "Yek",
-        "Campaigns": []
+        "Campaigns": ["Dungeon of the Mad Mage"]
     },
     {
         "Name": "Mattrim",
-        "Campaigns": []
+        "Campaigns": ["Dungeon of the Mad Mage"]
     },
     {
         "Name": "Rizzeryl",
-        "Campaigns": []
+        "Campaigns": ["Dungeon of the Mad Mage"]
     },
     {
         "Name": "Zilitsa",
-        "Campaigns": []
+        "Campaigns": ["Dungeon of the Mad Mage"]
     }
 ]
 
