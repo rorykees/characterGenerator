@@ -697,12 +697,16 @@ var allCharacters = cosCharacters.concat(dhCharacters, orreryCharacters, witchli
 var beginButton = document.querySelector("#begin-button");
 var cosButton = document.querySelector("#cos-button");
 var dhButton = document.querySelector("#dh-button");
+var orreryButton = document.querySelector("#orrery-button");
+var wlButton = document.querySelector("#wl-button");
 
 var characterSection = document.querySelector("character-generation");
 
 var characterText = document.querySelector("#character");
 var cosCharacterText = document.querySelector("#cos-character");
 var dhCharacterText = document.querySelector("#dh-character"); 
+var orreryCharacterText = document.querySelector("#orrery-character");
+var wlCharacterText = document.querySelector("#wl-character"); 
 
 var beginPage = document.querySelector("#begin-page"); 
 
@@ -726,10 +730,20 @@ beginButton.addEventListener("click",function(event) {
 
 //action listener for cos button
 cosButton.addEventListener("click",function(event) {
-    characterText.textContent = cosCharacters[Math.floor(Math.random()*cosCharacters.length)].Name;
+    cosCharacterText.textContent = cosCharacters[Math.floor(Math.random()*cosCharacters.length)].Name;
 }); 
 
 //action listener for dh button
 dhButton.addEventListener("click",function(event) {
-    characterText.textContent = dhCharacters[Math.floor(Math.random()*dhCharacters.length)].Name;
+    dhCharacterText.textContent = dhCharacters[Math.floor(Math.random()*dhCharacters.length)].Name;
+}); 
+
+//action listener for orrery button
+orreryButton.addEventListener("click",function(event) {
+    orreryCharacterText.textContent = orreryCharacters[Math.floor(Math.random()*orreryCharacters.length)].Name;
+}); 
+
+//action listener for wl button
+wlButton.addEventListener("click",function(event) {
+    wlCharacterText.textContent = witchlightCharacters[Math.floor(Math.random()*witchlightCharacters.length)].Name;
 }); 
