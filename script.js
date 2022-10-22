@@ -694,9 +694,16 @@ const playerCharacters = [
 var allCharacters = cosCharacters.concat(dhCharacters, orreryCharacters, witchlightCharacters, strixhavenY1Characters, lostLabCharacters, madMageCharacters, playerCharacters); 
 
 // get elements 
-var beginButton = document.querySelector("#begin-button"); 
+var beginButton = document.querySelector("#begin-button");
+var cosButton = document.querySelector("#cos-button");
+var dhButton = document.querySelector("#dh-button");
+
 var characterSection = document.querySelector("character-generation");
-var characterText = document.querySelector("#character"); 
+
+var characterText = document.querySelector("#character");
+var cosCharacterText = document.querySelector("#cos-character");
+var dhCharacterText = document.querySelector("#dh-character"); 
+
 var beginPage = document.querySelector("#begin-page"); 
 
 //click action listener - for answer buttons and high scores link 
@@ -715,4 +722,14 @@ addEventListener("click",function(event) {
 //action listener for generate button 
 beginButton.addEventListener("click",function(event) {
     characterText.textContent = allCharacters[Math.floor(Math.random()*allCharacters.length)].Name;
+}); 
+
+//action listener for cos button
+cosButton.addEventListener("click",function(event) {
+    characterText.textContent = cosCharacters[Math.floor(Math.random()*cosCharacters.length)].Name;
+}); 
+
+//action listener for dh button
+dhButton.addEventListener("click",function(event) {
+    characterText.textContent = dhCharacters[Math.floor(Math.random()*dhCharacters.length)].Name;
 }); 
