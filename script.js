@@ -742,7 +742,7 @@ beginButton.addEventListener("click",function(event) {
     campaignText.textContent = "Campaign(s): "
     for(let i = 0; i < allCharacters[index].Campaigns.length; i++) {
         if(i > 0) {
-            campaignText.textContent += " "; 
+            campaignText.textContent += ", "; 
         }
         campaignText.textContent += allCharacters[index].Campaigns[i]; 
     }
