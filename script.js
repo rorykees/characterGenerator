@@ -1,192 +1,528 @@
 const cosCharacters = [
-    "Ezmerelda", 
-    "Ireena", 
-    "Yesper", 
-    "Rictavio", 
-    "The Abbot (Jude Law)",
-    "Baron Vallakovich",
-    "Blinksy",
-    "Christopher", 
-    "Exethanter", 
-    "Godfrey",
-    "Ismark",
-    "Mordenkainen",
-    "Neferon",
-    "Pidlwick",
-    "Rahadin",
-    "Strahd",
-    "Victor"
+    { 
+        "Name": "Ezmerelda",
+        "Campaigns": ["Curse of Strahd","Tomb of Horrors","Borca","Wild Beyond the Witchlight"]  
+    },
+    {
+        "Name": "Ireena"
+    }, 
+    {
+        "Name": "Yesper"
+    }, 
+    {
+        "Name": "Rictavio"
+    }, 
+    {
+        "Name": "The Abbot (Jude Law)"
+    },
+    {
+        "Name": "Baron Vallakovich"
+    },
+    {
+        "Name": "Blinksy"
+    },
+    {
+        "Name": "Christopher"
+    }, 
+    {
+        "Name": "Exethanter"
+    }, 
+    {
+        "Name": "Godfrey"
+    },
+    {
+        "Name": "Ismark"
+    },
+    {
+        "Name": "Mordenkainen"
+    },
+    {
+        "Name": "Neferon"
+    },
+    {
+        "Name": "Pidlwick"
+    },
+    {
+        "Name": "Rahadin"
+    },
+    {
+        "Name": "Strahd"
+    },
+    {
+        "Name": "Victor"
+    }
 ];
 
 const dhCharacters = [
-    "Avi",
-    "Babolax",
-    "Yurk",
-    "Davil",
-    "Embric",
-    "Emmek",
-    "Floon",
-    "Jorn",
-    "Hrangor",
-    "Lif",
-    "Nim",
-    "Otis",
-    "Renaer",
-    "Tashlyn",
-    "Trench",
-    "Vajra",
-    "Volo",
-    "Yagra"
+    {
+        "Name":"Avi"
+    },
+    {
+        "Name":"Babolax"
+    },
+    {
+        "Name":"Yurk"
+    },
+    {
+        "Name":"Davil"
+    },
+    {
+        "Name":"Embric"
+    },
+    {
+        "Name":"Emmek"
+    },
+    {
+        "Name":"Floon"
+    },
+    {
+        "Name":"Jorn"
+    },
+    {
+        "Name":"Hrangor"
+    },
+    {
+       "Name": "Lif"
+    },
+    {
+        "Name":"Nim"
+    },
+    {
+        "Name":"Otis"
+    },
+    {
+        "Name":"Renaer"
+    },
+    {
+        "Name":"Tashlyn"
+    },
+    {
+        "Name": "Trench"
+    },
+    {
+        "Name":"Vajra"
+    },
+    {
+        "Name": "Volo"
+    },
+    {
+        "Name": "Yagra"
+    }
 ];
 
+
 const orreryCharacters = [
-    "Brawn",
-    "Ecstasy", 
-    "Frahl",
-    "Gildha",
-    "Gorkoh",
-    "Grunka",
-    "Guthildi",
-    "Jutt",
-    "Meff",
-    "Lottie",
-    "Omin",
-    "Patsky", 
-    "Sildar",
-    "Talanatha",
-    "Thetsis",
-    "Wizzy",
-    "Wester",
-    "Tordit"
+    {
+        "Name": "Brawn"
+    },
+    {
+        "Name": "Ecstasy"
+    }, 
+    {
+        "Name": "Frahl"
+    },
+    {
+        "Name": "Gildha"
+    },
+    {
+        "Name": "Gorkoh"
+    },
+    {
+        "Name": "Grunka"
+    },
+    {
+        "Name": "Guthildi"
+    },
+    {
+        "Name": "Jutt"
+    },
+    {
+        "Name": "Meff"
+    },
+    {
+        "Name": "Lottie"
+    },
+    {
+        "Name": "Omin"
+    },
+    {
+        "Name": "Patsky"
+    }, 
+    {
+        "Name": "Sildar"
+    },
+    {
+        "Name": "Talanatha"
+    },
+    {
+        "Name": "Thetsis"
+    },
+    {
+        "Name": "Wizzy"
+    },
+    {
+        "Name": "Wester"
+    },
+    {
+        "Name": "Tordit"
+    }
 ]
 
 const witchlightCharacters = [
-    "Amidor",
-    "Bavlorna Blightstraw", 
-    "Bloody Toes", 
-    "Candlefoot", 
-    "Charm", 
-    "Clapperclaw",
-    "Dumphrey Frogart",
-    "Elidon",
-    "Elkhorn",
-    "Endelyn Moongrave",
-    "Ewyn",
-    "Gleam",
-    "Glister",
-    "Feenia",
-    "Hati",
-    "Jingle Jangle",
-    "Jord",
-    "Juniper",
-    "Lamorna",
-    "Molliver",
-    "Mr. Light",
-    "Mr. Witch",
-    "Pollenella",
-    "Selise",
-    "Skabatha Nightshade",
-    "Sir Talavar",
-    "Thaco",
-    "Tsu",
-    "Will of the Feywild",
-    "Zybilna"
+    {
+        "Name": "Amidor"
+    },
+    {
+        "Name": "Bavlorna Blightstraw"
+    }, 
+    {
+        "Name": "Bloody Toes"
+    }, 
+    {
+        "Name": "Candlefoot"
+    }, 
+    {
+        "Name": "Charm"
+    }, 
+    {
+        "Name": "Clapperclaw"
+    },
+    {
+        "Name": "Dumphrey Frogart"
+    },
+    {
+        "Name": "Elidon"
+    },
+    {
+        "Name": "Elkhorn"
+    },
+    {
+        "Name": "Endelyn Moongrave"
+    },
+    {
+        "Name": "Ewyn"
+    },
+    {
+        "Name": "Gleam"
+    },
+    {
+        "Name": "Glister"
+    },
+    {
+        "Name": "Feenia"
+    },
+    {
+        "Name": "Hati"
+    },
+    {
+        "Name": "Jingle Jangle"
+    },
+    {
+        "Name": "Jord"
+    },
+    {
+        "Name": "Juniper"
+    },
+    {
+        "Name": "Lamorna"
+    },
+    {
+        "Name": "Molliver"
+    },
+    {
+        "Name": "Mr. Light"
+    },
+    {
+        "Name": "Mr. Witch"
+    },
+    {
+        "Name": "Pollenella"
+    },
+    {
+        "Name": "Selise"
+    },
+    {
+        "Name": "Skabatha Nightshade"
+    },
+    {
+        "Name": "Sir Talavar"
+    },
+    {
+        "Name": "Thaco"
+    },
+    {
+        "Name": "Tsu"
+    },
+    {
+        "Name": "Will of the Feywild"
+    },
+    {
+        "Name": "Zybilna"
+    }
 ]
 
 const strixhavenY1Characters = [
-    "Zaria",
-    "Abel",
-    "Aurora",
-    "Cadoras",
-    "Nassari",
-    "Tullus",
-    "Drazhomir",
-    "Dusty", 
-    "Prismari",
-    "Genevayne",
-    "Glitter Dew",
-    "Grayson",
-    "Ivan",
-    "Javenesh",
-    "Larine",
-    "Melwythorne",
-    "Mina",
-    "Nora",
-    "Pewter",
-    "Brenneth",
-    "Lang",
-    "Ruxa",
-    "Prydevere",
-    "Quentillius",
-    "Rampart",
-    "Roberta",
-    "Roneca",
-    "Rosie",
-    "Rubina",
-    "Ruslana",
-    "Shuvadri",
-    "Tilana",
-    "Urzmaktok",
-    "Vel",
-    "Velastrias",
-    "Whippoorwill",
-    "Zanther"
+    {
+        "Name": "Zaria"
+    },
+    {
+        "Name": "Abel"
+    },
+    {
+        "Name": "Aurora"
+    },
+    {
+        "Name": "Cadoras"
+    },
+    {
+        "Name": "Nassari"
+    },
+    {
+        "Name": "Tullus"
+    },
+    {
+        "Name": "Drazhomir"
+    },
+    {
+        "Name": "Dusty"
+    }, 
+    {
+        "Name": "Prismari"
+    },
+    {
+        "Name": "Genevayne"
+    },
+    {
+        "Name": "Glitter Dew"
+    },
+    {
+        "Name": "Grayson"
+    },
+    {
+        "Name": "Ivan"
+    },
+    {
+        "Name": "Javenesh"
+    },
+    {
+        "Name": "Larine"
+    },
+    {
+        "Name": "Melwythorne"
+    },
+    {
+        "Name": "Mina"
+    },
+    {
+        "Name": "Nora"
+    },
+    {
+        "Name": "Pewter"
+    },
+    {
+        "Name": "Brenneth"
+    },
+    {
+        "Name": "Lang"
+    },
+    {
+        "Name": "Ruxa"
+    },
+    {
+        "Name": "Prydevere"
+    },
+    {
+        "Name": "Quentillius"
+    },
+    {
+        "Name": "Rampart"
+    },
+    {
+        "Name": "Roberta"
+    },
+    {
+        "Name": "Roneca"
+    },
+    {
+        "Name": "Rosie"
+    },
+    {
+        "Name": "Rubina"
+    },
+    {
+        "Name": "Ruslana"
+    },
+    {
+        "Name": "Shuvadri"
+    },
+    {
+        "Name": "Tilana"
+    },
+    {
+        "Name": "Urzmaktok"
+    },
+    {
+        "Name": "Vel"
+    },
+    {
+        "Name": "Velastrias"
+    },
+    {
+        "Name": "Whippoorwill"
+    },
+    {
+        "Name": "Zanther"
+    }
 ]
 
 const lostLabCharacters = [
-    "Abi-Dalzim",
-    "Aurora de L'aunaie",
-    "Bone Devil",
-    "Darcy",
-    "Eclipse",
-    "Escher",
-    "Evard",
-    "Father Taps",
-    "Fox",
-    "Gearbox",
-    "Gloine Nathair-Nathair",
-    "Jery",
-    "Kwalish",
-    "Mary",
-    "Oberon",
-    "Tzunk",
-    "Tenser",
-    "Rusty Bucket"
+    {
+        "Name": "Abi-Dalzim"
+    },
+    {
+        "Name": "Aurora de L'aunaie"
+    },
+    {
+        "Name": "Bone Devil"
+    },
+    {
+        "Name": "Darcy"
+    },
+    {
+        "Name": "Eclipse"
+    },
+    {
+        "Name": "Escher"
+    },
+    {
+        "Name": "Evard"
+    },
+    {
+        "Name": "Father Taps"
+    },
+    {
+        "Name": "Fox"
+    },
+    {
+        "Name": "Gearbox"
+    },
+    {
+        "Name": "Gloine Nathair-Nathair"
+    },
+    {
+        "Name": "Jery"
+    },
+    {
+        "Name": "Kwalish"
+    },
+    {
+        "Name": "Mary"
+    },
+    {
+        "Name": "Oberon"
+    },
+    {
+        "Name": "Tzunk"
+    },
+    {
+        "Name": "Tenser"
+    },
+    {
+        "Name": "Rusty Bucket"
+    }
 ]
 
 const madMageCharacters = [ 
-    "Halleth",
-    "Mirabelle",
-    "Wobbles",
-    "Darribeth",
-    "Lucian",
-    "Esvele",
-    "Felrax",
-    "Frerk",
-    "Yek",
-    "Mattrim",
-    "Rizzeryl",
-    "Zilitsa"
+    {
+        "Name": "Halleth"
+    },
+    {
+        "Name": "Mirabelle"
+    },
+    {
+        "Name": "Wobbles"
+    },
+    {
+        "Name": "Darribeth"
+    },
+    {
+        "Name": "Lucian"
+    },
+    {
+        "Name": "Esvele"
+    },
+    {
+        "Name": "Felrax"
+    },
+    {
+        "Name": "Frerk"
+    },
+    {
+        "Name": "Yek"
+    },
+    {
+        "Name": "Mattrim"
+    },
+    {
+        "Name": "Rizzeryl"
+    },
+    {
+        "Name": "Zilitsa"
+    }
 ]
 
 const playerCharacters = [
-    "Krue",
-    "Skoll",
-    "Nia",
-    "Ruik",
-    "Briar",
-    "Evie",
-    "Andros",
-    "Dyre",
-    "Kitty",
-    "Casavel",
-    "Crypta",
-    "Silver",
-    "Fen",
-    "Marsh",
-    "Sumari",
-    "Mani",
-    "Vih'zel"
+    {
+        "Name": "Krue"
+    },
+    {
+        "Name": "Skoll"
+    },
+    {
+        "Name": "Nia"
+    },
+    {
+        "Name": "Ruik"
+    },
+    {
+        "Name": "Briar"
+    },
+    {
+        "Name": "Evie"
+    },
+    {
+        "Name": "Andros"
+    },
+    {
+        "Name": "Dyre"
+    },
+    {
+        "Name": "Kitty"
+    },
+    {
+        "Name": "Casavel"
+    },
+    {
+        "Name": "Crypta"
+    },
+    {
+        "Name": "Silver"
+    },
+    {
+        "Name": "Fen"
+    },
+    {
+        "Name": "Marsh"
+    },
+    {
+        "Name": "Sumari"
+    },
+    {
+        "Name": "Mani"
+    },
+    {
+        "Name": "Vih'zel"
+    }
 ]
 
 var allCharacters = cosCharacters.concat(dhCharacters, orreryCharacters, witchlightCharacters, strixhavenY1Characters, lostLabCharacters, madMageCharacters, playerCharacters); 
@@ -212,5 +548,5 @@ addEventListener("click",function(event) {
 
 //action listener for generate button 
 beginButton.addEventListener("click",function(event) {
-    characterText.textContent = allCharacters[Math.floor(Math.random()*allCharacters.length)];
+    characterText.textContent = allCharacters[Math.floor(Math.random()*allCharacters.length)].Name;
 }); 
