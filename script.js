@@ -623,55 +623,55 @@ const madMageCharacters = [
 const playerCharacters = [
     {
         "Name": "Krue",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd","Tomb of Horros","Borca","Wild Beyond the Witchlight"]
     },
     {
         "Name": "Skoll",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd","Tomb of Horros","Wild Beyond the Witchlight"]
     },
     {
         "Name": "Nia",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd","Tomb of Horros","Wild Beyond the Witchlight"]
     },
     {
         "Name": "Ruik",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Briar",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Evie",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Andros",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     },
     {
         "Name": "Dyre",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     },
     {
         "Name": "Kitty",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     },
     {
         "Name": "Casavel",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Crypta",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Silver",
-        "Campaigns": []
+        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Fen",
-        "Campaigns": []
+        "Campaigns": ["Dungeon of the Mad Mage"]
     },
     {
         "Name": "Marsh",
@@ -679,15 +679,15 @@ const playerCharacters = [
     },
     {
         "Name": "Sumari",
-        "Campaigns": []
+        "Campaigns": ["Dungeon of the Mad Mage"]
     },
     {
         "Name": "Mani",
-        "Campaigns": []
+        "Campaigns": ["Dungeon of the Mad Mage"]
     },
     {
         "Name": "Vih'zel",
-        "Campaigns": []
+        "Campaigns": ["Dungeon of the Mad Mage"]
     }
 ]
 
@@ -717,6 +717,7 @@ var llCharacterText = document.querySelector("#ll-character");
 var mmCharacterText = document.querySelector("#mm-character"); 
 
 var campaignText = document.querySelector("#campaign");
+var playerCampaignText = document.querySelector("#player-campaign");
 
 var beginPage = document.querySelector("#begin-page"); 
 
@@ -737,8 +738,6 @@ addEventListener("click",function(event) {
 beginButton.addEventListener("click",function(event) {
     let index = Math.floor(Math.random()*allCharacters.length); 
     characterText.textContent = allCharacters[index].Name;
-    
-    console.log(allCharacters[index].Campaigns.length); 
 
     campaignText.textContent = "Campaign(s):"
     for(let i = 0; i < allCharacters[index].Campaigns.length; i++) {
@@ -749,7 +748,14 @@ beginButton.addEventListener("click",function(event) {
 
 //action listener for player button
 playerButton.addEventListener("click",function(event) {
-    playerCharacterText.textContent = playerCharacters[Math.floor(Math.random()*playerCharacters.length)].Name;
+    let index = Math.floor(Math.random()*playerCharacters.length); 
+    playerCharacterText.textContent = playerCharacters[index].Name;
+
+    playerCampaignText.textContent = "Campaign(s):"
+    for(let i = 0; i < playerCharacters[index].Campaigns.length; i++) {
+        playerCampaignText.textContent += " "; 
+        playerCampaignText.textContent += playerCharacters[index].Campaigns[i]; 
+    }
 }); 
 
 //action listener for cos button
