@@ -738,6 +738,7 @@ beginButton.addEventListener("click",function(event) {
     let index = Math.floor(Math.random()*allCharacters.length); 
     characterText.textContent = allCharacters[index].Name;
     
+    campaignText.textContent = "Campaign(s): "
     for(let i = 0; i < allCharacers[index].Campaigns.length; i++) {
         campaignText.textContent += allCharacers[index].Campaigns[i].concat(" "); 
     }
