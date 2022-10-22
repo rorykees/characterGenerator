@@ -4,524 +4,690 @@ const cosCharacters = [
         "Campaigns": ["Curse of Strahd","Tomb of Horrors","Borca","Wild Beyond the Witchlight"]  
     },
     {
-        "Name": "Ireena"
+        "Name": "Ireena",
+        "Campaigns": []
     }, 
     {
-        "Name": "Yesper"
+        "Name": "Yesper",
+        "Campaigns": []
     }, 
     {
-        "Name": "Rictavio"
+        "Name": "Rictavio",
+        "Campaigns": []
     }, 
     {
-        "Name": "The Abbot (Jude Law)"
+        "Name": "The Abbot (Jude Law)",
+        "Campaigns": []
     },
     {
-        "Name": "Baron Vallakovich"
+        "Name": "Baron Vallakovich",
+        "Campaigns": []
     },
     {
-        "Name": "Blinksy"
+        "Name": "Blinksy",
+        "Campaigns": []
     },
     {
-        "Name": "Christopher"
+        "Name": "Christopher",
+        "Campaigns": []
     }, 
     {
-        "Name": "Exethanter"
+        "Name": "Exethanter",
+        "Campaigns": []
     }, 
     {
-        "Name": "Godfrey"
+        "Name": "Godfrey",
+        "Campaigns": []
     },
     {
-        "Name": "Ismark"
+        "Name": "Ismark",
+        "Campaigns": []
     },
     {
-        "Name": "Mordenkainen"
+        "Name": "Mordenkainen",
+        "Campaigns": []
     },
     {
-        "Name": "Neferon"
+        "Name": "Neferon",
+        "Campaigns": []
     },
     {
-        "Name": "Pidlwick"
+        "Name": "Pidlwick",
+        "Campaigns": []
     },
     {
-        "Name": "Rahadin"
+        "Name": "Rahadin",
+        "Campaigns": []
     },
     {
-        "Name": "Strahd"
+        "Name": "Strahd",
+        "Campaigns": []
     },
     {
-        "Name": "Victor"
+        "Name": "Victor",
+        "Campaigns": []
     }
 ];
 
 const dhCharacters = [
     {
-        "Name":"Avi"
+        "Name":"Avi",
+        "Campaigns": []
     },
     {
-        "Name":"Babolax"
+        "Name":"Babolax",
+        "Campaigns": []
     },
     {
-        "Name":"Yurk"
+        "Name":"Yurk",
+        "Campaigns": []
     },
     {
-        "Name":"Davil"
+        "Name":"Davil",
+        "Campaigns": []
     },
     {
-        "Name":"Embric"
+        "Name":"Embric",
+        "Campaigns": []
     },
     {
-        "Name":"Emmek"
+        "Name":"Emmek",
+        "Campaigns": []
     },
     {
-        "Name":"Floon"
+        "Name":"Floon",
+        "Campaigns": []
     },
     {
-        "Name":"Jorn"
+        "Name":"Jorn",
+        "Campaigns": []
     },
     {
-        "Name":"Hrangor"
+        "Name":"Hrangor",
+        "Campaigns": []
     },
     {
-       "Name": "Lif"
+       "Name": "Lif",
+        "Campaigns": []
     },
     {
-        "Name":"Nim"
+        "Name":"Nim",
+        "Campaigns": []
     },
     {
-        "Name":"Otis"
+        "Name":"Otis",
+        "Campaigns": []
     },
     {
-        "Name":"Renaer"
+        "Name":"Renaer",
+        "Campaigns": []
     },
     {
-        "Name":"Tashlyn"
+        "Name":"Tashlyn",
+        "Campaigns": []
     },
     {
-        "Name": "Trench"
+        "Name": "Trench",
+        "Campaigns": []
     },
     {
-        "Name":"Vajra"
+        "Name":"Vajra",
+        "Campaigns": []
     },
     {
-        "Name": "Volo"
+        "Name": "Volo",
+        "Campaigns": []
     },
     {
-        "Name": "Yagra"
+        "Name": "Yagra",
+        "Campaigns": []
     }
 ];
 
 
 const orreryCharacters = [
     {
-        "Name": "Brawn"
+        "Name": "Brawn",
+        "Campaigns": []
     },
     {
-        "Name": "Ecstasy"
+        "Name": "Ecstasy",
+        "Campaigns": []
     }, 
     {
-        "Name": "Frahl"
+        "Name": "Frahl",
+        "Campaigns": []
     },
     {
-        "Name": "Gildha"
+        "Name": "Gildha",
+        "Campaigns": []
     },
     {
-        "Name": "Gorkoh"
+        "Name": "Gorkoh",
+        "Campaigns": []
     },
     {
-        "Name": "Grunka"
+        "Name": "Grunka",
+        "Campaigns": []
     },
     {
-        "Name": "Guthildi"
+        "Name": "Guthildi",
+        "Campaigns": []
     },
     {
-        "Name": "Jutt"
+        "Name": "Jutt",
+        "Campaigns": []
     },
     {
-        "Name": "Meff"
+        "Name": "Meff",
+        "Campaigns": []
     },
     {
-        "Name": "Lottie"
+        "Name": "Lottie",
+        "Campaigns": []
     },
     {
-        "Name": "Omin"
+        "Name": "Omin",
+        "Campaigns": []
     },
     {
-        "Name": "Patsky"
+        "Name": "Patsky",
+        "Campaigns": []
     }, 
     {
-        "Name": "Sildar"
+        "Name": "Sildar",
+        "Campaigns": []
     },
     {
-        "Name": "Talanatha"
+        "Name": "Talanatha",
+        "Campaigns": []
     },
     {
-        "Name": "Thetsis"
+        "Name": "Thetsis",
+        "Campaigns": []
     },
     {
-        "Name": "Wizzy"
+        "Name": "Wizzy",
+        "Campaigns": []
     },
     {
-        "Name": "Wester"
+        "Name": "Wester",
+        "Campaigns": []
     },
     {
-        "Name": "Tordit"
+        "Name": "Tordit",
+        "Campaigns": []
     }
 ]
 
 const witchlightCharacters = [
     {
-        "Name": "Amidor"
+        "Name": "Amidor",
+        "Campaigns": []
     },
     {
-        "Name": "Bavlorna Blightstraw"
+        "Name": "Bavlorna Blightstraw",
+        "Campaigns": []
     }, 
     {
-        "Name": "Bloody Toes"
+        "Name": "Bloody Toes",
+        "Campaigns": []
     }, 
     {
-        "Name": "Candlefoot"
+        "Name": "Candlefoot",
+        "Campaigns": []
     }, 
     {
-        "Name": "Charm"
+        "Name": "Charm",
+        "Campaigns": []
     }, 
     {
-        "Name": "Clapperclaw"
+        "Name": "Clapperclaw",
+        "Campaigns": []
     },
     {
-        "Name": "Dumphrey Frogart"
+        "Name": "Dumphrey Frogart",
+        "Campaigns": []
     },
     {
-        "Name": "Elidon"
+        "Name": "Elidon",
+        "Campaigns": []
     },
     {
-        "Name": "Elkhorn"
+        "Name": "Elkhorn",
+        "Campaigns": []
     },
     {
-        "Name": "Endelyn Moongrave"
+        "Name": "Endelyn Moongrave",
+        "Campaigns": []
     },
     {
-        "Name": "Ewyn"
+        "Name": "Ewyn",
+        "Campaigns": []
     },
     {
-        "Name": "Gleam"
+        "Name": "Gleam",
+        "Campaigns": []
     },
     {
-        "Name": "Glister"
+        "Name": "Glister",
+        "Campaigns": []
     },
     {
-        "Name": "Feenia"
+        "Name": "Feenia",
+        "Campaigns": []
     },
     {
-        "Name": "Hati"
+        "Name": "Hati",
+        "Campaigns": []
     },
     {
-        "Name": "Jingle Jangle"
+        "Name": "Jingle Jangle",
+        "Campaigns": []
     },
     {
-        "Name": "Jord"
+        "Name": "Jord",
+        "Campaigns": []
     },
     {
-        "Name": "Juniper"
+        "Name": "Juniper",
+        "Campaigns": []
     },
     {
-        "Name": "Lamorna"
+        "Name": "Lamorna",
+        "Campaigns": []
     },
     {
-        "Name": "Molliver"
+        "Name": "Molliver",
+        "Campaigns": []
     },
     {
-        "Name": "Mr. Light"
+        "Name": "Mr. Light",
+        "Campaigns": []
     },
     {
-        "Name": "Mr. Witch"
+        "Name": "Mr. Witch",
+        "Campaigns": []
     },
     {
-        "Name": "Pollenella"
+        "Name": "Pollenella",
+        "Campaigns": []
     },
     {
-        "Name": "Selise"
+        "Name": "Selise",
+        "Campaigns": []
     },
     {
-        "Name": "Skabatha Nightshade"
+        "Name": "Skabatha Nightshade",
+        "Campaigns": []
     },
     {
-        "Name": "Sir Talavar"
+        "Name": "Sir Talavar",
+        "Campaigns": []
     },
     {
-        "Name": "Thaco"
+        "Name": "Thaco",
+        "Campaigns": []
     },
     {
-        "Name": "Tsu"
+        "Name": "Tsu",
+        "Campaigns": []
     },
     {
-        "Name": "Will of the Feywild"
+        "Name": "Will of the Feywild",
+        "Campaigns": []
     },
     {
-        "Name": "Zybilna"
+        "Name": "Zybilna",
+        "Campaigns": []
     }
 ]
 
 const strixhavenY1Characters = [
     {
-        "Name": "Zaria"
+        "Name": "Zaria",
+        "Campaigns": []
     },
     {
-        "Name": "Abel"
+        "Name": "Abel",
+        "Campaigns": []
     },
     {
-        "Name": "Aurora"
+        "Name": "Aurora",
+        "Campaigns": []
     },
     {
-        "Name": "Cadoras"
+        "Name": "Cadoras",
+        "Campaigns": []
     },
     {
-        "Name": "Nassari"
+        "Name": "Nassari",
+        "Campaigns": []
     },
     {
-        "Name": "Tullus"
+        "Name": "Tullus",
+        "Campaigns": []
     },
     {
-        "Name": "Drazhomir"
+        "Name": "Drazhomir",
+        "Campaigns": []
     },
     {
-        "Name": "Dusty"
+        "Name": "Dusty",
+        "Campaigns": []
     }, 
     {
-        "Name": "Prismari"
+        "Name": "Prismari",
+        "Campaigns": []
     },
     {
-        "Name": "Genevayne"
+        "Name": "Genevayne",
+        "Campaigns": []
     },
     {
-        "Name": "Glitter Dew"
+        "Name": "Glitter Dew",
+        "Campaigns": []
     },
     {
-        "Name": "Grayson"
+        "Name": "Grayson",
+        "Campaigns": []
     },
     {
-        "Name": "Ivan"
+        "Name": "Ivan",
+        "Campaigns": []
     },
     {
-        "Name": "Javenesh"
+        "Name": "Javenesh",
+        "Campaigns": []
     },
     {
-        "Name": "Larine"
+        "Name": "Larine",
+        "Campaigns": []
     },
     {
-        "Name": "Melwythorne"
+        "Name": "Melwythorne",
+        "Campaigns": []
     },
     {
-        "Name": "Mina"
+        "Name": "Mina",
+        "Campaigns": []
     },
     {
-        "Name": "Nora"
+        "Name": "Nora",
+        "Campaigns": []
     },
     {
-        "Name": "Pewter"
+        "Name": "Pewter",
+        "Campaigns": []
     },
     {
-        "Name": "Brenneth"
+        "Name": "Brenneth",
+        "Campaigns": []
     },
     {
-        "Name": "Lang"
+        "Name": "Lang",
+        "Campaigns": []
     },
     {
-        "Name": "Ruxa"
+        "Name": "Ruxa",
+        "Campaigns": []
     },
     {
-        "Name": "Prydevere"
+        "Name": "Prydevere",
+        "Campaigns": []
     },
     {
-        "Name": "Quentillius"
+        "Name": "Quentillius",
+        "Campaigns": []
     },
     {
-        "Name": "Rampart"
+        "Name": "Rampart",
+        "Campaigns": []
     },
     {
-        "Name": "Roberta"
+        "Name": "Roberta",
+        "Campaigns": []
     },
     {
-        "Name": "Roneca"
+        "Name": "Roneca",
+        "Campaigns": []
     },
     {
-        "Name": "Rosie"
+        "Name": "Rosie",
+        "Campaigns": []
     },
     {
-        "Name": "Rubina"
+        "Name": "Rubina",
+        "Campaigns": []
     },
     {
-        "Name": "Ruslana"
+        "Name": "Ruslana",
+        "Campaigns": []
     },
     {
-        "Name": "Shuvadri"
+        "Name": "Shuvadri",
+        "Campaigns": []
     },
     {
-        "Name": "Tilana"
+        "Name": "Tilana",
+        "Campaigns": []
     },
     {
-        "Name": "Urzmaktok"
+        "Name": "Urzmaktok",
+        "Campaigns": []
     },
     {
-        "Name": "Vel"
+        "Name": "Vel",
+        "Campaigns": []
     },
     {
-        "Name": "Velastrias"
+        "Name": "Velastrias",
+        "Campaigns": []
     },
     {
-        "Name": "Whippoorwill"
+        "Name": "Whippoorwill",
+        "Campaigns": []
     },
     {
-        "Name": "Zanther"
+        "Name": "Zanther",
+        "Campaigns": []
     }
 ]
 
 const lostLabCharacters = [
     {
-        "Name": "Abi-Dalzim"
+        "Name": "Abi-Dalzim",
+        "Campaigns": []
     },
     {
-        "Name": "Aurora de L'aunaie"
+        "Name": "Aurora de L'aunaie",
+        "Campaigns": []
     },
     {
-        "Name": "Bone Devil"
+        "Name": "Bone Devil",
+        "Campaigns": []
     },
     {
-        "Name": "Darcy"
+        "Name": "Darcy",
+        "Campaigns": []
     },
     {
-        "Name": "Eclipse"
+        "Name": "Eclipse",
+        "Campaigns": []
     },
     {
-        "Name": "Escher"
+        "Name": "Escher",
+        "Campaigns": []
     },
     {
-        "Name": "Evard"
+        "Name": "Evard",
+        "Campaigns": []
     },
     {
-        "Name": "Father Taps"
+        "Name": "Father Taps",
+        "Campaigns": []
     },
     {
-        "Name": "Fox"
+        "Name": "Fox",
+        "Campaigns": []
     },
     {
-        "Name": "Gearbox"
+        "Name": "Gearbox",
+        "Campaigns": []
     },
     {
-        "Name": "Gloine Nathair-Nathair"
+        "Name": "Gloine Nathair-Nathair",
+        "Campaigns": []
     },
     {
-        "Name": "Jery"
+        "Name": "Jery",
+        "Campaigns": []
     },
     {
-        "Name": "Kwalish"
+        "Name": "Kwalish",
+        "Campaigns": []
     },
     {
-        "Name": "Mary"
+        "Name": "Mary",
+        "Campaigns": []
     },
     {
-        "Name": "Oberon"
+        "Name": "Oberon",
+        "Campaigns": []
     },
     {
-        "Name": "Tzunk"
+        "Name": "Tzunk",
+        "Campaigns": []
     },
     {
-        "Name": "Tenser"
+        "Name": "Tenser",
+        "Campaigns": []
     },
     {
-        "Name": "Rusty Bucket"
+        "Name": "Rusty Bucket",
+        "Campaigns": []
     }
 ]
 
 const madMageCharacters = [ 
     {
-        "Name": "Halleth"
+        "Name": "Halleth",
+        "Campaigns": []
     },
     {
-        "Name": "Mirabelle"
+        "Name": "Mirabelle",
+        "Campaigns": []
     },
     {
-        "Name": "Wobbles"
+        "Name": "Wobbles",
+        "Campaigns": []
     },
     {
-        "Name": "Darribeth"
+        "Name": "Darribeth",
+        "Campaigns": []
     },
     {
-        "Name": "Lucian"
+        "Name": "Lucian",
+        "Campaigns": []
     },
     {
-        "Name": "Esvele"
+        "Name": "Esvele",
+        "Campaigns": []
     },
     {
-        "Name": "Felrax"
+        "Name": "Felrax",
+        "Campaigns": []
     },
     {
-        "Name": "Frerk"
+        "Name": "Frerk",
+        "Campaigns": []
     },
     {
-        "Name": "Yek"
+        "Name": "Yek",
+        "Campaigns": []
     },
     {
-        "Name": "Mattrim"
+        "Name": "Mattrim",
+        "Campaigns": []
     },
     {
-        "Name": "Rizzeryl"
+        "Name": "Rizzeryl",
+        "Campaigns": []
     },
     {
-        "Name": "Zilitsa"
+        "Name": "Zilitsa",
+        "Campaigns": []
     }
 ]
 
 const playerCharacters = [
     {
-        "Name": "Krue"
+        "Name": "Krue",
+        "Campaigns": []
     },
     {
-        "Name": "Skoll"
+        "Name": "Skoll",
+        "Campaigns": []
     },
     {
-        "Name": "Nia"
+        "Name": "Nia",
+        "Campaigns": []
     },
     {
-        "Name": "Ruik"
+        "Name": "Ruik",
+        "Campaigns": []
     },
     {
-        "Name": "Briar"
+        "Name": "Briar",
+        "Campaigns": []
     },
     {
-        "Name": "Evie"
+        "Name": "Evie",
+        "Campaigns": []
     },
     {
-        "Name": "Andros"
+        "Name": "Andros",
+        "Campaigns": []
     },
     {
-        "Name": "Dyre"
+        "Name": "Dyre",
+        "Campaigns": []
     },
     {
-        "Name": "Kitty"
+        "Name": "Kitty",
+        "Campaigns": []
     },
     {
-        "Name": "Casavel"
+        "Name": "Casavel",
+        "Campaigns": []
     },
     {
-        "Name": "Crypta"
+        "Name": "Crypta",
+        "Campaigns": []
     },
     {
-        "Name": "Silver"
+        "Name": "Silver",
+        "Campaigns": []
     },
     {
-        "Name": "Fen"
+        "Name": "Fen",
+        "Campaigns": []
     },
     {
-        "Name": "Marsh"
+        "Name": "Marsh",
+        "Campaigns": []
     },
     {
-        "Name": "Sumari"
+        "Name": "Sumari",
+        "Campaigns": []
     },
     {
-        "Name": "Mani"
+        "Name": "Mani",
+        "Campaigns": []
     },
     {
-        "Name": "Vih'zel"
+        "Name": "Vih'zel",
+        "Campaigns": []
     }
 ]
 
