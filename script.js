@@ -76,71 +76,71 @@ const dhCharacters = [
     },
     {
         "Name":"Babolax",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Orrery of the Wanderer","Lost Laboratory of Kwalish"]
     },
     {
         "Name":"Yurk",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Lost Laboratory of Kwalish"]
     },
     {
         "Name":"Davil",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Lost Laboratory of Kwalish"]
     },
     {
         "Name":"Embric",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Lost Laboratory of Kwalish"]
     },
     {
         "Name":"Emmek",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist"]
     },
     {
         "Name":"Floon",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist", "Dungeon of the Mad Mage"]
     },
     {
         "Name":"Jorn",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Lost Laboratory of Kwalish"]
     },
     {
         "Name":"Hrangor",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Orrery of the Wanderer","Strixhaven: Campus Kerfuffle"]
     },
     {
        "Name": "Lif",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Lost Laboratory of Kwalish"]
     },
     {
         "Name":"Nim",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Lost Laboratory of Kwalish"]
     },
     {
         "Name":"Otis",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Orrery of the Wanderer"]
     },
     {
         "Name":"Renaer",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist"]
     },
     {
         "Name":"Tashlyn",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Trench",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist"]
     },
     {
         "Name":"Vajra",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Lost Laboratory of Kwalish"]
     },
     {
         "Name": "Volo",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Lost Laboratory of Kwalish","Dungeon of the Mad Mage"]
     },
     {
         "Name": "Yagra",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Lost Laboratory of Kwalish"]
     }
 ];
 
@@ -148,75 +148,75 @@ const dhCharacters = [
 const orreryCharacters = [
     {
         "Name": "Brawn",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     },
     {
         "Name": "Ecstasy",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     }, 
     {
         "Name": "Frahl",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer","Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Gildha",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     },
     {
         "Name": "Gorkoh",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     },
     {
         "Name": "Grunka",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     },
     {
         "Name": "Guthildi",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer","Strixhaven: Campus Kerfuffle"]
     },
     {
         "Name": "Jutt",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     },
     {
         "Name": "Meff",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     },
     {
         "Name": "Lottie",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     },
     {
         "Name": "Omin",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     },
     {
         "Name": "Patsky",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     }, 
     {
         "Name": "Sildar",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     },
     {
         "Name": "Talanatha",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     },
     {
         "Name": "Thetsis",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     },
     {
         "Name": "Wizzy",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     },
     {
         "Name": "Wester",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     },
     {
         "Name": "Tordit",
-        "Campaigns": []
+        "Campaigns": ["Orrery of the Wanderer"]
     }
 ]
 
