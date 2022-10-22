@@ -738,12 +738,12 @@ beginButton.addEventListener("click",function(event) {
     let index = Math.floor(Math.random()*allCharacters.length); 
     characterText.textContent = allCharacters[index].Name;
     
-    console.log(allCharacers[index].Campaigns.length); 
+    console.log(allCharacters[index].Campaigns.length); 
 
     campaignText.textContent = "Campaign(s):"
-    for(let i = 0; i < allCharacers[index].Campaigns.length; i++) {
+    for(let i = 0; i < allCharacters[index].Campaigns.length; i++) {
         campaignText.textContent += " "; 
-        campaignText.textContent += allCharacers[index].Campaigns[i]; 
+        campaignText.textContent += allCharacters[index].Campaigns[i]; 
     }
 }); 
 
