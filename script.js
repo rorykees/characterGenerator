@@ -741,6 +741,7 @@ beginButton.addEventListener("click",function(event) {
 
     campaignText.textContent = "Campaign(s): "
     let campaignList = document.querySelector("#campaigns"); 
+    campaignList.innerHTML = "";
     for(let i = 0; i < allCharacters[index].Campaigns.length; i++) {
         let campaignItem = document.createElement("li"); 
         campaignItem.innerText = allCharacters[index].Campaigns[i]; 
