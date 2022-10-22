@@ -68,7 +68,84 @@ const orreryCharacters = [
     "Wester",
     "Tordit"
 ]
-var allCharacters = cosCharacters.concat(dhCharacters, orreryCharacters); 
+
+const witchlightCharacters = [
+    "Amidor",
+    "Bavlorna Blightstraw", 
+    "Bloody Toes", 
+    "Candlefoot", 
+    "Charm", 
+    "Clapperclaw",
+    "Dumphrey Frogart",
+    "Elidon",
+    "Elkhorn",
+    "Endelyn Moongrave",
+    "Ewyn",
+    "Gleam",
+    "Glister",
+    "Feenia",
+    "Hati",
+    "Jingle Jangle",
+    "Jord",
+    "Juniper",
+    "Lamorna",
+    "Molliver",
+    "Mr. Light",
+    "Mr. Witch",
+    "Pollenella",
+    "Selise",
+    "Skabatha Nightshade",
+    "Sir Talavar",
+    "Thaco",
+    "Tsu",
+    "Will of the Feywild",
+    "Zybilna"
+]
+
+const strixhavenY1Characters = [
+    "Casavel",
+    "Zaria",
+    "Crypta",
+    "Silver",
+    "Abel",
+    "Aurora",
+    "Cadoras",
+    "Nassari",
+    "Tullus",
+    "Drazhomir",
+    "Dusty", 
+    "Prismari",
+    "Genevayne",
+    "Glitter Dew",
+    "Grayson",
+    "Ivan",
+    "Javenesh",
+    "Larine",
+    "Melwythorne",
+    "Mina",
+    "Nora",
+    "Pewter",
+    "Brenneth",
+    "Lang",
+    "Ruxa",
+    "Prydevere",
+    "Quentillius",
+    "Rampart",
+    "Roberta",
+    "Roneca",
+    "Rosie",
+    "Rubina",
+    "Ruslana",
+    "Shuvadri",
+    "Tilana",
+    "Urzmaktok",
+    "Vel",
+    "Velastrias",
+    "Whippoorwill",
+    "Zanther"
+]
+
+var allCharacters = cosCharacters.concat(dhCharacters, orreryCharacters, witchlightCharacters, strixhavenY1Characters); 
 
 // get elements 
 var beginButton = document.querySelector("#begin-button"); 
