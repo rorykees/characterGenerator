@@ -1,7 +1,4 @@
 const cosCharacters = [
-    "Krue",
-    "Skoll",
-    "Nia",
     "Ezmerelda", 
     "Ireena", 
     "Yesper", 
@@ -22,9 +19,6 @@ const cosCharacters = [
 ];
 
 const dhCharacters = [
-    "Ruik",
-    "Briar",
-    "Evie",
     "Avi",
     "Babolax",
     "Yurk",
@@ -46,9 +40,6 @@ const dhCharacters = [
 ];
 
 const orreryCharacters = [
-    "Andros",
-    "Dyre",
-    "Kitty", 
     "Brawn",
     "Ecstasy", 
     "Frahl",
@@ -103,10 +94,7 @@ const witchlightCharacters = [
 ]
 
 const strixhavenY1Characters = [
-    "Casavel",
     "Zaria",
-    "Crypta",
-    "Silver",
     "Abel",
     "Aurora",
     "Cadoras",
@@ -145,7 +133,63 @@ const strixhavenY1Characters = [
     "Zanther"
 ]
 
-var allCharacters = cosCharacters.concat(dhCharacters, orreryCharacters, witchlightCharacters, strixhavenY1Characters); 
+const lostLabCharacters = [
+    "Abi-Dalzim",
+    "Aurora de L'aunaie",
+    "Bone Devil",
+    "Darcy",
+    "Eclipse",
+    "Escher",
+    "Evard",
+    "Father Taps",
+    "Fox",
+    "Gearbox",
+    "Gloine Nathair-Nathair",
+    "Jery",
+    "Kwalish",
+    "Mary",
+    "Oberon",
+    "Tzunk",
+    "Tenser",
+    "Rusty Bucket"
+]
+
+const madMageCharacters = [ 
+    "Halleth",
+    "Mirabelle",
+    "Wobbles",
+    "Darribeth",
+    "Lucian",
+    "Esvele",
+    "Felrax",
+    "Frerk",
+    "Yek",
+    "Mattrim",
+    "Rizzeryl",
+    "Zilitsa"
+]
+
+const playerCharacters = [
+    "Krue",
+    "Skoll",
+    "Nia",
+    "Ruik",
+    "Briar",
+    "Evie",
+    "Andros",
+    "Dyre",
+    "Kitty",
+    "Casavel",
+    "Crypta",
+    "Silver",
+    "Fen",
+    "Marsh",
+    "Sumari",
+    "Mani",
+    "Vih'zel"
+]
+
+var allCharacters = cosCharacters.concat(dhCharacters, orreryCharacters, witchlightCharacters, strixhavenY1Characters, lostLabCharacters, madMageCharacters, playerCharacters); 
 
 // get elements 
 var beginButton = document.querySelector("#begin-button"); 
