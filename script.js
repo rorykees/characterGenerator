@@ -72,7 +72,7 @@ const cosCharacters = [
 const dhCharacters = [
     {
         "Name":"Avi",
-        "Campaigns": []
+        "Campaigns": ["Waterdeep: Dragon Heist","Lost Laboratory of Kwalish"]
     },
     {
         "Name":"Babolax",
@@ -738,9 +738,12 @@ beginButton.addEventListener("click",function(event) {
     let index = Math.floor(Math.random()*allCharacters.length); 
     characterText.textContent = allCharacters[index].Name;
     
-    campaignText.textContent = "Campaign(s): "
+    console.log(allCharacers[index].Campaigns.length); 
+
+    campaignText.textContent = "Campaign(s):"
     for(let i = 0; i < allCharacers[index].Campaigns.length; i++) {
-        campaignText.textContent += allCharacers[index].Campaigns[i].concat(" "); 
+        campaignText.textContent += " "; 
+        campaignText.textContent += allCharacers[index].Campaigns[i]; 
     }
 }); 
 
