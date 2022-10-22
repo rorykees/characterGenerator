@@ -5,67 +5,67 @@ const cosCharacters = [
     },
     {
         "Name": "Ireena",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd","Tomb of Horrors","Wild Beyond the Witchlight"]
     }, 
     {
         "Name": "Yesper",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd","Wild Beyond the Witchlight"]
     }, 
     {
         "Name": "Rictavio",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd","Tomb of Horrors","Wild Beyond the Witchlight"]
     }, 
     {
         "Name": "The Abbot (Jude Law)",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd"]
     },
     {
         "Name": "Baron Vallakovich",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd"]
     },
     {
         "Name": "Blinksy",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd"]
     },
     {
         "Name": "Christopher",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd"]
     }, 
     {
         "Name": "Exethanter",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd", "Orrery of the Wanderer"]
     }, 
     {
         "Name": "Godfrey",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd"]
     },
     {
         "Name": "Ismark",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd"]
     },
     {
         "Name": "Mordenkainen",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd"]
     },
     {
         "Name": "Neferon",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd", "Orrery of the Wanderer"]
     },
     {
         "Name": "Pidlwick",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd", "Wild Beyond the Witchlight"]
     },
     {
         "Name": "Rahadin",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd"]
     },
     {
         "Name": "Strahd",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd"]
     },
     {
         "Name": "Victor",
-        "Campaigns": []
+        "Campaigns": ["Curse of Strahd"]
     }
 ];
 
@@ -716,6 +716,8 @@ var shCharacterText = document.querySelector("#sh-character");
 var llCharacterText = document.querySelector("#ll-character"); 
 var mmCharacterText = document.querySelector("#mm-character"); 
 
+var campaignText = document.querySelector("#campaign");
+
 var beginPage = document.querySelector("#begin-page"); 
 
 //click action listener - for answer buttons and high scores link 
@@ -733,7 +735,12 @@ addEventListener("click",function(event) {
 
 //action listener for generate button 
 beginButton.addEventListener("click",function(event) {
-    characterText.textContent = allCharacters[Math.floor(Math.random()*allCharacters.length)].Name;
+    let index = Math.floor(Math.random()*allCharacters.length); 
+    characterText.textContent = allCharacters[index].Name;
+    
+    for(let i = 0; i < allCharacers[index].Campaigns.length; i++) {
+        campaignText.textContent += allCharacers[index].Campaigns[i].concat(" "); 
+    }
 }); 
 
 //action listener for player button
