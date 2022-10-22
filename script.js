@@ -1,7 +1,7 @@
 const cosCharacters = [
     { 
         "Name": "Ezmerelda",
-        "Campaigns": ["Curse of Strahd","Tomb of Horrors","Borca","Wild Beyond the Witchlight"]  
+        "Campaigns": ["Curse of Strahd","Tomb of Horrors","Waterdeep: Dragon Heist","Strixhaven: Campus Kerfuffle","Borca","Wild Beyond the Witchlight"]  
     },
     {
         "Name": "Ireena",
@@ -740,12 +740,19 @@ beginButton.addEventListener("click",function(event) {
     characterText.textContent = allCharacters[index].Name;
 
     campaignText.textContent = "Campaign(s): "
+    let campaignList = document.querySelector("#campaigns"); 
     for(let i = 0; i < allCharacters[index].Campaigns.length; i++) {
-        if(i > 0) {
-            campaignText.textContent += ", "; 
-        }
-        campaignText.textContent += allCharacters[index].Campaigns[i]; 
+        let campaignItem = document.createElement("li"); 
+        campaignItem.innerText = allCharacters[index].Campaigns[i]; 
+        
+        campaignList.appendChild(campaignItem); 
     }
+    // for(let i = 0; i < allCharacters[index].Campaigns.length; i++) {
+    //     if(i > 0) {
+    //         campaignText.textContent += ", "; 
+    //     }
+    //     campaignText.textContent += allCharacters[index].Campaigns[i]; 
+    // }
 }); 
 
 //action listener for player button
