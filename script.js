@@ -695,18 +695,26 @@ var allCharacters = cosCharacters.concat(dhCharacters, orreryCharacters, witchli
 
 // get elements 
 var beginButton = document.querySelector("#begin-button");
+var playerButton = document.querySelector("#player-button"); 
 var cosButton = document.querySelector("#cos-button");
 var dhButton = document.querySelector("#dh-button");
 var orreryButton = document.querySelector("#orrery-button");
 var wlButton = document.querySelector("#wl-button");
+var shButton = document.querySelector("#sh-button");
+var llButton = document.querySelector("#ll-button");
+var mmButton = document.querySelector("#mm-button");
 
 var characterSection = document.querySelector("character-generation");
 
 var characterText = document.querySelector("#character");
+var playerCharacterText = document.querySelector("#player-character");
 var cosCharacterText = document.querySelector("#cos-character");
 var dhCharacterText = document.querySelector("#dh-character"); 
 var orreryCharacterText = document.querySelector("#orrery-character");
 var wlCharacterText = document.querySelector("#wl-character"); 
+var shCharacterText = document.querySelector("#sh-character"); 
+var llCharacterText = document.querySelector("#ll-character"); 
+var mmCharacterText = document.querySelector("#mm-character"); 
 
 var beginPage = document.querySelector("#begin-page"); 
 
@@ -728,6 +736,11 @@ beginButton.addEventListener("click",function(event) {
     characterText.textContent = allCharacters[Math.floor(Math.random()*allCharacters.length)].Name;
 }); 
 
+//action listener for player button
+playerButton.addEventListener("click",function(event) {
+    playerCharacterText.textContent = playerCharacters[Math.floor(Math.random()*playerCharacters.length)].Name;
+}); 
+
 //action listener for cos button
 cosButton.addEventListener("click",function(event) {
     cosCharacterText.textContent = cosCharacters[Math.floor(Math.random()*cosCharacters.length)].Name;
@@ -743,7 +756,22 @@ orreryButton.addEventListener("click",function(event) {
     orreryCharacterText.textContent = orreryCharacters[Math.floor(Math.random()*orreryCharacters.length)].Name;
 }); 
 
-//action listener for wl button
+//action listener for witchlight button
 wlButton.addEventListener("click",function(event) {
     wlCharacterText.textContent = witchlightCharacters[Math.floor(Math.random()*witchlightCharacters.length)].Name;
+}); 
+
+//action listener for strixhaven button
+shButton.addEventListener("click",function(event) {
+    shCharacterText.textContent = strixhavenY1Characters[Math.floor(Math.random()*strixhavenY1Characters.length)].Name;
+}); 
+
+//action listener for lost lab button
+llButton.addEventListener("click",function(event) {
+    llCharacterText.textContent = lostLabCharacters[Math.floor(Math.random()*lostLabCharacters.length)].Name;
+}); 
+
+//action listener for mad mage button
+mmButton.addEventListener("click",function(event) {
+    mmCharacterText.textContent = madMageCharacters[Math.floor(Math.random()*madMageCharacters.length)].Name;
 }); 
