@@ -1,19 +1,19 @@
 const cosCharacters = [
     { 
         "Name": "Ezmerelda",
-        "Campaigns": ["Curse of Strahd","Tomb of Horrors","Waterdeep: Dragon Heist","Strixhaven: Campus Kerfuffle","Borca","Wild Beyond the Witchlight"]  
+        "Campaigns": ["Curse of Strahd","Tomb of Horrors","Waterdeep: Dragon Heist","Strixhaven: Campus Kerfuffle","Borca","Wild Beyond the Witchlight","City of Eyes"]  
     },
     {
         "Name": "Ireena",
-        "Campaigns": ["Curse of Strahd","Tomb of Horrors","Wild Beyond the Witchlight"]
+        "Campaigns": ["Curse of Strahd","Tomb of Horrors","Wild Beyond the Witchlight","City of Eyes"]
     }, 
     {
         "Name": "Yesper",
-        "Campaigns": ["Curse of Strahd","Wild Beyond the Witchlight"]
+        "Campaigns": ["Curse of Strahd","Wild Beyond the Witchlight","City of Eyes"]
     }, 
     {
         "Name": "Rictavio",
-        "Campaigns": ["Curse of Strahd","Tomb of Horrors","Wild Beyond the Witchlight"]
+        "Campaigns": ["Curse of Strahd","Tomb of Horrors","Wild Beyond the Witchlight","City of Eyes"]
     }, 
     {
         "Name": "The Abbot (Jude Law)",
@@ -29,11 +29,11 @@ const cosCharacters = [
     },
     {
         "Name": "Christopher",
-        "Campaigns": ["Curse of Strahd"]
+        "Campaigns": ["Curse of Strahd","City of Eyes"]
     }, 
     {
         "Name": "Exethanter",
-        "Campaigns": ["Curse of Strahd", "Orrery of the Wanderer"]
+        "Campaigns": ["Curse of Strahd", "Orrery of the Wanderer","City of Eyes"]
     }, 
     {
         "Name": "Godfrey",
@@ -41,11 +41,11 @@ const cosCharacters = [
     },
     {
         "Name": "Ismark",
-        "Campaigns": ["Curse of Strahd"]
+        "Campaigns": ["Curse of Strahd","City of Eyes"]
     },
     {
         "Name": "Mordenkainen",
-        "Campaigns": ["Curse of Strahd"]
+        "Campaigns": ["Curse of Strahd","City of Eyes"]
     },
     {
         "Name": "Neferon",
@@ -53,7 +53,7 @@ const cosCharacters = [
     },
     {
         "Name": "Pidlwick",
-        "Campaigns": ["Curse of Strahd", "Wild Beyond the Witchlight"]
+        "Campaigns": ["Curse of Strahd", "Wild Beyond the Witchlight","City of Eyes"]
     },
     {
         "Name": "Rahadin",
@@ -96,7 +96,7 @@ const dhCharacters = [
     },
     {
         "Name":"Floon",
-        "Campaigns": ["Waterdeep: Dragon Heist", "Dungeon of the Mad Mage"]
+        "Campaigns": ["Waterdeep: Dragon Heist", "Dungeon of the Mad Mage","City of Eyes"]
     },
     {
         "Name":"Jorn",
@@ -132,7 +132,7 @@ const dhCharacters = [
     },
     {
         "Name":"Vajra",
-        "Campaigns": ["Waterdeep: Dragon Heist","Lost Laboratory of Kwalish"]
+        "Campaigns": ["Waterdeep: Dragon Heist","Lost Laboratory of Kwalish","City of Eyes"]
     },
     {
         "Name": "Volo",
@@ -148,7 +148,7 @@ const dhCharacters = [
 const orreryCharacters = [
     {
         "Name": "Brawn",
-        "Campaigns": ["Orrery of the Wanderer"]
+        "Campaigns": ["Orrery of the Wanderer", "City of Eyes"]
     },
     {
         "Name": "Ecstasy",
@@ -263,7 +263,7 @@ const witchlightCharacters = [
     },
     {
         "Name": "Ewyn",
-        "Campaigns": ["Wild Beyond the Witchlight"]
+        "Campaigns": ["Wild Beyond the Witchlight","City of Eyes"]
     },
     {
         "Name": "Gleam",
@@ -279,7 +279,7 @@ const witchlightCharacters = [
     },
     {
         "Name": "Hati",
-        "Campaigns": ["Curse of Strahd","Wild Beyond the Witchlight"]
+        "Campaigns": ["Curse of Strahd","Wild Beyond the Witchlight","City of Eyes"]
     },
     {
         "Name": "Jingle Jangle",
@@ -287,7 +287,7 @@ const witchlightCharacters = [
     },
     {
         "Name": "Jord",
-        "Campaigns": ["Wild Beyond the Witchlight"]
+        "Campaigns": ["Wild Beyond the Witchlight","City of Eyes"]
     },
     {
         "Name": "Juniper",
@@ -438,7 +438,7 @@ const strixhavenY1Characters = [
     },
     {
         "Name": "Quentillius",
-        "Campaigns": ["Strixhaven: Campus Kerfuffle"]
+        "Campaigns": ["Strixhaven: Campus Kerfuffle","City of Eyes"]
     },
     {
         "Name": "Rampart",
@@ -517,7 +517,7 @@ const lostLabCharacters = [
     },
     {
         "Name": "Escher",
-        "Campaigns": ["Curse of Strahd","Lost Laboratory of Kwalish"]
+        "Campaigns": ["Curse of Strahd","Lost Laboratory of Kwalish","City of Eyes"]
     },
     {
         "Name": "Evard",
@@ -620,18 +620,234 @@ const madMageCharacters = [
     }
 ]
 
+const cityOfEyesCharacters = [
+	{
+        "Name": "Mirror Nia",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Achlys",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Amelia",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Balzac",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Birroo",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Brynhilda Pedersen",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Cheshire",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Chococo",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Cicero",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Clara",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Daphne",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Deannach",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Dr. Brains",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Dr. Zakari",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Faladdin Blackhelm",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Foulsham",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Fox",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Freek",
+        "Campaigns": ["Curse of Strahd","City of Eyes"]
+    },
+	{
+        "Name": "Myrtle",
+        "Campaigns": ["Curse of Strahd","City of Eyes"]
+    },
+	{
+        "Name": "Gaunt Silhouette",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Gennifer Weathermay-Foxgrove",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Gren",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Iabrochorum",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Ingrid",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Isabella",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Ivana",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Nostalia",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Jim Darkmagic",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Johannes",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "La Fata",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Laurie Weathermay-Foxgrove",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Little Balzac",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Lurker",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Nurse Joy",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Ottelie",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Robi Junior (Pidlwick III)",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Porter",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Quevven Teh'Kinrellz",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Erasmus",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Rudolph",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Rupert Deadbolt",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Sackville Grabbins",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Sandman",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Selise",
+        "Campaigns": ["City of Eyes","Wild Beyond the Witchlight"]
+    },
+	{
+        "Name": "Shanix Breakrattle",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Struthio",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Tashlyn",
+        "Campaigns": ["City of Eyes","Lost Laboratory of Kwalish","Waterdeep: Dragon Heist"]
+    },
+	{
+        "Name": "The Cat Lord",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "The Fisher King",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "The Painted Lady",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "The Spider",
+        "Campaigns": ["City of Eyes"]
+    },
+	{
+        "Name": "Volo",
+        "Campaigns": ["Waterdeep: Dragon Heist","Dungeon of the Mad Mage","City of Eyes"]
+    }
+]
+
+
+const radiantCitadelCharacters = [
+
+]
+
 const playerCharacters = [
     {
         "Name": "Krue",
-        "Campaigns": ["Curse of Strahd","Tomb of Horros","Borca","Wild Beyond the Witchlight"]
+        "Campaigns": ["Curse of Strahd","Tomb of Horros","Borca","Wild Beyond the Witchlight","City of Eyes"]
     },
     {
         "Name": "Skoll",
-        "Campaigns": ["Curse of Strahd","Tomb of Horros","Wild Beyond the Witchlight"]
+        "Campaigns": ["Curse of Strahd","Tomb of Horros","Wild Beyond the Witchlight","City of Eyes"]
     },
     {
         "Name": "Nia",
-        "Campaigns": ["Curse of Strahd","Tomb of Horros","Wild Beyond the Witchlight"]
+        "Campaigns": ["Curse of Strahd","Tomb of Horros","Wild Beyond the Witchlight","City of Eyes"]
     },
     {
         "Name": "Ruik",
@@ -683,15 +899,31 @@ const playerCharacters = [
     },
     {
         "Name": "Mani",
-        "Campaigns": ["Dungeon of the Mad Mage"]
+        "Campaigns": ["Dungeon of the Mad Mage","City of Eyes"]
     },
     {
         "Name": "Vih'zel",
         "Campaigns": ["Dungeon of the Mad Mage"]
-    }
+    },
+	{
+		"Name": "Jari",
+        "Campaigns": ["Radiant Citadel"]
+	},
+	{
+		"Name": "Gage",
+        "Campaigns": ["Radiant Citadel"]
+	},
+	{
+		"Name": "Aren",
+        "Campaigns": ["Radiant Citadel"]
+	},
+	{
+		"Name": "Lynx",
+        "Campaigns": ["Radiant Citadel"]
+	}
 ]
 
-var allCharacters = cosCharacters.concat(dhCharacters, orreryCharacters, witchlightCharacters, strixhavenY1Characters, lostLabCharacters, madMageCharacters, playerCharacters); 
+var allCharacters = cosCharacters.concat(dhCharacters, orreryCharacters, witchlightCharacters, strixhavenY1Characters, lostLabCharacters, madMageCharacters, cityOfEyesCharacters, radiantCitadelCharacters, playerCharacters); 
 
 // get elements 
 var beginButton = document.querySelector("#begin-button");
@@ -703,6 +935,8 @@ var wlButton = document.querySelector("#wl-button");
 var shButton = document.querySelector("#sh-button");
 var llButton = document.querySelector("#ll-button");
 var mmButton = document.querySelector("#mm-button");
+var coeButton = document.querySelector("#coe-button"); 
+var rcButton = document.querySelector("#rc-button"); 
 
 var characterSection = document.querySelector("character-generation");
 
@@ -714,7 +948,9 @@ var orreryCharacterText = document.querySelector("#orrery-character");
 var wlCharacterText = document.querySelector("#wl-character"); 
 var shCharacterText = document.querySelector("#sh-character"); 
 var llCharacterText = document.querySelector("#ll-character"); 
-var mmCharacterText = document.querySelector("#mm-character"); 
+var mmCharacterText = document.querySelector("#mm-character");
+var coeCharacterText = document.querySelector("#coe-character");
+var rcCharacterText = document.querySelector("#rc-character"); 
 
 var campaignText = document.querySelector("#campaign");
 var playerCampaignText = document.querySelector("#player-campaign");
@@ -800,3 +1036,13 @@ llButton.addEventListener("click",function(event) {
 mmButton.addEventListener("click",function(event) {
     mmCharacterText.textContent = madMageCharacters[Math.floor(Math.random()*madMageCharacters.length)].Name;
 }); 
+
+//action listener for city of eyes button
+coeButton.addEventListener("click",function(event) {
+    coeCharacterText.textContent = cityOfEyesCharacters[Math.floor(Math.random()*cityOfEyesCharacters.length)].Name;
+});
+
+//action listener for radiant citadel button
+//rcButton.addEventListener("click",function(event) {
+//    rcCharacterText.textContent = radiantCitadelCharacters[Math.floor(Math.random()*radiantCitadelCharacters.length)].Name;
+//});
