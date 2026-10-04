@@ -2,52 +2,57 @@
 // Do not edit by hand: change the vault or sync/overrides.json and run `node sync/sync.js`.
 
 const campaigns = [
-    "Curse of Strahd",
-    "Tomb of Horrors",
-    "Waterdeep: Dragon Heist",
-    "Orrery of the Wanderer",
-    "Borca",
-    "Wild Beyond the Witchlight",
-    "Strixhaven: Year 1",
-    "Dungeon of the Mad Mage",
-    "Lost Laboratory of Kwalish",
-    "City of Eyes",
-    "Star Wars: Stranded on Parnassos",
-    "Journeys through the Radiant Citadel",
-    "Menace Under Otari",
-    "Re: Strahd",
-    "Volo's Guide to Getting Murdered",
-    "Objects of Interest: Forged in Fire",
-    "Chains of Asmodeus"
+    { "Name": "Curse of Strahd", "Cover": "covers/curse-of-strahd.jpg" },
+    { "Name": "Tomb of Horrors", "Cover": "covers/tomb-of-horrors.jpg" },
+    { "Name": "Waterdeep: Dragon Heist", "Cover": "covers/waterdeep-dragon-heist.jpg" },
+    { "Name": "Orrery of the Wanderer", "Cover": "covers/orrery-of-the-wanderer.webp" },
+    { "Name": "Borca", "Cover": "covers/borca.jpg" },
+    { "Name": "Wild Beyond the Witchlight", "Cover": "covers/wild-beyond-the-witchlight.jpg" },
+    { "Name": "Strixhaven: Year 1", "Cover": "covers/strixhaven-year-1.jpg" },
+    { "Name": "Dungeon of the Mad Mage", "Cover": "covers/dungeon-of-the-mad-mage.webp" },
+    { "Name": "Lost Laboratory of Kwalish", "Cover": "covers/lost-laboratory-of-kwalish.jpg" },
+    { "Name": "City of Eyes", "Cover": "covers/city-of-eyes.jpg" },
+    { "Name": "Star Wars: Stranded on Parnassos", "Cover": "covers/star-wars-stranded-on-parnassos.jpg" },
+    { "Name": "Journeys through the Radiant Citadel", "Cover": "covers/journeys-through-the-radiant-citadel.jpg" },
+    { "Name": "Menace Under Otari", "Cover": "covers/menace-under-otari.jpg" },
+    { "Name": "Re: Strahd", "Cover": "covers/re-strahd.jpg" },
+    { "Name": "Volo's Guide to Getting Murdered", "Cover": "covers/volo-s-guide-to-getting-murdered.png" },
+    { "Name": "Objects of Interest: Forged in Fire", "Cover": "covers/objects-of-interest-forged-in-fire.png" },
+    { "Name": "Chains of Asmodeus", "Cover": "covers/chains-of-asmodeus.jpg" }
 ];
 
 const characters = [
     {
         "Name": "Abel",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Abi-Dalzim",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
     },
     {
         "Name": "Abigor",
+        "Status": "Dead",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Abriel Redchord",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Achlys",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Borca", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" },
@@ -56,24 +61,28 @@ const characters = [
     },
     {
         "Name": "Adramalech",
+        "Status": "Dead",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Aelvette",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Aetna",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
     },
     {
         "Name": "Amelia",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" },
             { "Name": "Re: Strahd", "Role": "NPC" }
@@ -81,72 +90,84 @@ const characters = [
     },
     {
         "Name": "Amidor",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ammisyll Veldann",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Anagwendol",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Anastrasya Karelova (Scaena)",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Andros",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Orrery of the Wanderer", "Role": "Player" }
+            { "Name": "Orrery of the Wanderer", "Role": "Player", "Player": "Rory", "Description": "an asmodeus tiefling sorcerer (wild magic)" }
         ]
     },
     {
         "Name": "Arabelle Zsoltsy (Scaena)",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Aran Tal",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Star Wars: Stranded on Parnassos", "Role": "NPC" }
         ]
     },
     {
         "Name": "Aranya",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Phantasms of Sri Raji", "Role": "Player" }
         ]
     },
     {
         "Name": "Aren",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Journeys through the Radiant Citadel", "Role": "Player" }
+            { "Name": "Journeys through the Radiant Citadel", "Role": "Player", "Player": "Jett", "Description": "a half vistani human / wood elf ranger (monster slayer)" }
         ]
     },
     {
         "Name": "Aurora",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Aurora de L'aunaie",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
     },
     {
         "Name": "Avi",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -154,18 +175,21 @@ const characters = [
     },
     {
         "Name": "Azure",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Baalzebul",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Babolax",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
@@ -174,90 +198,105 @@ const characters = [
     },
     {
         "Name": "Balzac",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Barachiel",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Baron Vallakovich",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Bavlorna Blightstraw",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Belial",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Bella (Scaena)",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Belle Mere",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
     },
     {
         "Name": "Birroo",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Blaedswith Ashenwynd",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Chains of Asmodeus", "Role": "Player" }
+            { "Name": "Chains of Asmodeus", "Role": "Player", "Player": "Connor", "Description": "a high elf paladin (oathbreaker-turned-oath of redemption)" }
         ]
     },
     {
         "Name": "Blightmar",
+        "Status": "Dead",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Blinksy",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Bloody Toes",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Bone Devil",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
     },
     {
         "Name": "Bonespur",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Brawn",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" }
@@ -265,56 +304,65 @@ const characters = [
     },
     {
         "Name": "Breadstick Fundi",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
     },
     {
         "Name": "Brenneth",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Briar",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Waterdeep: Dragon Heist", "Role": "Player" },
-            { "Name": "Orrery of the Wanderer", "Role": "Player" },
-            { "Name": "Lost Laboratory of Kwalish", "Role": "Player" }
+            { "Name": "Waterdeep: Dragon Heist", "Role": "Player", "Player": "Jett", "Description": "a reborn warlock (great old ones)" },
+            { "Name": "Orrery of the Wanderer", "Role": "Player", "Player": "Jett", "Description": "a reborn warlock (great old ones)" },
+            { "Name": "Lost Laboratory of Kwalish", "Role": "Player", "Player": "Jett", "Description": "a reborn warlock-turned-sorcerer (clockwork soul)" }
         ]
     },
     {
         "Name": "Brok",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
     },
     {
         "Name": "Brynhilda Pedersen",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Cadoras",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Calenhad Strongheart",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Calor Galateth",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Star Wars: Stranded on Parnassos", "Role": "Player" }
+            { "Name": "Star Wars: Stranded on Parnassos", "Role": "Player", "Player": "Connor", "Description": "a kiffar sentinel" }
         ]
     },
     {
         "Name": "Candlefoot",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -322,12 +370,14 @@ const characters = [
     },
     {
         "Name": "Casavel",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Strixhaven: Year 1", "Role": "Player" }
+            { "Name": "Strixhaven: Year 1", "Role": "Player", "Player": "Rory", "Description": "a sun elf wizard (bladesinging)" }
         ]
     },
     {
         "Name": "Charm",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -335,18 +385,21 @@ const characters = [
     },
     {
         "Name": "Cheshire",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Chococo",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Christopher",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" }
@@ -354,78 +407,91 @@ const characters = [
     },
     {
         "Name": "Chun Hana",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
     },
     {
         "Name": "Cicero",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Clapperclaw",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Clara",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Colleen Thimble",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Objects of Interest: Forged in Fire", "Role": "Player" }
+            { "Name": "Objects of Interest: Forged in Fire", "Role": "Player", "Player": "Callista", "Description": "a human savant (investigator)" }
         ]
     },
     {
         "Name": "Cornelius Brassgrave",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Corteso",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Crypta",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Strixhaven: Year 1", "Role": "Player" }
+            { "Name": "Strixhaven: Year 1", "Role": "Player", "Player": "Jett", "Description": "a half goblin/elf (devkarin) necromancer (blood ascendant)" }
         ]
     },
     {
         "Name": "Dandelion",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
     },
     {
         "Name": "Daphne",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Darcy",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
     },
     {
         "Name": "Darribeth",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
     },
     {
         "Name": "Davil",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" },
@@ -434,97 +500,113 @@ const characters = [
     },
     {
         "Name": "Deannach",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Dr. Brains",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Dr. Zakari",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Drazhomir",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Dre Hilltop",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
     },
     {
         "Name": "Dumphrey Frogart",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Durge",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Star Wars: Stranded on Parnassos", "Role": "NPC" }
         ]
     },
     {
         "Name": "Dusty",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Dyre",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Orrery of the Wanderer", "Role": "Player" },
+            { "Name": "Orrery of the Wanderer", "Role": "Player", "Player": "Jett", "Description": "a reborn drow bard (college of satire)" },
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
     },
     {
         "Name": "Eclipse",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ecstasy",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
     },
     {
         "Name": "Elidon",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Elkhorn",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ellis Hilltop",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
     },
     {
         "Name": "Elysia Saltwound",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Embric",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -532,24 +614,28 @@ const characters = [
     },
     {
         "Name": "Emmek",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" }
         ]
     },
     {
         "Name": "Emran Sur",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
     },
     {
         "Name": "Endelyn Moongrave",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Erasmus",
+        "Status": "Dead",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" },
             { "Name": "Re: Strahd", "Role": "NPC" }
@@ -557,6 +643,7 @@ const characters = [
     },
     {
         "Name": "Escher",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" },
@@ -565,12 +652,14 @@ const characters = [
     },
     {
         "Name": "Esha",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Objects of Interest: Forged in Fire", "Role": "Player" }
+            { "Name": "Objects of Interest: Forged in Fire", "Role": "Player", "Player": "Rory", "Description": "a half-orc rogue (arcane trickster)" }
         ]
     },
     {
         "Name": "Esvele",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
@@ -578,20 +667,23 @@ const characters = [
     },
     {
         "Name": "Evard",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
     },
     {
         "Name": "Evie",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Waterdeep: Dragon Heist", "Role": "Player" },
-            { "Name": "Orrery of the Wanderer", "Role": "Player" },
-            { "Name": "Lost Laboratory of Kwalish", "Role": "Player" }
+            { "Name": "Waterdeep: Dragon Heist", "Role": "Player", "Player": "Callista", "Description": "an animated armor fighter (eldritch knight)" },
+            { "Name": "Orrery of the Wanderer", "Role": "Player", "Player": "Callista", "Description": "an animated armor fighter (eldritch knight)" },
+            { "Name": "Lost Laboratory of Kwalish", "Role": "Player", "Player": "Callista", "Description": "a half-elf fighter (eldritch knight)" }
         ]
     },
     {
         "Name": "Ewyn",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" },
@@ -601,6 +693,7 @@ const characters = [
     },
     {
         "Name": "Exethanter",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
@@ -610,10 +703,11 @@ const characters = [
     },
     {
         "Name": "Ezmerelda",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Tomb of Horrors", "Role": "NPC" },
-            { "Name": "Borca", "Role": "Player" },
+            { "Name": "Borca", "Role": "Player", "Player": "Lup", "Description": "a vistani human fighter (eldritch knight)" },
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "Strixhaven: Year 1", "Role": "NPC" },
@@ -624,73 +718,85 @@ const characters = [
     },
     {
         "Name": "Ezmerelda Love",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ezra",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Faladdin Blackhelm",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Father Taps",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
     },
     {
         "Name": "Fayelara Kos",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Menace Under Otari", "Role": "Player" }
+            { "Name": "Menace Under Otari", "Role": "Player", "Player": "Callista", "Description": "a half-elf, half-orc fighter" }
         ]
     },
     {
         "Name": "Fayphena Forefog",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
     },
     {
         "Name": "Feenia",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Felrax",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
     },
     {
         "Name": "Fen",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Dungeon of the Mad Mage", "Role": "Player" },
+            { "Name": "Dungeon of the Mad Mage", "Role": "Player", "Player": "Rory", "Description": "an water genasi cleric (peace domain)" },
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Firan Zal'Honan",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Fizhgerald",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Floon",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" },
@@ -699,20 +805,23 @@ const characters = [
     },
     {
         "Name": "Foulsham",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Fox",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" },
-            { "Name": "Objects of Interest: Forged in Fire", "Role": "Player" }
+            { "Name": "Objects of Interest: Forged in Fire", "Role": "Player", "Player": "Lup", "Description": "a near-human knight (code of the adventurer)" }
         ]
     },
     {
         "Name": "Frahl",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
@@ -720,18 +829,21 @@ const characters = [
     },
     {
         "Name": "Francis Adelir",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Re: Strahd", "Role": "Player" }
+            { "Name": "Re: Strahd", "Role": "Player", "Player": "Jett", "Description": "a reborn warlock (pact of the undead turned pact of the first vampire turned pact of the hunter in darkness)" }
         ]
     },
     {
         "Name": "Franz Ismarkovich",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Freek",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" },
             { "Name": "Curse of Strahd", "Role": "NPC" },
@@ -740,60 +852,70 @@ const characters = [
     },
     {
         "Name": "Frerk",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
     },
     {
         "Name": "Gage",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Journeys through the Radiant Citadel", "Role": "Player" }
+            { "Name": "Journeys through the Radiant Citadel", "Role": "Player", "Player": "Connor", "Description": "a reborn human necromancer (reanimator)" }
         ]
     },
     {
         "Name": "Gallagher Love",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Re: Strahd", "Role": "Player" }
+            { "Name": "Re: Strahd", "Role": "Player", "Player": "Rory", "Description": "a human wizard (school of war)" }
         ]
     },
     {
         "Name": "Gaunt Silhouette",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Gearbox",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
     },
     {
         "Name": "Genevayne",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Gennifer Weathermay-Foxgrove",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Gildha",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
     },
     {
         "Name": "Glasya",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Gleam",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -801,6 +923,7 @@ const characters = [
     },
     {
         "Name": "Glister",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -808,24 +931,28 @@ const characters = [
     },
     {
         "Name": "Glitter Dew",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Gloine Nathair-Nathair",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
     },
     {
         "Name": "Godfrey",
+        "Status": "Dead",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Gorkoh",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -833,36 +960,42 @@ const characters = [
     },
     {
         "Name": "Grayson",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Grayson Love",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Greeter",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Gren",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Grunka",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
     },
     {
         "Name": "Guthildi",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
             { "Name": "Strixhaven: Year 1", "Role": "NPC" },
@@ -871,12 +1004,14 @@ const characters = [
     },
     {
         "Name": "Halleth",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
     },
     {
         "Name": "Hati",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
@@ -885,12 +1020,14 @@ const characters = [
     },
     {
         "Name": "Helga Ruvak",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Hrangor",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
@@ -899,24 +1036,28 @@ const characters = [
     },
     {
         "Name": "Iabrochorum",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "IMPALA",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ingrid",
+        "Status": "Dead",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ireena",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Tomb of Horrors", "Role": "NPC" },
@@ -927,24 +1068,28 @@ const characters = [
     },
     {
         "Name": "Ireena von Zarovich",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Isabella",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Isaias Damasio",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Menace Under Otari", "Role": "Player" }
+            { "Name": "Menace Under Otari", "Role": "Player", "Player": "Jett", "Description": "a half-elf wizard" }
         ]
     },
     {
         "Name": "Ismark",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" }
@@ -952,24 +1097,28 @@ const characters = [
     },
     {
         "Name": "Ismark Kolyanovich (Scaena)",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Itzmin del Prado",
+        "Status": "Dead",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ivan",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ivana",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Borca", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" }
@@ -977,78 +1126,91 @@ const characters = [
     },
     {
         "Name": "Ives Ismarkovich",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Jari",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Journeys through the Radiant Citadel", "Role": "Player" }
+            { "Name": "Journeys through the Radiant Citadel", "Role": "Player", "Player": "Rory", "Description": "a great-eared nightjar aarakocra druid (circle of dragons)" }
         ]
     },
     {
         "Name": "Javenesh",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Jean-Baptiste Escher (Scaena)",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Jenevere",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Jery",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ji-me Vidio",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Star Wars: Stranded on Parnassos", "Role": "Player" }
+            { "Name": "Star Wars: Stranded on Parnassos", "Role": "Player", "Player": "Rory", "Description": "a human guardian" }
         ]
     },
     {
         "Name": "Jim Darkmagic",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Jingle Jangle",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Jirko Ismarkovich",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Joan Hargrave",
+        "Status": "Dead",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Johannes",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Jord",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" }
@@ -1056,6 +1218,7 @@ const characters = [
     },
     {
         "Name": "Jorn",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
@@ -1064,162 +1227,188 @@ const characters = [
     },
     {
         "Name": "Juniper",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Jutt",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
     },
     {
         "Name": "Kala Mabarin",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
     },
     {
         "Name": "Kallessk",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Kargan Skul",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ker",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Kholtris",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Kianna",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
     },
     {
         "Name": "King Doerdon",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Kira Risk",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Menace Under Otari", "Role": "Player" }
+            { "Name": "Menace Under Otari", "Role": "Player", "Player": "Rory", "Description": "a human rogue" }
         ]
     },
     {
         "Name": "Kitty",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Orrery of the Wanderer", "Role": "Player" }
+            { "Name": "Orrery of the Wanderer", "Role": "Player", "Player": "Callista", "Description": "a catgirl shifter artificer (alchemist)" }
         ]
     },
     {
         "Name": "Klendisk",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Koh Tam",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Kordichai",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Krue",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Curse of Strahd", "Role": "Player" },
-            { "Name": "Tomb of Horrors", "Role": "Player" },
-            { "Name": "Borca", "Role": "Player" },
-            { "Name": "Wild Beyond the Witchlight", "Role": "Player" },
-            { "Name": "City of Eyes", "Role": "Player" },
-            { "Name": "Re: Strahd", "Role": "Player" },
-            { "Name": "Volo's Guide to Getting Murdered", "Role": "Player" }
+            { "Name": "Curse of Strahd", "Role": "Player", "Player": "Rory", "Description": "an owlfolk aarakocra ranger (spell-less hunter)" },
+            { "Name": "Tomb of Horrors", "Role": "Player", "Player": "Rory", "Description": "an owlfolk aarakocra ranger (spell-less hunter)" },
+            { "Name": "Borca", "Role": "Player", "Player": "Rory", "Description": "an owlfolk aarakocra ranger (spell-less hunter)" },
+            { "Name": "Wild Beyond the Witchlight", "Role": "Player", "Player": "Rory", "Description": "an owlfolk-turned-human ranger (spell-less hunter)" },
+            { "Name": "City of Eyes", "Role": "Player", "Player": "Rory", "Description": "a human ranger (spell-less hunter)" },
+            { "Name": "Re: Strahd", "Role": "Player", "Player": "Rory", "Description": "a human ranger (spell-less hunter)" },
+            { "Name": "Volo's Guide to Getting Murdered", "Role": "Player", "Player": "Rory", "Description": "a human ranger (spell-less hunter)" }
         ]
     },
     {
         "Name": "Kwalish",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
     },
     {
         "Name": "Kyward Apostasio",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Chains of Asmodeus", "Role": "Player" }
+            { "Name": "Chains of Asmodeus", "Role": "Player", "Player": "Jett", "Description": "a rock gnome apothecary (chemist)" }
         ]
     },
     {
         "Name": "La Fata",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Lacrymosa",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Lamorna",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Lang",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Larine",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Larisa Sur",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
     },
     {
         "Name": "Laurie Weathermay-Foxgrove",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Lemont Sediam Juste",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Lif",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -1227,169 +1416,197 @@ const characters = [
     },
     {
         "Name": "Liko",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Menace Under Otari", "Role": "Player" }
+            { "Name": "Menace Under Otari", "Role": "Player", "Player": "Connor", "Description": "a leshy bard" }
         ]
     },
     {
         "Name": "Little Balzac",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Little Strahd",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Lottie",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
     },
     {
         "Name": "Lucian",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ludmilla Love",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Lurker",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Lynx",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Journeys through the Radiant Citadel", "Role": "Player" }
+            { "Name": "Journeys through the Radiant Citadel", "Role": "Player", "Player": "Callista", "Description": "a changeling warlock (astral griffon)" }
         ]
     },
     {
         "Name": "Lyssa von Zarovich",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Madryck Roslof",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Magaggog Bootbottle",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Mani",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Dungeon of the Mad Mage", "Role": "Player" },
+            { "Name": "Dungeon of the Mad Mage", "Role": "Player", "Player": "Jett", "Description": "an eladrin sorcerer (emotion lord)" },
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Maria Adelir",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Marsh",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Chains of Asmodeus", "Role": "Player" }
+            { "Name": "Chains of Asmodeus", "Role": "Player", "Player": "Rory", "Description": "a water genasi cleric (life domain)" }
         ]
     },
     {
         "Name": "Mary",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
     },
     {
         "Name": "Mattrim",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
     },
     {
         "Name": "Meff",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
     },
     {
         "Name": "Melo Sur",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
     },
     {
         "Name": "Melwythorne",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Mephistopheles",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Mina",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Minsc",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Mirabelle",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
     },
     {
         "Name": "Mirror Nia",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Molliver",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Morax",
+        "Status": "Dead",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Morcades Gable",
+        "Status": "Dead",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Mordenkainen",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" }
@@ -1397,24 +1614,28 @@ const characters = [
     },
     {
         "Name": "Morty",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
     },
     {
         "Name": "Mr. Light",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Mr. Witch",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Myrtle",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" },
             { "Name": "Curse of Strahd", "Role": "NPC" },
@@ -1423,18 +1644,21 @@ const characters = [
     },
     {
         "Name": "Mystic",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Chains of Asmodeus", "Role": "Player" }
+            { "Name": "Chains of Asmodeus", "Role": "Player", "Player": "Callista", "Description": "an infernal tiefling wizard (order of scribes)" }
         ]
     },
     {
         "Name": "Nassari",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Neferon",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -1442,17 +1666,19 @@ const characters = [
     },
     {
         "Name": "Nia",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Curse of Strahd", "Role": "Player" },
-            { "Name": "Tomb of Horrors", "Role": "Player" },
-            { "Name": "Wild Beyond the Witchlight", "Role": "Player" },
-            { "Name": "City of Eyes", "Role": "Player" },
-            { "Name": "Re: Strahd", "Role": "Player" },
-            { "Name": "Volo's Guide to Getting Murdered", "Role": "Player" }
+            { "Name": "Curse of Strahd", "Role": "Player", "Player": "Callista", "Description": "a dhampir rogue (soulknife)" },
+            { "Name": "Tomb of Horrors", "Role": "Player", "Player": "Callista", "Description": "a dhampir rogue (soulknife)" },
+            { "Name": "Wild Beyond the Witchlight", "Role": "Player", "Player": "Callista", "Description": "a dhampir rogue (soulknife)" },
+            { "Name": "City of Eyes", "Role": "Player", "Player": "Callista", "Description": "a dhampir rogue (soulknife)" },
+            { "Name": "Re: Strahd", "Role": "Player", "Player": "Callista", "Description": "a dhampir rogue (soulknife)" },
+            { "Name": "Volo's Guide to Getting Murdered", "Role": "Player", "Player": "Callista", "Description": "a dhampir rogue (soulknife)" }
         ]
     },
     {
         "Name": "Nim",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -1460,12 +1686,14 @@ const characters = [
     },
     {
         "Name": "Nora",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Nostalia",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Borca", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" }
@@ -1473,66 +1701,77 @@ const characters = [
     },
     {
         "Name": "Notte von Zarovich",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Re: Strahd", "Role": "Player" }
+            { "Name": "Re: Strahd", "Role": "Player", "Player": "Callista", "Description": "a geppettin magus (arcanist)" }
         ]
     },
     {
         "Name": "Nurse Joy",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Oberon",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ōdachi",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
     },
     {
         "Name": "Oddlewin",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Old Death",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Omin",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
     },
     {
         "Name": "Orcades Gable",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Orishada",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Osybus",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Otis",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
@@ -1540,42 +1779,49 @@ const characters = [
     },
     {
         "Name": "Ottelie",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Paloma",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
     },
     {
         "Name": "Patsky",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
     },
     {
         "Name": "Pazrodine",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Petre Teodorus",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Pewter",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Pidlwick",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
@@ -1584,6 +1830,7 @@ const characters = [
     },
     {
         "Name": "Pietra van Riese",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
             { "Name": "Re: Strahd", "Role": "NPC" }
@@ -1591,30 +1838,35 @@ const characters = [
     },
     {
         "Name": "Pollenella",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Porter",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Prismari",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Prydevere",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Quentillius",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" }
@@ -1622,54 +1874,63 @@ const characters = [
     },
     {
         "Name": "Quevven Teh'Kinrellz",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Quincey Pasqual Morris (Scaena)",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Rahadin",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Rahadin Zdravkov (Scaena)",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ramius Dangremond",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Rampart",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Renaer",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" }
         ]
     },
     {
         "Name": "Reynard Ratflea",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Rictavio",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Tomb of Horrors", "Role": "NPC" },
@@ -1681,54 +1942,63 @@ const characters = [
     },
     {
         "Name": "Risk",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Rizzeryl",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
     },
     {
         "Name": "Roberta",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Robi Junior (Pidlwick III)",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Roneca",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Rosa",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
     },
     {
         "Name": "Rosie",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Rubina",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Rudolph",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Borca", "Role": "NPC" },
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
@@ -1737,62 +2007,72 @@ const characters = [
     },
     {
         "Name": "Ruik",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Waterdeep: Dragon Heist", "Role": "Player" },
-            { "Name": "Orrery of the Wanderer", "Role": "Player" },
-            { "Name": "Lost Laboratory of Kwalish", "Role": "Player" }
+            { "Name": "Waterdeep: Dragon Heist", "Role": "Player", "Player": "Rory", "Description": "a half-elf paladin (oath of vengeance)" },
+            { "Name": "Orrery of the Wanderer", "Role": "Player", "Player": "Rory", "Description": "a half-elf paladin (oath of vengeance)" },
+            { "Name": "Lost Laboratory of Kwalish", "Role": "Player", "Player": "Rory", "Description": "a half-elf paladin (oath of vengeance)" }
         ]
     },
     {
         "Name": "Rupert Deadbolt",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ruslana",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Rusty Bucket",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ruxa",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Sackville Grabbins",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Samira Arah",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
     },
     {
         "Name": "Sandman",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Seku Awaud",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Star Wars: Stranded on Parnassos", "Role": "Player" }
+            { "Name": "Star Wars: Stranded on Parnassos", "Role": "Player", "Player": "Callista", "Description": "a twi'lek scout" }
         ]
     },
     {
         "Name": "Selise",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" },
@@ -1802,42 +2082,49 @@ const characters = [
     },
     {
         "Name": "Serapio",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
     },
     {
         "Name": "Shanix Breakrattle",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Shuvadri",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Sildar",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
     },
     {
         "Name": "Silver",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Strixhaven: Year 1", "Role": "Player" }
+            { "Name": "Strixhaven: Year 1", "Role": "Player", "Player": "Callista", "Description": "a fairy warlock (archfey)" }
         ]
     },
     {
         "Name": "Sir Talavar",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Skabatha Nightshade",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
@@ -1845,83 +2132,96 @@ const characters = [
     },
     {
         "Name": "Skeemo Weirdbottle",
+        "Status": "Dead",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" }
         ]
     },
     {
         "Name": "Skelly",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Skoll",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Curse of Strahd", "Role": "Player" },
-            { "Name": "Tomb of Horrors", "Role": "Player" },
-            { "Name": "Wild Beyond the Witchlight", "Role": "Player" },
-            { "Name": "City of Eyes", "Role": "Player" },
-            { "Name": "Re: Strahd", "Role": "Player" },
-            { "Name": "Volo's Guide to Getting Murdered", "Role": "Player" }
+            { "Name": "Curse of Strahd", "Role": "Player", "Player": "Jett", "Description": "a river elf druid (circle of the moon)" },
+            { "Name": "Tomb of Horrors", "Role": "Player", "Player": "Jett", "Description": "a river elf druid (circle of the moon)" },
+            { "Name": "Wild Beyond the Witchlight", "Role": "Player", "Player": "Jett", "Description": "a river elf druid (circle of the moon)" },
+            { "Name": "City of Eyes", "Role": "Player", "Player": "Jett", "Description": "a river elf druid (circle of the moon)" },
+            { "Name": "Re: Strahd", "Role": "Player", "Player": "Jett", "Description": "a river elf druid (circle of the moon)" },
+            { "Name": "Volo's Guide to Getting Murdered", "Role": "Player", "Player": "Jett", "Description": "a river elf druid (circle of the moon)" }
         ]
     },
     {
         "Name": "Sonja Florakis",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Objects of Interest: Forged in Fire", "Role": "Player" }
+            { "Name": "Objects of Interest: Forged in Fire", "Role": "Player", "Player": "Connor", "Description": "a half-elf bard (college of spirits)" }
         ]
     },
     {
         "Name": "Stella von Zarovich",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Strahd",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Strashka Relvaunder",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Struthio",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Sumari",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Dungeon of the Mad Mage", "Role": "Player" }
+            { "Name": "Dungeon of the Mad Mage", "Role": "Player", "Player": "Jett", "Description": "a wildhunt shifter warden (verdant protector)" }
         ]
     },
     {
         "Name": "Sylqen Silverwatch",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
     },
     {
         "Name": "Synestia Whitechapel",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Talanatha",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
     },
     {
         "Name": "Tashlyn",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
@@ -1931,24 +2231,28 @@ const characters = [
     },
     {
         "Name": "Telphusa",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ten",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
     },
     {
         "Name": "Tenser",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
     },
     {
         "Name": "Thaco",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -1956,120 +2260,140 @@ const characters = [
     },
     {
         "Name": "Thalia",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
     },
     {
         "Name": "The Abbot (Jude Law)",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "The Cat Lord",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "The Fisher King",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "The Painted Lady",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "The Spider",
+        "Status": "Dead",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
     },
     {
         "Name": "Thetsis",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
     },
     {
         "Name": "Tiax",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
     },
     {
         "Name": "Tilana",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Titan",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "To'vvag'das'vak'thur'ai'thumonic'ar of the Greater Eye",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Tordit",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
     },
     {
         "Name": "Trench",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" }
         ]
     },
     {
         "Name": "Trilla",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Volo's Guide to Getting Murdered", "Role": "Player" }
+            { "Name": "Volo's Guide to Getting Murdered", "Role": "Player", "Player": "Connor", "Description": "a half-orc rogue (seeker)" }
         ]
     },
     {
         "Name": "Tsu",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Tullus",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Tungsten Ward",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
     },
     {
         "Name": "Tzunk",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
     },
     {
         "Name": "Urzmaktok",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Vajra",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" },
@@ -2079,48 +2403,56 @@ const characters = [
     },
     {
         "Name": "Vasilka (Scaena)",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Velastrias",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Victor",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Victor Vallakovich (Scaena)",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Vih'zel",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Dungeon of the Mad Mage", "Role": "Player" }
+            { "Name": "Dungeon of the Mad Mage", "Role": "Player", "Player": "Callista", "Description": "a githyanki fighter (echo knight)" }
         ]
     },
     {
         "Name": "Vito Romenza",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
     },
     {
         "Name": "Volenta Popofsky (Scaena)",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Volo",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" },
@@ -2131,54 +2463,63 @@ const characters = [
     },
     {
         "Name": "Vyldara",
+        "Status": "Dead",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
     },
     {
         "Name": "Wester",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
     },
     {
         "Name": "Whippoorwill",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Whisper",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Will of the Feywild",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Wizzy",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
     },
     {
         "Name": "Wobbles",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
     },
     {
         "Name": "Woe Ismae",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Star Wars: Stranded on Parnassos", "Role": "Player" }
+            { "Name": "Star Wars: Stranded on Parnassos", "Role": "Player", "Player": "Jett", "Description": "a zabrak consular" }
         ]
     },
     {
         "Name": "Yagra",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" },
@@ -2188,18 +2529,21 @@ const characters = [
     },
     {
         "Name": "Yarnspinner",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
     },
     {
         "Name": "Yek",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
     },
     {
         "Name": "Yesper",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
@@ -2208,18 +2552,21 @@ const characters = [
     },
     {
         "Name": "Yesper Taltos (Scaena)",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ygor",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
     },
     {
         "Name": "Yurk",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -2227,36 +2574,42 @@ const characters = [
     },
     {
         "Name": "Yves Kolyanovich",
+        "Status": "Alive",
         "Campaigns": [
-            { "Name": "Re: Strahd", "Role": "Player" }
+            { "Name": "Re: Strahd", "Role": "Player", "Player": "Connor", "Description": "a hexblood cleric (life domain)" }
         ]
     },
     {
         "Name": "Zanther",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Zaria",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
     },
     {
         "Name": "Zilitsa",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
     },
     {
         "Name": "Ziraj",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" }
         ]
     },
     {
         "Name": "Zybilna",
+        "Status": "Alive",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]

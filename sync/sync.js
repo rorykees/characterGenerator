@@ -6,10 +6,12 @@
 // Sources:
 //   <vault>/Characters/*.md  - frontmatter "Campaign" list gives each character's campaigns
 //   <vault>/Campaigns/*.md   - "## Cast" / "## Secondary Cast" bullets give the player characters
-//                              per campaign; "Start Date" orders the campaign buttons
+//                              per campaign (with who played them and their class); "Start Date"
+//                              orders the campaigns; "Cover" names the campaign's cover image
+//   <vault>/Images/          - cover images, copied into covers/
 //   sync/overrides.json      - display names, characters with no vault note, extra memberships
 //
-// Output: characters.js, which defines `campaigns` and `characters` for script.js.
+// Output: characters.js, which defines `campaigns` and `characters` for script.js, and covers/*.
 
 const fs = require("fs");
 const path = require("path");
@@ -63,26 +65,52 @@ const campaignsByFile = {};
 for (const file of markdownFiles(path.join(VAULT, "Campaigns"))) {
     const fm = readFrontmatter(file.text);
     const aliases = Array.isArray(fm.aliases) ? fm.aliases : [];
-    const cast = new Set();
+    // cast: character file name -> { player, description }
+    const cast = new Map();
     let inCast = false;
     for (const line of body(file.text).split(/\r?\n/)) {
         if (/^## /.test(line)) inCast = /^## (Cast|Secondary Cast)\s*$/.test(line);
         if (!inCast) continue;
-        const m = line.match(/\bas \[\[([^\]|]+)/);
-        if (m) cast.add(m[1].trim());
+        // "* [[Callista]] as [[Nia Skultrac|Nia]], a dhampir rogue (soulknife)"
+        const m = line.match(/^\s*[-*]\s*\[\[([^\]|]+)[^\]]*\]\]\s+as\s+\[\[([^\]|]+)[^\]]*\]\]\s*,?\s*(.*)$/);
+        if (m && !cast.has(m[2].trim())) {
+            cast.set(m[2].trim(), { player: m[1].trim(), description: m[3].trim() });
+        }
     }
     campaignsByFile[file.name] = {
         file: file.name,
         name: aliases[0] || file.name,
         startDate: typeof fm["Start Date"] === "string" ? fm["Start Date"] : "9999",
+        cover: typeof fm.Cover === "string" ? linkTarget(fm.Cover) : null,
         cast,
     };
+}
+
+// ---- covers ----------------------------------------------------------------
+
+const COVERS_DIR = path.join(ROOT, "covers");
+fs.mkdirSync(COVERS_DIR, { recursive: true });
+const imageFiles = fs.readdirSync(path.join(VAULT, "Images"));
+const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+for (const campaign of Object.values(campaignsByFile)) {
+    if (!campaign.cover) continue;
+    const source = imageFiles.find(f => f.toLowerCase() === campaign.cover.toLowerCase());
+    if (!source) { campaign.cover = null; continue; }
+    const target = slug(campaign.name) + path.extname(source).toLowerCase();
+    const from = path.join(VAULT, "Images", source);
+    const to = path.join(COVERS_DIR, target);
+    // Copy only when missing or the vault copy is newer, so a hand-optimised copy survives.
+    if (!fs.existsSync(to) || fs.statSync(from).mtimeMs > fs.statSync(to).mtimeMs) {
+        fs.copyFileSync(from, to);
+    }
+    campaign.cover = "covers/" + target;
 }
 const campaignDisplayName = file => (campaignsByFile[file] ? campaignsByFile[file].name : file);
 const campaignFileByName = name => Object.keys(campaignsByFile).find(f => campaignsByFile[f].name === name);
 const campaigns = Object.values(campaignsByFile)
     .sort((a, b) => a.startDate.localeCompare(b.startDate) || a.name.localeCompare(b.name))
-    .map(c => c.name);
+    .map(c => ({ Name: c.name, Cover: c.cover }));
+const campaignNames = campaigns.map(c => c.Name);
 
 // ---- characters ------------------------------------------------------------
 
@@ -100,14 +128,20 @@ for (const file of markdownFiles(path.join(VAULT, "Characters"))) {
         if (memberships.some(m => m.Name === displayName)) return;
         const campaign = campaignsByFile[campaignFile];
         let role;
+        const castEntry = campaign && campaign.cast.get(file.name);
         if (campaign) {
-            role = campaign.cast.has(file.name) ? "Player" : "NPC";
+            role = castEntry ? "Player" : "NPC";
         } else {
             // No campaign note to read a cast from: fall back to the character's own type.
             warnings.push(`${file.name}: campaign "${campaignFile}" has no note in Campaigns/, so it gets no button`);
             role = types.includes("Player Character") ? "Player" : "NPC";
         }
-        memberships.push({ Name: displayName, Role: role });
+        const membership = { Name: displayName, Role: role };
+        if (castEntry) {
+            membership.Player = castEntry.player;
+            if (castEntry.description) membership.Description = castEntry.description;
+        }
+        memberships.push(membership);
     };
     for (const link of campaignLinks) {
         const target = linkTarget(link);
@@ -119,6 +153,7 @@ for (const file of markdownFiles(path.join(VAULT, "Characters"))) {
 
     characters.push({
         Name: OVERRIDES.names[file.name] || file.name,
+        Status: typeof fm.Status === "string" ? fm.Status : "Alive",
         Campaigns: memberships,
     });
 }
@@ -126,6 +161,7 @@ for (const file of markdownFiles(path.join(VAULT, "Characters"))) {
 for (const extra of OVERRIDES.extras) {
     characters.push({
         Name: extra.Name,
+        Status: extra.Status || "Alive",
         Campaigns: extra.Campaigns.map(c => ({ Name: c, Role: extra.Role || "NPC" })),
     });
 }
@@ -140,12 +176,12 @@ for (const c of characters) {
     if (seen.has(key)) warnings.push(`duplicate display name "${c.Name}"`);
     seen.add(key);
     for (const m of c.Campaigns) {
-        if (!campaigns.includes(m.Name) && !warnings.some(w => w.includes(`"${m.Name}"`)))
+        if (!campaignNames.includes(m.Name) && !warnings.some(w => w.includes(`"${m.Name}"`)))
             warnings.push(`campaign "${m.Name}" (on ${c.Name}) has no note in Campaigns/, so it gets no button`);
     }
 }
 for (const campaign of Object.values(campaignsByFile)) {
-    for (const member of campaign.cast) {
+    for (const member of campaign.cast.keys()) {
         const c = characters.find(x => x.Name === (OVERRIDES.names[member] || member));
         if (!c) warnings.push(`${campaign.name} cast lists "${member}" but no character note has a campaign`);
         else if (!c.Campaigns.some(m => m.Name === campaign.name))
@@ -160,16 +196,19 @@ const out = [
     `// Generated by sync/sync.js from the TTRPG Wiki vault on ${stamp}.`,
     "// Do not edit by hand: change the vault or sync/overrides.json and run `node sync/sync.js`.",
     "",
-    "const campaigns = " + JSON.stringify(campaigns, null, 4) + ";",
+    "const campaigns = [",
+    campaigns.map(c => `    { "Name": ${JSON.stringify(c.Name)}, "Cover": ${JSON.stringify(c.Cover)} }`).join(",\n"),
+    "];",
     "",
     "const characters = [",
     characters.map(c => {
         const memberships = c.Campaigns
-            .map(m => `            { "Name": ${JSON.stringify(m.Name)}, "Role": ${JSON.stringify(m.Role)} }`)
+            .map(m => "            { " + Object.keys(m).map(k => `${JSON.stringify(k)}: ${JSON.stringify(m[k])}`).join(", ") + " }")
             .join(",\n");
         return [
             "    {",
             `        "Name": ${JSON.stringify(c.Name)},`,
+            `        "Status": ${JSON.stringify(c.Status)},`,
             '        "Campaigns": [',
             memberships,
             "        ]",
@@ -182,6 +221,12 @@ const out = [
 fs.writeFileSync(path.join(ROOT, "characters.js"), out, "utf8");
 
 const players = characters.filter(c => c.Campaigns.some(m => m.Role === "Player")).length;
-console.log(`campaigns: ${campaigns.length}`);
+const withCover = campaigns.filter(c => c.Cover).length;
+for (const c of campaigns) {
+    if (!c.Cover) continue;
+    const kb = Math.round(fs.statSync(path.join(ROOT, c.Cover)).size / 1024);
+    if (kb > 500) warnings.push(`${c.Cover} is ${kb}KB; consider shrinking it (a copy newer than the vault image is left alone by the sync)`);
+}
+console.log(`campaigns: ${campaigns.length} (${withCover} with a cover image in covers/)`);
 console.log(`characters: ${characters.length} (${players} with a player role, ${OVERRIDES.extras.length} from overrides, ${skipped} vault notes skipped for having no campaign)`);
 for (const w of warnings) console.log("warning:", w);
