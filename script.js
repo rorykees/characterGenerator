@@ -1,7 +1,7 @@
 // Data (`campaigns` and `characters`) comes from characters.js, generated from the
 // TTRPG Wiki vault by sync/sync.js. Shapes:
 //   campaign:  { Name, Cover }
-//   character: { Name, Status, Campaigns: [ { Name, Role, Player?, Description? } ] }
+//   character: { Name, Status, Portrait, Campaigns: [ { Name, Role, Player?, Description? } ] }
 
 (function () {
     "use strict";
@@ -13,6 +13,8 @@
     var card = document.getElementById("card");
     var cardName = document.getElementById("card-name");
     var cardStatus = document.getElementById("card-status");
+    var cardPortrait = document.getElementById("card-portrait");
+    var cardPortraitImage = document.getElementById("card-portrait-image");
     var cardCampaigns = document.getElementById("card-campaigns");
     var covers = [document.getElementById("cover-a"), document.getElementById("cover-b")];
     var drawButton = document.getElementById("draw");
@@ -93,6 +95,17 @@
         coverIndex = (coverIndex + 1) % 2;
     }
 
+    function showPortrait(character) {
+        if (!character.Portrait) {
+            cardPortrait.hidden = true;
+            cardPortraitImage.removeAttribute("src");
+            return;
+        }
+        cardPortraitImage.alt = "Portrait of " + character.Name;
+        cardPortraitImage.src = character.Portrait;
+        cardPortrait.hidden = false;
+    }
+
     function renderCharacter(character) {
         var chosen = selectedCampaigns();
         var who = selectedWho();
@@ -100,6 +113,7 @@
 
         cardName.textContent = character.Name;
         cardStatus.textContent = character.Status === "Dead" ? "Deceased" : "";
+        showPortrait(character);
 
         cardCampaigns.innerHTML = "";
         character.Campaigns.forEach(function (m) {
@@ -149,6 +163,8 @@
         cardName.classList.add("is-shuffling");
         cardStatus.textContent = "";
         cardCampaigns.innerHTML = "";
+        cardPortrait.hidden = true;
+        if (pick.Portrait) new Image().src = pick.Portrait;
 
         var ticks = 0;
         shuffleTimer = setInterval(function () {

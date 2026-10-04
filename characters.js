@@ -2,29 +2,30 @@
 // Do not edit by hand: change the vault or sync/overrides.json and run `node sync/sync.js`.
 
 const campaigns = [
-    { "Name": "Curse of Strahd", "Cover": "covers/curse-of-strahd.jpg" },
-    { "Name": "Tomb of Horrors", "Cover": "covers/tomb-of-horrors.jpg" },
-    { "Name": "Waterdeep: Dragon Heist", "Cover": "covers/waterdeep-dragon-heist.jpg" },
+    { "Name": "Curse of Strahd", "Cover": "covers/curse-of-strahd.webp" },
+    { "Name": "Tomb of Horrors", "Cover": "covers/tomb-of-horrors.webp" },
+    { "Name": "Waterdeep: Dragon Heist", "Cover": "covers/waterdeep-dragon-heist.webp" },
     { "Name": "Orrery of the Wanderer", "Cover": "covers/orrery-of-the-wanderer.webp" },
-    { "Name": "Borca", "Cover": "covers/borca.jpg" },
-    { "Name": "Wild Beyond the Witchlight", "Cover": "covers/wild-beyond-the-witchlight.jpg" },
-    { "Name": "Strixhaven: Year 1", "Cover": "covers/strixhaven-year-1.jpg" },
+    { "Name": "Borca", "Cover": "covers/borca.webp" },
+    { "Name": "Wild Beyond the Witchlight", "Cover": "covers/wild-beyond-the-witchlight.webp" },
+    { "Name": "Strixhaven: Year 1", "Cover": "covers/strixhaven-year-1.webp" },
     { "Name": "Dungeon of the Mad Mage", "Cover": "covers/dungeon-of-the-mad-mage.webp" },
-    { "Name": "Lost Laboratory of Kwalish", "Cover": "covers/lost-laboratory-of-kwalish.jpg" },
-    { "Name": "City of Eyes", "Cover": "covers/city-of-eyes.jpg" },
-    { "Name": "Star Wars: Stranded on Parnassos", "Cover": "covers/star-wars-stranded-on-parnassos.jpg" },
-    { "Name": "Journeys through the Radiant Citadel", "Cover": "covers/journeys-through-the-radiant-citadel.jpg" },
-    { "Name": "Menace Under Otari", "Cover": "covers/menace-under-otari.jpg" },
-    { "Name": "Re: Strahd", "Cover": "covers/re-strahd.jpg" },
-    { "Name": "Volo's Guide to Getting Murdered", "Cover": "covers/volo-s-guide-to-getting-murdered.png" },
-    { "Name": "Objects of Interest: Forged in Fire", "Cover": "covers/objects-of-interest-forged-in-fire.png" },
-    { "Name": "Chains of Asmodeus", "Cover": "covers/chains-of-asmodeus.jpg" }
+    { "Name": "Lost Laboratory of Kwalish", "Cover": "covers/lost-laboratory-of-kwalish.webp" },
+    { "Name": "City of Eyes", "Cover": "covers/city-of-eyes.webp" },
+    { "Name": "Star Wars: Stranded on Parnassos", "Cover": "covers/star-wars-stranded-on-parnassos.webp" },
+    { "Name": "Journeys through the Radiant Citadel", "Cover": "covers/journeys-through-the-radiant-citadel.webp" },
+    { "Name": "Menace Under Otari", "Cover": "covers/menace-under-otari.webp" },
+    { "Name": "Re: Strahd", "Cover": "covers/re-strahd.webp" },
+    { "Name": "Volo's Guide to Getting Murdered", "Cover": "covers/volo-s-guide-to-getting-murdered.webp" },
+    { "Name": "Objects of Interest: Forged in Fire", "Cover": "covers/objects-of-interest-forged-in-fire.webp" },
+    { "Name": "Chains of Asmodeus", "Cover": "covers/chains-of-asmodeus.webp" }
 ];
 
 const characters = [
     {
         "Name": "Abel",
         "Status": "Alive",
+        "Portrait": "portraits/abel-brentstock.webp",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -32,6 +33,7 @@ const characters = [
     {
         "Name": "Abi-Dalzim",
         "Status": "Alive",
+        "Portrait": "portraits/abi-dalzim.webp",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
@@ -39,6 +41,7 @@ const characters = [
     {
         "Name": "Abigor",
         "Status": "Dead",
+        "Portrait": "portraits/abigor.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -46,6 +49,7 @@ const characters = [
     {
         "Name": "Abriel Redchord",
         "Status": "Alive",
+        "Portrait": "portraits/abriel-redchord.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -53,6 +57,7 @@ const characters = [
     {
         "Name": "Achlys",
         "Status": "Alive",
+        "Portrait": "portraits/achlys.webp",
         "Campaigns": [
             { "Name": "Borca", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" },
@@ -62,6 +67,7 @@ const characters = [
     {
         "Name": "Adramalech",
         "Status": "Dead",
+        "Portrait": "portraits/adramalech.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -69,6 +75,7 @@ const characters = [
     {
         "Name": "Aelvette",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -76,6 +83,7 @@ const characters = [
     {
         "Name": "Aetna",
         "Status": "Alive",
+        "Portrait": "portraits/aetna.webp",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
@@ -83,6 +91,7 @@ const characters = [
     {
         "Name": "Amelia",
         "Status": "Alive",
+        "Portrait": "portraits/amelia-hawthorne.webp",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" },
             { "Name": "Re: Strahd", "Role": "NPC" }
@@ -91,6 +100,7 @@ const characters = [
     {
         "Name": "Amidor",
         "Status": "Alive",
+        "Portrait": "portraits/amidor.webp",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -98,6 +108,7 @@ const characters = [
     {
         "Name": "Ammisyll Veldann",
         "Status": "Alive",
+        "Portrait": "portraits/ammisyll-veldann.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -105,6 +116,7 @@ const characters = [
     {
         "Name": "Anagwendol",
         "Status": "Alive",
+        "Portrait": "portraits/anagwendol.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -112,6 +124,7 @@ const characters = [
     {
         "Name": "Anastrasya Karelova (Scaena)",
         "Status": "Alive",
+        "Portrait": "portraits/anastrasya-karelova-scaena.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -119,6 +132,7 @@ const characters = [
     {
         "Name": "Andros",
         "Status": "Alive",
+        "Portrait": "portraits/andros.webp",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "Player", "Player": "Rory", "Description": "an asmodeus tiefling sorcerer (wild magic)" }
         ]
@@ -126,6 +140,7 @@ const characters = [
     {
         "Name": "Arabelle Zsoltsy (Scaena)",
         "Status": "Alive",
+        "Portrait": "portraits/arabelle-zsoltsy-scaena.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -133,6 +148,7 @@ const characters = [
     {
         "Name": "Aran Tal",
         "Status": "Alive",
+        "Portrait": "portraits/aran-tal.webp",
         "Campaigns": [
             { "Name": "Star Wars: Stranded on Parnassos", "Role": "NPC" }
         ]
@@ -140,6 +156,7 @@ const characters = [
     {
         "Name": "Aranya",
         "Status": "Alive",
+        "Portrait": "portraits/aranya.webp",
         "Campaigns": [
             { "Name": "Phantasms of Sri Raji", "Role": "Player" }
         ]
@@ -147,6 +164,7 @@ const characters = [
     {
         "Name": "Aren",
         "Status": "Alive",
+        "Portrait": "portraits/aren-romenza.webp",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "Player", "Player": "Jett", "Description": "a half vistani human / wood elf ranger (monster slayer)" }
         ]
@@ -154,6 +172,7 @@ const characters = [
     {
         "Name": "Aurora",
         "Status": "Alive",
+        "Portrait": "portraits/aurora-luna-wynterstarr.webp",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -161,6 +180,7 @@ const characters = [
     {
         "Name": "Aurora de L'aunaie",
         "Status": "Alive",
+        "Portrait": "portraits/aurora-de-l-aunaie.webp",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
@@ -168,6 +188,7 @@ const characters = [
     {
         "Name": "Avi",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -176,6 +197,7 @@ const characters = [
     {
         "Name": "Azure",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -183,6 +205,7 @@ const characters = [
     {
         "Name": "Baalzebul",
         "Status": "Alive",
+        "Portrait": "portraits/baalzebul.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -190,6 +213,7 @@ const characters = [
     {
         "Name": "Babolax",
         "Status": "Alive",
+        "Portrait": "portraits/babolax.webp",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
@@ -199,6 +223,7 @@ const characters = [
     {
         "Name": "Balzac",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -206,6 +231,7 @@ const characters = [
     {
         "Name": "Barachiel",
         "Status": "Alive",
+        "Portrait": "portraits/barachiel.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -213,6 +239,7 @@ const characters = [
     {
         "Name": "Baron Vallakovich",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" }
         ]
@@ -220,6 +247,7 @@ const characters = [
     {
         "Name": "Bavlorna Blightstraw",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -227,6 +255,7 @@ const characters = [
     {
         "Name": "Belial",
         "Status": "Alive",
+        "Portrait": "portraits/belial.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -234,6 +263,7 @@ const characters = [
     {
         "Name": "Bella (Scaena)",
         "Status": "Alive",
+        "Portrait": "portraits/bella-scaena.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -241,6 +271,7 @@ const characters = [
     {
         "Name": "Belle Mere",
         "Status": "Alive",
+        "Portrait": "portraits/belle-mere.webp",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
@@ -248,6 +279,7 @@ const characters = [
     {
         "Name": "Birroo",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -255,6 +287,7 @@ const characters = [
     {
         "Name": "Blaedswith Ashenwynd",
         "Status": "Alive",
+        "Portrait": "portraits/blaedswith-ashenwynd.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "Player", "Player": "Connor", "Description": "a high elf paladin (oathbreaker-turned-oath of redemption)" }
         ]
@@ -262,6 +295,7 @@ const characters = [
     {
         "Name": "Blightmar",
         "Status": "Dead",
+        "Portrait": "portraits/blightmar.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -269,6 +303,7 @@ const characters = [
     {
         "Name": "Blinksy",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" }
         ]
@@ -276,6 +311,7 @@ const characters = [
     {
         "Name": "Bloody Toes",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -283,6 +319,7 @@ const characters = [
     {
         "Name": "Bone Devil",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
@@ -290,6 +327,7 @@ const characters = [
     {
         "Name": "Bonespur",
         "Status": "Alive",
+        "Portrait": "portraits/bonespur.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -297,6 +335,7 @@ const characters = [
     {
         "Name": "Brawn",
         "Status": "Alive",
+        "Portrait": "portraits/brawn-mcgable.webp",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" }
@@ -305,6 +344,7 @@ const characters = [
     {
         "Name": "Breadstick Fundi",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
@@ -312,6 +352,7 @@ const characters = [
     {
         "Name": "Brenneth",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -319,6 +360,7 @@ const characters = [
     {
         "Name": "Briar",
         "Status": "Alive",
+        "Portrait": "portraits/briar-de-l-aunaie.webp",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "Player", "Player": "Jett", "Description": "a reborn warlock (great old ones)" },
             { "Name": "Orrery of the Wanderer", "Role": "Player", "Player": "Jett", "Description": "a reborn warlock (great old ones)" },
@@ -328,6 +370,7 @@ const characters = [
     {
         "Name": "Brok",
         "Status": "Alive",
+        "Portrait": "portraits/brok.webp",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
@@ -335,6 +378,7 @@ const characters = [
     {
         "Name": "Brynhilda Pedersen",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -342,6 +386,7 @@ const characters = [
     {
         "Name": "Cadoras",
         "Status": "Alive",
+        "Portrait": "portraits/cadoras-damellawar.webp",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -349,6 +394,7 @@ const characters = [
     {
         "Name": "Calenhad Strongheart",
         "Status": "Alive",
+        "Portrait": "portraits/calenhad-strongheart.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -356,6 +402,7 @@ const characters = [
     {
         "Name": "Calor Galateth",
         "Status": "Alive",
+        "Portrait": "portraits/calor-galateth.webp",
         "Campaigns": [
             { "Name": "Star Wars: Stranded on Parnassos", "Role": "Player", "Player": "Connor", "Description": "a kiffar sentinel" }
         ]
@@ -363,6 +410,7 @@ const characters = [
     {
         "Name": "Candlefoot",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -371,6 +419,7 @@ const characters = [
     {
         "Name": "Casavel",
         "Status": "Alive",
+        "Portrait": "portraits/casavel-hlaeraheal.webp",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "Player", "Player": "Rory", "Description": "a sun elf wizard (bladesinging)" }
         ]
@@ -378,6 +427,7 @@ const characters = [
     {
         "Name": "Charm",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -386,6 +436,7 @@ const characters = [
     {
         "Name": "Cheshire",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -393,6 +444,7 @@ const characters = [
     {
         "Name": "Chococo",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -400,6 +452,7 @@ const characters = [
     {
         "Name": "Christopher",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" }
@@ -408,6 +461,7 @@ const characters = [
     {
         "Name": "Chun Hana",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
@@ -415,6 +469,7 @@ const characters = [
     {
         "Name": "Cicero",
         "Status": "Alive",
+        "Portrait": "portraits/cicero.webp",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -422,6 +477,7 @@ const characters = [
     {
         "Name": "Clapperclaw",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -429,6 +485,7 @@ const characters = [
     {
         "Name": "Clara",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -436,6 +493,7 @@ const characters = [
     {
         "Name": "Colleen Thimble",
         "Status": "Alive",
+        "Portrait": "portraits/colleen-thimble.webp",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "Player", "Player": "Callista", "Description": "a human savant (investigator)" }
         ]
@@ -443,6 +501,7 @@ const characters = [
     {
         "Name": "Cornelius Brassgrave",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -450,6 +509,7 @@ const characters = [
     {
         "Name": "Corteso",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -457,6 +517,7 @@ const characters = [
     {
         "Name": "Crypta",
         "Status": "Alive",
+        "Portrait": "portraits/crypta.webp",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "Player", "Player": "Jett", "Description": "a half goblin/elf (devkarin) necromancer (blood ascendant)" }
         ]
@@ -464,6 +525,7 @@ const characters = [
     {
         "Name": "Dandelion",
         "Status": "Alive",
+        "Portrait": "portraits/dandelion.webp",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
@@ -471,6 +533,7 @@ const characters = [
     {
         "Name": "Daphne",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -478,6 +541,7 @@ const characters = [
     {
         "Name": "Darcy",
         "Status": "Alive",
+        "Portrait": "portraits/darcelle-eversea.webp",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
@@ -485,6 +549,7 @@ const characters = [
     {
         "Name": "Darribeth",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
@@ -492,6 +557,7 @@ const characters = [
     {
         "Name": "Davil",
         "Status": "Alive",
+        "Portrait": "portraits/davil-starsong.webp",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" },
@@ -501,6 +567,7 @@ const characters = [
     {
         "Name": "Deannach",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -508,6 +575,7 @@ const characters = [
     {
         "Name": "Dr. Brains",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -515,6 +583,7 @@ const characters = [
     {
         "Name": "Dr. Zakari",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -522,6 +591,7 @@ const characters = [
     {
         "Name": "Drazhomir",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -529,6 +599,7 @@ const characters = [
     {
         "Name": "Dre Hilltop",
         "Status": "Alive",
+        "Portrait": "portraits/dre-hilltop.webp",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
@@ -536,6 +607,7 @@ const characters = [
     {
         "Name": "Dumphrey Frogart",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -543,6 +615,7 @@ const characters = [
     {
         "Name": "Durge",
         "Status": "Alive",
+        "Portrait": "portraits/durge.webp",
         "Campaigns": [
             { "Name": "Star Wars: Stranded on Parnassos", "Role": "NPC" }
         ]
@@ -550,6 +623,7 @@ const characters = [
     {
         "Name": "Dusty",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -557,6 +631,7 @@ const characters = [
     {
         "Name": "Dyre",
         "Status": "Alive",
+        "Portrait": "portraits/dyre-longstrider.webp",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "Player", "Player": "Jett", "Description": "a reborn drow bard (college of satire)" },
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
@@ -565,6 +640,7 @@ const characters = [
     {
         "Name": "Eclipse",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
@@ -572,6 +648,7 @@ const characters = [
     {
         "Name": "Ecstasy",
         "Status": "Alive",
+        "Portrait": "portraits/ecstasy.webp",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
@@ -579,6 +656,7 @@ const characters = [
     {
         "Name": "Elidon",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -586,6 +664,7 @@ const characters = [
     {
         "Name": "Elkhorn",
         "Status": "Alive",
+        "Portrait": "portraits/elkhorn.webp",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -593,6 +672,7 @@ const characters = [
     {
         "Name": "Ellis Hilltop",
         "Status": "Alive",
+        "Portrait": "portraits/ellis-hilltop.webp",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
@@ -600,6 +680,7 @@ const characters = [
     {
         "Name": "Elysia Saltwound",
         "Status": "Alive",
+        "Portrait": "portraits/elysia-saltwound.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -607,6 +688,7 @@ const characters = [
     {
         "Name": "Embric",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -615,6 +697,7 @@ const characters = [
     {
         "Name": "Emmek",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" }
         ]
@@ -622,6 +705,7 @@ const characters = [
     {
         "Name": "Emran Sur",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
@@ -629,6 +713,7 @@ const characters = [
     {
         "Name": "Endelyn Moongrave",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -636,6 +721,7 @@ const characters = [
     {
         "Name": "Erasmus",
         "Status": "Dead",
+        "Portrait": "portraits/erasmus-van-richten.webp",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" },
             { "Name": "Re: Strahd", "Role": "NPC" }
@@ -644,6 +730,7 @@ const characters = [
     {
         "Name": "Escher",
         "Status": "Alive",
+        "Portrait": "portraits/jean-baptiste-escher.webp",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" },
@@ -653,6 +740,7 @@ const characters = [
     {
         "Name": "Esha",
         "Status": "Alive",
+        "Portrait": "portraits/esha.webp",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "Player", "Player": "Rory", "Description": "a half-orc rogue (arcane trickster)" }
         ]
@@ -660,6 +748,7 @@ const characters = [
     {
         "Name": "Esvele",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
@@ -668,6 +757,7 @@ const characters = [
     {
         "Name": "Evard",
         "Status": "Alive",
+        "Portrait": "portraits/evard.webp",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
@@ -675,6 +765,7 @@ const characters = [
     {
         "Name": "Evie",
         "Status": "Alive",
+        "Portrait": "portraits/evaline-rajarn.webp",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "Player", "Player": "Callista", "Description": "an animated armor fighter (eldritch knight)" },
             { "Name": "Orrery of the Wanderer", "Role": "Player", "Player": "Callista", "Description": "an animated armor fighter (eldritch knight)" },
@@ -684,6 +775,7 @@ const characters = [
     {
         "Name": "Ewyn",
         "Status": "Alive",
+        "Portrait": "portraits/ewyn-the-divine-vorpal-moonblade.webp",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" },
@@ -694,6 +786,7 @@ const characters = [
     {
         "Name": "Exethanter",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
@@ -704,6 +797,7 @@ const characters = [
     {
         "Name": "Ezmerelda",
         "Status": "Alive",
+        "Portrait": "portraits/ezmerelda-d-avenir.webp",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Tomb of Horrors", "Role": "NPC" },
@@ -719,6 +813,7 @@ const characters = [
     {
         "Name": "Ezmerelda Love",
         "Status": "Alive",
+        "Portrait": "portraits/ezmerelda-love.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -726,6 +821,7 @@ const characters = [
     {
         "Name": "Ezra",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -733,6 +829,7 @@ const characters = [
     {
         "Name": "Faladdin Blackhelm",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -740,6 +837,7 @@ const characters = [
     {
         "Name": "Father Taps",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
@@ -747,6 +845,7 @@ const characters = [
     {
         "Name": "Fayelara Kos",
         "Status": "Alive",
+        "Portrait": "portraits/fayelara-kos.webp",
         "Campaigns": [
             { "Name": "Menace Under Otari", "Role": "Player", "Player": "Callista", "Description": "a half-elf, half-orc fighter" }
         ]
@@ -754,6 +853,7 @@ const characters = [
     {
         "Name": "Fayphena Forefog",
         "Status": "Alive",
+        "Portrait": "portraits/fayphena-forefog.webp",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
@@ -761,6 +861,7 @@ const characters = [
     {
         "Name": "Feenia",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -768,6 +869,7 @@ const characters = [
     {
         "Name": "Felrax",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
@@ -775,6 +877,7 @@ const characters = [
     {
         "Name": "Fen",
         "Status": "Alive",
+        "Portrait": "portraits/fen-ruldegost.webp",
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "Player", "Player": "Rory", "Description": "an water genasi cleric (peace domain)" },
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
@@ -783,6 +886,7 @@ const characters = [
     {
         "Name": "Firan Zal'Honan",
         "Status": "Alive",
+        "Portrait": "portraits/firan-zal-honan.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -790,6 +894,7 @@ const characters = [
     {
         "Name": "Fizhgerald",
         "Status": "Alive",
+        "Portrait": "portraits/fizhgerald.webp",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -797,6 +902,7 @@ const characters = [
     {
         "Name": "Floon",
         "Status": "Alive",
+        "Portrait": "portraits/floon-blagmaar.webp",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" },
@@ -806,6 +912,7 @@ const characters = [
     {
         "Name": "Foulsham",
         "Status": "Alive",
+        "Portrait": "portraits/foulsham.webp",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -813,6 +920,7 @@ const characters = [
     {
         "Name": "Fox",
         "Status": "Alive",
+        "Portrait": "portraits/fox-d-avenir.webp",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" },
@@ -822,6 +930,7 @@ const characters = [
     {
         "Name": "Frahl",
         "Status": "Alive",
+        "Portrait": "portraits/frahl-boartrap.webp",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
@@ -830,6 +939,7 @@ const characters = [
     {
         "Name": "Francis Adelir",
         "Status": "Alive",
+        "Portrait": "portraits/francis-adelir.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "Player", "Player": "Jett", "Description": "a reborn warlock (pact of the undead turned pact of the first vampire turned pact of the hunter in darkness)" }
         ]
@@ -837,6 +947,7 @@ const characters = [
     {
         "Name": "Franz Ismarkovich",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -844,6 +955,7 @@ const characters = [
     {
         "Name": "Freek",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" },
             { "Name": "Curse of Strahd", "Role": "NPC" },
@@ -853,6 +965,7 @@ const characters = [
     {
         "Name": "Frerk",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
@@ -860,6 +973,7 @@ const characters = [
     {
         "Name": "Gage",
         "Status": "Alive",
+        "Portrait": "portraits/gage-kamdyn.webp",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "Player", "Player": "Connor", "Description": "a reborn human necromancer (reanimator)" }
         ]
@@ -867,6 +981,7 @@ const characters = [
     {
         "Name": "Gallagher Love",
         "Status": "Alive",
+        "Portrait": "portraits/gallagher-love.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "Player", "Player": "Rory", "Description": "a human wizard (school of war)" }
         ]
@@ -874,6 +989,7 @@ const characters = [
     {
         "Name": "Gaunt Silhouette",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -881,6 +997,7 @@ const characters = [
     {
         "Name": "Gearbox",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
@@ -888,6 +1005,7 @@ const characters = [
     {
         "Name": "Genevayne",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -895,6 +1013,7 @@ const characters = [
     {
         "Name": "Gennifer Weathermay-Foxgrove",
         "Status": "Alive",
+        "Portrait": "portraits/gennifer-weathermay-foxgrove.webp",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -902,6 +1021,7 @@ const characters = [
     {
         "Name": "Gildha",
         "Status": "Alive",
+        "Portrait": "portraits/gildha-duhn.webp",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
@@ -909,6 +1029,7 @@ const characters = [
     {
         "Name": "Glasya",
         "Status": "Alive",
+        "Portrait": "portraits/glasya.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -916,6 +1037,7 @@ const characters = [
     {
         "Name": "Gleam",
         "Status": "Alive",
+        "Portrait": "portraits/gleam-selenelion.webp",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -924,6 +1046,7 @@ const characters = [
     {
         "Name": "Glister",
         "Status": "Alive",
+        "Portrait": "portraits/glister-selenelion.webp",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -932,6 +1055,7 @@ const characters = [
     {
         "Name": "Glitter Dew",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -939,6 +1063,7 @@ const characters = [
     {
         "Name": "Gloine Nathair-Nathair",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
@@ -946,6 +1071,7 @@ const characters = [
     {
         "Name": "Godfrey",
         "Status": "Dead",
+        "Portrait": "portraits/godfrey-gwilym.webp",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" }
         ]
@@ -953,6 +1079,7 @@ const characters = [
     {
         "Name": "Gorkoh",
         "Status": "Alive",
+        "Portrait": "portraits/gorkoh-nightrattle.webp",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -961,6 +1088,7 @@ const characters = [
     {
         "Name": "Grayson",
         "Status": "Alive",
+        "Portrait": "portraits/grayson-wildemere.webp",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -968,6 +1096,7 @@ const characters = [
     {
         "Name": "Grayson Love",
         "Status": "Alive",
+        "Portrait": "portraits/grayson-love.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -975,6 +1104,7 @@ const characters = [
     {
         "Name": "Greeter",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -982,6 +1112,7 @@ const characters = [
     {
         "Name": "Gren",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -989,6 +1120,7 @@ const characters = [
     {
         "Name": "Grunka",
         "Status": "Alive",
+        "Portrait": "portraits/grunka-shatterstone.webp",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
@@ -996,6 +1128,7 @@ const characters = [
     {
         "Name": "Guthildi",
         "Status": "Alive",
+        "Portrait": "portraits/guthildi-alabastrus-bloodquake-iv.webp",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
             { "Name": "Strixhaven: Year 1", "Role": "NPC" },
@@ -1005,6 +1138,7 @@ const characters = [
     {
         "Name": "Halleth",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
@@ -1012,6 +1146,7 @@ const characters = [
     {
         "Name": "Hati",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
@@ -1021,6 +1156,7 @@ const characters = [
     {
         "Name": "Helga Ruvak",
         "Status": "Alive",
+        "Portrait": "portraits/helga-ruvak.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1028,6 +1164,7 @@ const characters = [
     {
         "Name": "Hrangor",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
@@ -1037,6 +1174,7 @@ const characters = [
     {
         "Name": "Iabrochorum",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -1044,6 +1182,7 @@ const characters = [
     {
         "Name": "IMPALA",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
@@ -1051,6 +1190,7 @@ const characters = [
     {
         "Name": "Ingrid",
         "Status": "Dead",
+        "Portrait": "portraits/ingrid-van-richten.webp",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -1058,6 +1198,7 @@ const characters = [
     {
         "Name": "Ireena",
         "Status": "Alive",
+        "Portrait": "portraits/ireena-astorio.webp",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Tomb of Horrors", "Role": "NPC" },
@@ -1069,6 +1210,7 @@ const characters = [
     {
         "Name": "Ireena von Zarovich",
         "Status": "Alive",
+        "Portrait": "portraits/ireena-von-zarovich.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1076,6 +1218,7 @@ const characters = [
     {
         "Name": "Isabella",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -1083,6 +1226,7 @@ const characters = [
     {
         "Name": "Isaias Damasio",
         "Status": "Alive",
+        "Portrait": "portraits/isaias-damasio.webp",
         "Campaigns": [
             { "Name": "Menace Under Otari", "Role": "Player", "Player": "Jett", "Description": "a half-elf wizard" }
         ]
@@ -1090,6 +1234,7 @@ const characters = [
     {
         "Name": "Ismark",
         "Status": "Alive",
+        "Portrait": "portraits/ismark-kolyanovich.webp",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" }
@@ -1098,6 +1243,7 @@ const characters = [
     {
         "Name": "Ismark Kolyanovich (Scaena)",
         "Status": "Alive",
+        "Portrait": "portraits/ismark-kolyanovich-scaena.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1105,6 +1251,7 @@ const characters = [
     {
         "Name": "Itzmin del Prado",
         "Status": "Dead",
+        "Portrait": "portraits/itzmin-del-prado.webp",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
@@ -1112,6 +1259,7 @@ const characters = [
     {
         "Name": "Ivan",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -1119,6 +1267,7 @@ const characters = [
     {
         "Name": "Ivana",
         "Status": "Alive",
+        "Portrait": "portraits/ivana-boritsi.webp",
         "Campaigns": [
             { "Name": "Borca", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" }
@@ -1127,6 +1276,7 @@ const characters = [
     {
         "Name": "Ives Ismarkovich",
         "Status": "Alive",
+        "Portrait": "portraits/ives-ismarkovich.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1134,6 +1284,7 @@ const characters = [
     {
         "Name": "Jari",
         "Status": "Alive",
+        "Portrait": "portraits/jari-sur.webp",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "Player", "Player": "Rory", "Description": "a great-eared nightjar aarakocra druid (circle of dragons)" }
         ]
@@ -1141,6 +1292,7 @@ const characters = [
     {
         "Name": "Javenesh",
         "Status": "Alive",
+        "Portrait": "portraits/javenesh-stoutclaw.webp",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -1148,6 +1300,7 @@ const characters = [
     {
         "Name": "Jean-Baptiste Escher (Scaena)",
         "Status": "Alive",
+        "Portrait": "portraits/jean-baptiste-escher-scaena.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1155,6 +1308,7 @@ const characters = [
     {
         "Name": "Jenevere",
         "Status": "Alive",
+        "Portrait": "portraits/jenevere.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -1162,6 +1316,7 @@ const characters = [
     {
         "Name": "Jery",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
@@ -1169,6 +1324,7 @@ const characters = [
     {
         "Name": "Ji-me Vidio",
         "Status": "Alive",
+        "Portrait": "portraits/ji-me-vidio.webp",
         "Campaigns": [
             { "Name": "Star Wars: Stranded on Parnassos", "Role": "Player", "Player": "Rory", "Description": "a human guardian" }
         ]
@@ -1176,6 +1332,7 @@ const characters = [
     {
         "Name": "Jim Darkmagic",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -1183,6 +1340,7 @@ const characters = [
     {
         "Name": "Jingle Jangle",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -1190,6 +1348,7 @@ const characters = [
     {
         "Name": "Jirko Ismarkovich",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1197,6 +1356,7 @@ const characters = [
     {
         "Name": "Joan Hargrave",
         "Status": "Dead",
+        "Portrait": "portraits/joan-hargrave.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1204,6 +1364,7 @@ const characters = [
     {
         "Name": "Johannes",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -1211,6 +1372,7 @@ const characters = [
     {
         "Name": "Jord",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" }
@@ -1219,6 +1381,7 @@ const characters = [
     {
         "Name": "Jorn",
         "Status": "Alive",
+        "Portrait": "portraits/jorn-horn.webp",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
@@ -1228,6 +1391,7 @@ const characters = [
     {
         "Name": "Juniper",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -1235,6 +1399,7 @@ const characters = [
     {
         "Name": "Jutt",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
@@ -1242,6 +1407,7 @@ const characters = [
     {
         "Name": "Kala Mabarin",
         "Status": "Alive",
+        "Portrait": "portraits/kala-mabarin.webp",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
@@ -1249,6 +1415,7 @@ const characters = [
     {
         "Name": "Kallessk",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -1256,6 +1423,7 @@ const characters = [
     {
         "Name": "Kargan Skul",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -1263,6 +1431,7 @@ const characters = [
     {
         "Name": "Ker",
         "Status": "Alive",
+        "Portrait": "portraits/ker.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1270,6 +1439,7 @@ const characters = [
     {
         "Name": "Kholtris",
         "Status": "Alive",
+        "Portrait": "portraits/kholtris.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -1277,6 +1447,7 @@ const characters = [
     {
         "Name": "Kianna",
         "Status": "Alive",
+        "Portrait": "portraits/kianna.webp",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
@@ -1284,6 +1455,7 @@ const characters = [
     {
         "Name": "King Doerdon",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1291,6 +1463,7 @@ const characters = [
     {
         "Name": "Kira Risk",
         "Status": "Alive",
+        "Portrait": "portraits/kira-risk.webp",
         "Campaigns": [
             { "Name": "Menace Under Otari", "Role": "Player", "Player": "Rory", "Description": "a human rogue" }
         ]
@@ -1298,6 +1471,7 @@ const characters = [
     {
         "Name": "Kitty",
         "Status": "Alive",
+        "Portrait": "portraits/kitty-windrivver.webp",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "Player", "Player": "Callista", "Description": "a catgirl shifter artificer (alchemist)" }
         ]
@@ -1305,6 +1479,7 @@ const characters = [
     {
         "Name": "Klendisk",
         "Status": "Alive",
+        "Portrait": "portraits/klendisk.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -1312,6 +1487,7 @@ const characters = [
     {
         "Name": "Koh Tam",
         "Status": "Alive",
+        "Portrait": "portraits/koh-tam.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -1319,6 +1495,7 @@ const characters = [
     {
         "Name": "Kordichai",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -1326,6 +1503,7 @@ const characters = [
     {
         "Name": "Krue",
         "Status": "Alive",
+        "Portrait": "portraits/krue-d-avenir.webp",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "Player", "Player": "Rory", "Description": "an owlfolk aarakocra ranger (spell-less hunter)" },
             { "Name": "Tomb of Horrors", "Role": "Player", "Player": "Rory", "Description": "an owlfolk aarakocra ranger (spell-less hunter)" },
@@ -1339,6 +1517,7 @@ const characters = [
     {
         "Name": "Kwalish",
         "Status": "Alive",
+        "Portrait": "portraits/kwalish.webp",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
@@ -1346,6 +1525,7 @@ const characters = [
     {
         "Name": "Kyward Apostasio",
         "Status": "Alive",
+        "Portrait": "portraits/kyward-apostasio.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "Player", "Player": "Jett", "Description": "a rock gnome apothecary (chemist)" }
         ]
@@ -1353,6 +1533,7 @@ const characters = [
     {
         "Name": "La Fata",
         "Status": "Alive",
+        "Portrait": "portraits/la-fata.webp",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -1360,6 +1541,7 @@ const characters = [
     {
         "Name": "Lacrymosa",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1367,6 +1549,7 @@ const characters = [
     {
         "Name": "Lamorna",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -1374,6 +1557,7 @@ const characters = [
     {
         "Name": "Lang",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -1381,6 +1565,7 @@ const characters = [
     {
         "Name": "Larine",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -1388,6 +1573,7 @@ const characters = [
     {
         "Name": "Larisa Sur",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
@@ -1395,6 +1581,7 @@ const characters = [
     {
         "Name": "Laurie Weathermay-Foxgrove",
         "Status": "Alive",
+        "Portrait": "portraits/laurie-weathermay-foxgrove.webp",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -1402,6 +1589,7 @@ const characters = [
     {
         "Name": "Lemont Sediam Juste",
         "Status": "Alive",
+        "Portrait": "portraits/lemont-sediam-juste.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1409,6 +1597,7 @@ const characters = [
     {
         "Name": "Lif",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -1417,6 +1606,7 @@ const characters = [
     {
         "Name": "Liko",
         "Status": "Alive",
+        "Portrait": "portraits/liko.webp",
         "Campaigns": [
             { "Name": "Menace Under Otari", "Role": "Player", "Player": "Connor", "Description": "a leshy bard" }
         ]
@@ -1424,6 +1614,7 @@ const characters = [
     {
         "Name": "Little Balzac",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -1431,6 +1622,7 @@ const characters = [
     {
         "Name": "Little Strahd",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1438,6 +1630,7 @@ const characters = [
     {
         "Name": "Lottie",
         "Status": "Alive",
+        "Portrait": "portraits/charlotte-de-fortuna.webp",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
@@ -1445,6 +1638,7 @@ const characters = [
     {
         "Name": "Lucian",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
@@ -1452,6 +1646,7 @@ const characters = [
     {
         "Name": "Ludmilla Love",
         "Status": "Alive",
+        "Portrait": "portraits/ludmilla-love.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1459,6 +1654,7 @@ const characters = [
     {
         "Name": "Lurker",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -1466,6 +1662,7 @@ const characters = [
     {
         "Name": "Lynx",
         "Status": "Alive",
+        "Portrait": "portraits/lynx.webp",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "Player", "Player": "Callista", "Description": "a changeling warlock (astral griffon)" }
         ]
@@ -1473,6 +1670,7 @@ const characters = [
     {
         "Name": "Lyssa von Zarovich",
         "Status": "Alive",
+        "Portrait": "portraits/lyssa-von-zarovich.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1480,6 +1678,7 @@ const characters = [
     {
         "Name": "Madryck Roslof",
         "Status": "Alive",
+        "Portrait": "portraits/madryck-roslof.webp",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -1487,6 +1686,7 @@ const characters = [
     {
         "Name": "Magaggog Bootbottle",
         "Status": "Alive",
+        "Portrait": "portraits/magaggog-bootbottle.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1494,6 +1694,7 @@ const characters = [
     {
         "Name": "Mani",
         "Status": "Alive",
+        "Portrait": "portraits/manilfari-du-cerceau.webp",
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "Player", "Player": "Jett", "Description": "an eladrin sorcerer (emotion lord)" },
             { "Name": "City of Eyes", "Role": "NPC" }
@@ -1502,6 +1703,7 @@ const characters = [
     {
         "Name": "Maria Adelir",
         "Status": "Alive",
+        "Portrait": "portraits/maria-adelir.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1509,6 +1711,7 @@ const characters = [
     {
         "Name": "Marsh",
         "Status": "Alive",
+        "Portrait": "portraits/marsh-ruldegost.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "Player", "Player": "Rory", "Description": "a water genasi cleric (life domain)" }
         ]
@@ -1516,6 +1719,7 @@ const characters = [
     {
         "Name": "Mary",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
@@ -1523,6 +1727,7 @@ const characters = [
     {
         "Name": "Mattrim",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
@@ -1530,6 +1735,7 @@ const characters = [
     {
         "Name": "Meff",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
@@ -1537,6 +1743,7 @@ const characters = [
     {
         "Name": "Melo Sur",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
@@ -1544,6 +1751,7 @@ const characters = [
     {
         "Name": "Melwythorne",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -1551,6 +1759,7 @@ const characters = [
     {
         "Name": "Mephistopheles",
         "Status": "Alive",
+        "Portrait": "portraits/mephistopheles.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -1558,6 +1767,7 @@ const characters = [
     {
         "Name": "Mina",
         "Status": "Alive",
+        "Portrait": "portraits/minarthok-lee.webp",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -1565,6 +1775,7 @@ const characters = [
     {
         "Name": "Minsc",
         "Status": "Alive",
+        "Portrait": "portraits/minsc.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1572,6 +1783,7 @@ const characters = [
     {
         "Name": "Mirabelle",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
@@ -1579,6 +1791,7 @@ const characters = [
     {
         "Name": "Mirror Nia",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -1586,6 +1799,7 @@ const characters = [
     {
         "Name": "Molliver",
         "Status": "Alive",
+        "Portrait": "portraits/molliver.webp",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -1593,6 +1807,7 @@ const characters = [
     {
         "Name": "Morax",
         "Status": "Dead",
+        "Portrait": "portraits/morax.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -1600,6 +1815,7 @@ const characters = [
     {
         "Name": "Morcades Gable",
         "Status": "Dead",
+        "Portrait": "portraits/morcades-gable.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1607,6 +1823,7 @@ const characters = [
     {
         "Name": "Mordenkainen",
         "Status": "Alive",
+        "Portrait": "portraits/mordenkainen.webp",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" }
@@ -1615,6 +1832,7 @@ const characters = [
     {
         "Name": "Morty",
         "Status": "Alive",
+        "Portrait": "portraits/morty.webp",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
@@ -1622,6 +1840,7 @@ const characters = [
     {
         "Name": "Mr. Light",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -1629,6 +1848,7 @@ const characters = [
     {
         "Name": "Mr. Witch",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -1636,6 +1856,7 @@ const characters = [
     {
         "Name": "Myrtle",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" },
             { "Name": "Curse of Strahd", "Role": "NPC" },
@@ -1645,6 +1866,7 @@ const characters = [
     {
         "Name": "Mystic",
         "Status": "Alive",
+        "Portrait": "portraits/mystic.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "Player", "Player": "Callista", "Description": "an infernal tiefling wizard (order of scribes)" }
         ]
@@ -1652,6 +1874,7 @@ const characters = [
     {
         "Name": "Nassari",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -1659,6 +1882,7 @@ const characters = [
     {
         "Name": "Neferon",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -1667,6 +1891,7 @@ const characters = [
     {
         "Name": "Nia",
         "Status": "Alive",
+        "Portrait": "portraits/nia-skultrac.webp",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "Player", "Player": "Callista", "Description": "a dhampir rogue (soulknife)" },
             { "Name": "Tomb of Horrors", "Role": "Player", "Player": "Callista", "Description": "a dhampir rogue (soulknife)" },
@@ -1679,6 +1904,7 @@ const characters = [
     {
         "Name": "Nim",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -1687,6 +1913,7 @@ const characters = [
     {
         "Name": "Nora",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -1694,6 +1921,7 @@ const characters = [
     {
         "Name": "Nostalia",
         "Status": "Alive",
+        "Portrait": "portraits/nostalia-romaine.webp",
         "Campaigns": [
             { "Name": "Borca", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" }
@@ -1702,6 +1930,7 @@ const characters = [
     {
         "Name": "Notte von Zarovich",
         "Status": "Alive",
+        "Portrait": "portraits/notte-von-zarovich.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "Player", "Player": "Callista", "Description": "a geppettin magus (arcanist)" }
         ]
@@ -1709,6 +1938,7 @@ const characters = [
     {
         "Name": "Nurse Joy",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -1716,6 +1946,7 @@ const characters = [
     {
         "Name": "Oberon",
         "Status": "Alive",
+        "Portrait": "portraits/oberon.webp",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
@@ -1723,6 +1954,7 @@ const characters = [
     {
         "Name": "Ōdachi",
         "Status": "Alive",
+        "Portrait": "portraits/odachi.webp",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
@@ -1730,6 +1962,7 @@ const characters = [
     {
         "Name": "Oddlewin",
         "Status": "Alive",
+        "Portrait": "portraits/oddlewin.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1737,6 +1970,7 @@ const characters = [
     {
         "Name": "Old Death",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1744,6 +1978,7 @@ const characters = [
     {
         "Name": "Omin",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
@@ -1751,6 +1986,7 @@ const characters = [
     {
         "Name": "Orcades Gable",
         "Status": "Alive",
+        "Portrait": "portraits/orcades-gable.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1758,6 +1994,7 @@ const characters = [
     {
         "Name": "Orishada",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -1765,6 +2002,7 @@ const characters = [
     {
         "Name": "Osybus",
         "Status": "Alive",
+        "Portrait": "portraits/osybus.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1772,6 +2010,7 @@ const characters = [
     {
         "Name": "Otis",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
@@ -1780,6 +2019,7 @@ const characters = [
     {
         "Name": "Ottelie",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -1787,6 +2027,7 @@ const characters = [
     {
         "Name": "Paloma",
         "Status": "Alive",
+        "Portrait": "portraits/paloma.webp",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
@@ -1794,6 +2035,7 @@ const characters = [
     {
         "Name": "Patsky",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
@@ -1801,6 +2043,7 @@ const characters = [
     {
         "Name": "Pazrodine",
         "Status": "Alive",
+        "Portrait": "portraits/pazrodine.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1808,6 +2051,7 @@ const characters = [
     {
         "Name": "Petre Teodorus",
         "Status": "Alive",
+        "Portrait": "portraits/petre-teodorus.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1815,6 +2059,7 @@ const characters = [
     {
         "Name": "Pewter",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -1822,6 +2067,7 @@ const characters = [
     {
         "Name": "Pidlwick",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
@@ -1831,6 +2077,7 @@ const characters = [
     {
         "Name": "Pietra van Riese",
         "Status": "Alive",
+        "Portrait": "portraits/pietra-van-riese.webp",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
             { "Name": "Re: Strahd", "Role": "NPC" }
@@ -1839,6 +2086,7 @@ const characters = [
     {
         "Name": "Pollenella",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -1846,6 +2094,7 @@ const characters = [
     {
         "Name": "Porter",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -1853,6 +2102,7 @@ const characters = [
     {
         "Name": "Prismari",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -1860,6 +2110,7 @@ const characters = [
     {
         "Name": "Prydevere",
         "Status": "Alive",
+        "Portrait": "portraits/prydevere-milivera.webp",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -1867,6 +2118,7 @@ const characters = [
     {
         "Name": "Quentillius",
         "Status": "Alive",
+        "Portrait": "portraits/quentillius-antiphiun-melentor-iii.webp",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" }
@@ -1875,6 +2127,7 @@ const characters = [
     {
         "Name": "Quevven Teh'Kinrellz",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -1882,6 +2135,7 @@ const characters = [
     {
         "Name": "Quincey Pasqual Morris (Scaena)",
         "Status": "Alive",
+        "Portrait": "portraits/quincey-pasqual-morris-scaena.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1889,6 +2143,7 @@ const characters = [
     {
         "Name": "Rahadin",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" }
         ]
@@ -1896,6 +2151,7 @@ const characters = [
     {
         "Name": "Rahadin Zdravkov (Scaena)",
         "Status": "Alive",
+        "Portrait": "portraits/rahadin-zdravkov-scaena.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -1903,6 +2159,7 @@ const characters = [
     {
         "Name": "Ramius Dangremond",
         "Status": "Alive",
+        "Portrait": "portraits/ramius-dangremond.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -1910,6 +2167,7 @@ const characters = [
     {
         "Name": "Rampart",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -1917,6 +2175,7 @@ const characters = [
     {
         "Name": "Renaer",
         "Status": "Alive",
+        "Portrait": "portraits/renaer-neverember.webp",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" }
         ]
@@ -1924,6 +2183,7 @@ const characters = [
     {
         "Name": "Reynard Ratflea",
         "Status": "Alive",
+        "Portrait": "portraits/reynard-ratflea.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -1931,6 +2191,7 @@ const characters = [
     {
         "Name": "Rictavio",
         "Status": "Alive",
+        "Portrait": "portraits/rudolph-van-richten.webp",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Tomb of Horrors", "Role": "NPC" },
@@ -1943,6 +2204,7 @@ const characters = [
     {
         "Name": "Risk",
         "Status": "Alive",
+        "Portrait": "portraits/risk.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -1950,6 +2212,7 @@ const characters = [
     {
         "Name": "Rizzeryl",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
@@ -1957,6 +2220,7 @@ const characters = [
     {
         "Name": "Roberta",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -1964,6 +2228,7 @@ const characters = [
     {
         "Name": "Robi Junior (Pidlwick III)",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -1971,6 +2236,7 @@ const characters = [
     {
         "Name": "Roneca",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -1978,6 +2244,7 @@ const characters = [
     {
         "Name": "Rosa",
         "Status": "Alive",
+        "Portrait": "portraits/rosa.webp",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
@@ -1985,6 +2252,7 @@ const characters = [
     {
         "Name": "Rosie",
         "Status": "Alive",
+        "Portrait": "portraits/rosimyffenbip-wuzfeddlims.webp",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -1992,6 +2260,7 @@ const characters = [
     {
         "Name": "Rubina",
         "Status": "Alive",
+        "Portrait": "portraits/rubina-larkingdale.webp",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -1999,6 +2268,7 @@ const characters = [
     {
         "Name": "Rudolph",
         "Status": "Alive",
+        "Portrait": "portraits/rudolph-d-avenir.webp",
         "Campaigns": [
             { "Name": "Borca", "Role": "NPC" },
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
@@ -2008,6 +2278,7 @@ const characters = [
     {
         "Name": "Ruik",
         "Status": "Alive",
+        "Portrait": "portraits/ruik-dwin-anea.webp",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "Player", "Player": "Rory", "Description": "a half-elf paladin (oath of vengeance)" },
             { "Name": "Orrery of the Wanderer", "Role": "Player", "Player": "Rory", "Description": "a half-elf paladin (oath of vengeance)" },
@@ -2017,6 +2288,7 @@ const characters = [
     {
         "Name": "Rupert Deadbolt",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -2024,6 +2296,7 @@ const characters = [
     {
         "Name": "Ruslana",
         "Status": "Alive",
+        "Portrait": "portraits/ruslana-nochnik.webp",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -2031,6 +2304,7 @@ const characters = [
     {
         "Name": "Rusty Bucket",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
@@ -2038,6 +2312,7 @@ const characters = [
     {
         "Name": "Ruxa",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -2045,6 +2320,7 @@ const characters = [
     {
         "Name": "Sackville Grabbins",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -2052,6 +2328,7 @@ const characters = [
     {
         "Name": "Samira Arah",
         "Status": "Alive",
+        "Portrait": "portraits/samira-arah.webp",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
@@ -2059,6 +2336,7 @@ const characters = [
     {
         "Name": "Sandman",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -2066,6 +2344,7 @@ const characters = [
     {
         "Name": "Seku Awaud",
         "Status": "Alive",
+        "Portrait": "portraits/seku-awaud.webp",
         "Campaigns": [
             { "Name": "Star Wars: Stranded on Parnassos", "Role": "Player", "Player": "Callista", "Description": "a twi'lek scout" }
         ]
@@ -2073,6 +2352,7 @@ const characters = [
     {
         "Name": "Selise",
         "Status": "Alive",
+        "Portrait": "portraits/selise-astorio.webp",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "City of Eyes", "Role": "NPC" },
@@ -2083,6 +2363,7 @@ const characters = [
     {
         "Name": "Serapio",
         "Status": "Alive",
+        "Portrait": "portraits/serapio.webp",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
@@ -2090,6 +2371,7 @@ const characters = [
     {
         "Name": "Shanix Breakrattle",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -2097,6 +2379,7 @@ const characters = [
     {
         "Name": "Shuvadri",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -2104,6 +2387,7 @@ const characters = [
     {
         "Name": "Sildar",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
@@ -2111,6 +2395,7 @@ const characters = [
     {
         "Name": "Silver",
         "Status": "Alive",
+        "Portrait": "portraits/silver-lovelysong.webp",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "Player", "Player": "Callista", "Description": "a fairy warlock (archfey)" }
         ]
@@ -2118,6 +2403,7 @@ const characters = [
     {
         "Name": "Sir Talavar",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -2125,6 +2411,7 @@ const characters = [
     {
         "Name": "Skabatha Nightshade",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
@@ -2133,6 +2420,7 @@ const characters = [
     {
         "Name": "Skeemo Weirdbottle",
         "Status": "Dead",
+        "Portrait": "portraits/skeemo-weirdbottle.webp",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" }
         ]
@@ -2140,6 +2428,7 @@ const characters = [
     {
         "Name": "Skelly",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -2147,6 +2436,7 @@ const characters = [
     {
         "Name": "Skoll",
         "Status": "Alive",
+        "Portrait": "portraits/skoll-de-marais.webp",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "Player", "Player": "Jett", "Description": "a river elf druid (circle of the moon)" },
             { "Name": "Tomb of Horrors", "Role": "Player", "Player": "Jett", "Description": "a river elf druid (circle of the moon)" },
@@ -2159,6 +2449,7 @@ const characters = [
     {
         "Name": "Sonja Florakis",
         "Status": "Alive",
+        "Portrait": "portraits/sonja-florakis.webp",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "Player", "Player": "Connor", "Description": "a half-elf bard (college of spirits)" }
         ]
@@ -2166,6 +2457,7 @@ const characters = [
     {
         "Name": "Stella von Zarovich",
         "Status": "Alive",
+        "Portrait": "portraits/stella-von-zarovich.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -2173,6 +2465,7 @@ const characters = [
     {
         "Name": "Strahd",
         "Status": "Alive",
+        "Portrait": "portraits/strahd-von-zarovich.webp",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" }
         ]
@@ -2180,6 +2473,7 @@ const characters = [
     {
         "Name": "Strashka Relvaunder",
         "Status": "Alive",
+        "Portrait": "portraits/strashka-relvaunder.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -2187,6 +2481,7 @@ const characters = [
     {
         "Name": "Struthio",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -2194,6 +2489,7 @@ const characters = [
     {
         "Name": "Sumari",
         "Status": "Alive",
+        "Portrait": "portraits/sumari.webp",
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "Player", "Player": "Jett", "Description": "a wildhunt shifter warden (verdant protector)" }
         ]
@@ -2201,6 +2497,7 @@ const characters = [
     {
         "Name": "Sylqen Silverwatch",
         "Status": "Alive",
+        "Portrait": "portraits/sylqen-silverwatch.webp",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
@@ -2208,6 +2505,7 @@ const characters = [
     {
         "Name": "Synestia Whitechapel",
         "Status": "Alive",
+        "Portrait": "portraits/synestia-whitechapel.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -2215,6 +2513,7 @@ const characters = [
     {
         "Name": "Talanatha",
         "Status": "Alive",
+        "Portrait": "portraits/talanatha-three-coins.webp",
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
@@ -2222,6 +2521,7 @@ const characters = [
     {
         "Name": "Tashlyn",
         "Status": "Alive",
+        "Portrait": "portraits/tashlyn-yafeera.webp",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Orrery of the Wanderer", "Role": "NPC" },
@@ -2232,6 +2532,7 @@ const characters = [
     {
         "Name": "Telphusa",
         "Status": "Alive",
+        "Portrait": "portraits/telphusa.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -2239,6 +2540,7 @@ const characters = [
     {
         "Name": "Ten",
         "Status": "Alive",
+        "Portrait": "portraits/ten.webp",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
@@ -2246,6 +2548,7 @@ const characters = [
     {
         "Name": "Tenser",
         "Status": "Alive",
+        "Portrait": "portraits/tenser.webp",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
@@ -2253,6 +2556,7 @@ const characters = [
     {
         "Name": "Thaco",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -2261,6 +2565,7 @@ const characters = [
     {
         "Name": "Thalia",
         "Status": "Alive",
+        "Portrait": "portraits/thalia.webp",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
@@ -2268,6 +2573,7 @@ const characters = [
     {
         "Name": "The Abbot (Jude Law)",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" }
         ]
@@ -2275,6 +2581,7 @@ const characters = [
     {
         "Name": "The Cat Lord",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -2282,6 +2589,7 @@ const characters = [
     {
         "Name": "The Fisher King",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -2289,6 +2597,7 @@ const characters = [
     {
         "Name": "The Painted Lady",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -2296,6 +2605,7 @@ const characters = [
     {
         "Name": "The Spider",
         "Status": "Dead",
+        "Portrait": "portraits/the-spider.webp",
         "Campaigns": [
             { "Name": "City of Eyes", "Role": "NPC" }
         ]
@@ -2303,6 +2613,7 @@ const characters = [
     {
         "Name": "Thetsis",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
@@ -2310,6 +2621,7 @@ const characters = [
     {
         "Name": "Tiax",
         "Status": "Alive",
+        "Portrait": "portraits/tiax.webp",
         "Campaigns": [
             { "Name": "Chains of Asmodeus", "Role": "NPC" }
         ]
@@ -2317,6 +2629,7 @@ const characters = [
     {
         "Name": "Tilana",
         "Status": "Alive",
+        "Portrait": "portraits/tilana-kapule.webp",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -2324,6 +2637,7 @@ const characters = [
     {
         "Name": "Titan",
         "Status": "Alive",
+        "Portrait": "portraits/titan.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -2331,6 +2645,7 @@ const characters = [
     {
         "Name": "To'vvag'das'vak'thur'ai'thumonic'ar of the Greater Eye",
         "Status": "Alive",
+        "Portrait": "portraits/to-vvag-das-vak-thur-ai-thumonic-ar-of-the-greater-eye.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -2338,6 +2653,7 @@ const characters = [
     {
         "Name": "Tordit",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
@@ -2345,6 +2661,7 @@ const characters = [
     {
         "Name": "Trench",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" }
         ]
@@ -2352,6 +2669,7 @@ const characters = [
     {
         "Name": "Trilla",
         "Status": "Alive",
+        "Portrait": "portraits/trilla.webp",
         "Campaigns": [
             { "Name": "Volo's Guide to Getting Murdered", "Role": "Player", "Player": "Connor", "Description": "a half-orc rogue (seeker)" }
         ]
@@ -2359,6 +2677,7 @@ const characters = [
     {
         "Name": "Tsu",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -2366,6 +2685,7 @@ const characters = [
     {
         "Name": "Tullus",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -2373,6 +2693,7 @@ const characters = [
     {
         "Name": "Tungsten Ward",
         "Status": "Alive",
+        "Portrait": "portraits/tungsten-ward.webp",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
@@ -2380,6 +2701,7 @@ const characters = [
     {
         "Name": "Tzunk",
         "Status": "Alive",
+        "Portrait": "portraits/tzunk.webp",
         "Campaigns": [
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
         ]
@@ -2387,6 +2709,7 @@ const characters = [
     {
         "Name": "Urzmaktok",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -2394,6 +2717,7 @@ const characters = [
     {
         "Name": "Vajra",
         "Status": "Alive",
+        "Portrait": "portraits/vajra-safahr.webp",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" },
@@ -2404,6 +2728,7 @@ const characters = [
     {
         "Name": "Vasilka (Scaena)",
         "Status": "Alive",
+        "Portrait": "portraits/vasilka-scaena.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -2411,6 +2736,7 @@ const characters = [
     {
         "Name": "Velastrias",
         "Status": "Alive",
+        "Portrait": "portraits/velastrias-shaerival.webp",
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -2418,6 +2744,7 @@ const characters = [
     {
         "Name": "Victor",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" }
         ]
@@ -2425,6 +2752,7 @@ const characters = [
     {
         "Name": "Victor Vallakovich (Scaena)",
         "Status": "Alive",
+        "Portrait": "portraits/victor-vallakovich-scaena.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -2432,6 +2760,7 @@ const characters = [
     {
         "Name": "Vih'zel",
         "Status": "Alive",
+        "Portrait": "portraits/vih-zel-amreth.webp",
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "Player", "Player": "Callista", "Description": "a githyanki fighter (echo knight)" }
         ]
@@ -2439,6 +2768,7 @@ const characters = [
     {
         "Name": "Vito Romenza",
         "Status": "Alive",
+        "Portrait": "portraits/vito-romenza.webp",
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
@@ -2446,6 +2776,7 @@ const characters = [
     {
         "Name": "Volenta Popofsky (Scaena)",
         "Status": "Alive",
+        "Portrait": "portraits/volenta-popofsky-scaena.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -2453,6 +2784,7 @@ const characters = [
     {
         "Name": "Volo",
         "Status": "Alive",
+        "Portrait": "portraits/volothamp-geddarm.webp",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" },
@@ -2464,6 +2796,7 @@ const characters = [
     {
         "Name": "Vyldara",
         "Status": "Dead",
+        "Portrait": "portraits/vyldara.webp",
         "Campaigns": [
             { "Name": "Objects of Interest: Forged in Fire", "Role": "NPC" }
         ]
@@ -2471,6 +2804,7 @@ const characters = [
     {
         "Name": "Wester",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
@@ -2478,6 +2812,7 @@ const characters = [
     {
         "Name": "Whippoorwill",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -2485,6 +2820,7 @@ const characters = [
     {
         "Name": "Whisper",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -2492,6 +2828,7 @@ const characters = [
     {
         "Name": "Will of the Feywild",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -2499,6 +2836,7 @@ const characters = [
     {
         "Name": "Wizzy",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Orrery of the Wanderer", "Role": "NPC" }
         ]
@@ -2506,6 +2844,7 @@ const characters = [
     {
         "Name": "Wobbles",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
@@ -2513,6 +2852,7 @@ const characters = [
     {
         "Name": "Woe Ismae",
         "Status": "Alive",
+        "Portrait": "portraits/woe-ismae.webp",
         "Campaigns": [
             { "Name": "Star Wars: Stranded on Parnassos", "Role": "Player", "Player": "Jett", "Description": "a zabrak consular" }
         ]
@@ -2520,6 +2860,7 @@ const characters = [
     {
         "Name": "Yagra",
         "Status": "Alive",
+        "Portrait": "portraits/yagra-stonefist.webp",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" },
@@ -2530,6 +2871,7 @@ const characters = [
     {
         "Name": "Yarnspinner",
         "Status": "Alive",
+        "Portrait": "portraits/yarnspinner.webp",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]
@@ -2537,6 +2879,7 @@ const characters = [
     {
         "Name": "Yek",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
@@ -2544,6 +2887,7 @@ const characters = [
     {
         "Name": "Yesper",
         "Status": "Alive",
+        "Portrait": "portraits/yesper-taltos.webp",
         "Campaigns": [
             { "Name": "Curse of Strahd", "Role": "NPC" },
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" },
@@ -2553,6 +2897,7 @@ const characters = [
     {
         "Name": "Yesper Taltos (Scaena)",
         "Status": "Alive",
+        "Portrait": "portraits/yesper-taltos-scaena.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "NPC" }
         ]
@@ -2560,6 +2905,7 @@ const characters = [
     {
         "Name": "Ygor",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Journeys through the Radiant Citadel", "Role": "NPC" }
         ]
@@ -2567,6 +2913,7 @@ const characters = [
     {
         "Name": "Yurk",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" },
             { "Name": "Lost Laboratory of Kwalish", "Role": "NPC" }
@@ -2575,6 +2922,7 @@ const characters = [
     {
         "Name": "Yves Kolyanovich",
         "Status": "Alive",
+        "Portrait": "portraits/yves-kolyanovich.webp",
         "Campaigns": [
             { "Name": "Re: Strahd", "Role": "Player", "Player": "Connor", "Description": "a hexblood cleric (life domain)" }
         ]
@@ -2582,6 +2930,7 @@ const characters = [
     {
         "Name": "Zanther",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -2589,6 +2938,7 @@ const characters = [
     {
         "Name": "Zaria",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Strixhaven: Year 1", "Role": "NPC" }
         ]
@@ -2596,6 +2946,7 @@ const characters = [
     {
         "Name": "Zilitsa",
         "Status": "Alive",
+        "Portrait": null,
         "Campaigns": [
             { "Name": "Dungeon of the Mad Mage", "Role": "NPC" }
         ]
@@ -2603,6 +2954,7 @@ const characters = [
     {
         "Name": "Ziraj",
         "Status": "Alive",
+        "Portrait": "portraits/ziraj.webp",
         "Campaigns": [
             { "Name": "Waterdeep: Dragon Heist", "Role": "NPC" }
         ]
@@ -2610,6 +2962,7 @@ const characters = [
     {
         "Name": "Zybilna",
         "Status": "Alive",
+        "Portrait": "portraits/zybilna.webp",
         "Campaigns": [
             { "Name": "Wild Beyond the Witchlight", "Role": "NPC" }
         ]

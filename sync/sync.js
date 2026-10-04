@@ -8,13 +8,17 @@
 //   <vault>/Campaigns/*.md   - "## Cast" / "## Secondary Cast" bullets give the player characters
 //                              per campaign (with who played them and their class); "Start Date"
 //                              orders the campaigns; "Cover" names the campaign's cover image
-//   <vault>/Images/          - cover images, copied into covers/
+//   <vault>/Images/          - cover and portrait images, resized into covers/ and portraits/
 //   sync/overrides.json      - display names, characters with no vault note, extra memberships
 //
-// Output: characters.js, which defines `campaigns` and `characters` for script.js, and covers/*.
+// Output: characters.js, which defines `campaigns` and `characters` for script.js, plus covers/*
+// and portraits/* as WebP. Images need the `sharp` package: run `npm install` in sync/ first.
 
 const fs = require("fs");
 const path = require("path");
+
+let sharp = null;
+try { sharp = require("sharp"); } catch (e) { /* images are skipped below with a warning */ }
 
 const VAULT = process.argv[2] || "C:\\Users\\roryk\\OneDrive\\Documents\\Vaults\\TTRPG Wiki";
 const ROOT = path.join(__dirname, "..");
@@ -86,24 +90,50 @@ for (const file of markdownFiles(path.join(VAULT, "Campaigns"))) {
     };
 }
 
-// ---- covers ----------------------------------------------------------------
+// ---- images ----------------------------------------------------------------
 
-const COVERS_DIR = path.join(ROOT, "covers");
-fs.mkdirSync(COVERS_DIR, { recursive: true });
 const imageFiles = fs.readdirSync(path.join(VAULT, "Images"));
-const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-for (const campaign of Object.values(campaignsByFile)) {
-    if (!campaign.cover) continue;
-    const source = imageFiles.find(f => f.toLowerCase() === campaign.cover.toLowerCase());
-    if (!source) { campaign.cover = null; continue; }
-    const target = slug(campaign.name) + path.extname(source).toLowerCase();
-    const from = path.join(VAULT, "Images", source);
-    const to = path.join(COVERS_DIR, target);
-    // Copy only when missing or the vault copy is newer, so a hand-optimised copy survives.
-    if (!fs.existsSync(to) || fs.statSync(from).mtimeMs > fs.statSync(to).mtimeMs) {
-        fs.copyFileSync(from, to);
+const slug = s => s.toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const imageJobs = [];
+const warnings = [];
+
+// Queue a vault image for resizing into <folder>/<name>.webp; returns the web path or null.
+function queueImage(vaultName, folder, name, maxSize) {
+    if (!vaultName) return null;
+    const source = imageFiles.find(f => f.toLowerCase() === vaultName.toLowerCase());
+    if (!source) { warnings.push(`image "${vaultName}" not found in Images/`); return null; }
+    const webPath = folder + "/" + slug(name) + ".webp";
+    imageJobs.push({ from: path.join(VAULT, "Images", source), to: path.join(ROOT, webPath), maxSize });
+    return webPath;
+}
+
+async function runImageJobs() {
+    if (imageJobs.length === 0) return 0;
+    if (!sharp) {
+        warnings.push(`${imageJobs.length} images skipped: run "npm install" in sync/ to get the sharp package`);
+        return 0;
     }
-    campaign.cover = "covers/" + target;
+    let written = 0;
+    for (const job of imageJobs) {
+        fs.mkdirSync(path.dirname(job.to), { recursive: true });
+        // Skip images already converted from this vault file (output newer than source).
+        if (fs.existsSync(job.to) && fs.statSync(job.to).mtimeMs > fs.statSync(job.from).mtimeMs) continue;
+        try {
+            await sharp(job.from)
+                .rotate()
+                .resize({ width: job.maxSize, height: job.maxSize, fit: "inside", withoutEnlargement: true })
+                .webp({ quality: 80 })
+                .toFile(job.to);
+            written += 1;
+        } catch (e) {
+            warnings.push(`could not convert ${path.basename(job.from)}: ${e.message}`);
+        }
+    }
+    return written;
+}
+
+for (const campaign of Object.values(campaignsByFile)) {
+    campaign.cover = queueImage(campaign.cover, "covers", campaign.name, 1400);
 }
 const campaignDisplayName = file => (campaignsByFile[file] ? campaignsByFile[file].name : file);
 const campaignFileByName = name => Object.keys(campaignsByFile).find(f => campaignsByFile[f].name === name);
@@ -115,7 +145,6 @@ const campaignNames = campaigns.map(c => c.Name);
 // ---- characters ------------------------------------------------------------
 
 const characters = [];
-const warnings = [];
 let skipped = 0;
 for (const file of markdownFiles(path.join(VAULT, "Characters"))) {
     const fm = readFrontmatter(file.text);
@@ -151,9 +180,11 @@ for (const file of markdownFiles(path.join(VAULT, "Characters"))) {
         add(campaignFileByName(displayName) || displayName, displayName);
     }
 
+    const displayName = OVERRIDES.names[file.name] || file.name;
     characters.push({
-        Name: OVERRIDES.names[file.name] || file.name,
+        Name: displayName,
         Status: typeof fm.Status === "string" ? fm.Status : "Alive",
+        Portrait: queueImage(typeof fm.Portrait === "string" ? linkTarget(fm.Portrait) : null, "portraits", file.name, 480),
         Campaigns: memberships,
     });
 }
@@ -162,6 +193,7 @@ for (const extra of OVERRIDES.extras) {
     characters.push({
         Name: extra.Name,
         Status: extra.Status || "Alive",
+        Portrait: null,
         Campaigns: extra.Campaigns.map(c => ({ Name: c, Role: extra.Role || "NPC" })),
     });
 }
@@ -191,6 +223,8 @@ for (const campaign of Object.values(campaignsByFile)) {
 
 // ---- write -----------------------------------------------------------------
 
+(async function main() {
+const imagesWritten = await runImageJobs();
 const stamp = new Date().toISOString().slice(0, 10);
 const out = [
     `// Generated by sync/sync.js from the TTRPG Wiki vault on ${stamp}.`,
@@ -209,6 +243,7 @@ const out = [
             "    {",
             `        "Name": ${JSON.stringify(c.Name)},`,
             `        "Status": ${JSON.stringify(c.Status)},`,
+            `        "Portrait": ${JSON.stringify(c.Portrait)},`,
             '        "Campaigns": [',
             memberships,
             "        ]",
@@ -222,11 +257,9 @@ fs.writeFileSync(path.join(ROOT, "characters.js"), out, "utf8");
 
 const players = characters.filter(c => c.Campaigns.some(m => m.Role === "Player")).length;
 const withCover = campaigns.filter(c => c.Cover).length;
-for (const c of campaigns) {
-    if (!c.Cover) continue;
-    const kb = Math.round(fs.statSync(path.join(ROOT, c.Cover)).size / 1024);
-    if (kb > 500) warnings.push(`${c.Cover} is ${kb}KB; consider shrinking it (a copy newer than the vault image is left alone by the sync)`);
-}
-console.log(`campaigns: ${campaigns.length} (${withCover} with a cover image in covers/)`);
+const withPortrait = characters.filter(c => c.Portrait).length;
+console.log(`campaigns: ${campaigns.length} (${withCover} with a cover)`);
+console.log(`images: ${withCover} covers and ${withPortrait} portraits referenced, ${imagesWritten} converted this run`);
 console.log(`characters: ${characters.length} (${players} with a player role, ${OVERRIDES.extras.length} from overrides, ${skipped} vault notes skipped for having no campaign)`);
 for (const w of warnings) console.log("warning:", w);
+})();

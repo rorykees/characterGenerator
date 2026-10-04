@@ -142,6 +142,24 @@ button { font: inherit; cursor: pointer; }
 
 .card-status:empty { display: none; }
 
+.card-portrait {
+    margin: 1.5rem auto 0;
+    width: fit-content;
+    padding: 6px;
+    background-color: var(--parchment);
+    border: 1px solid var(--parchment-edge);
+    box-shadow: 0 1px 0 var(--parchment-edge), 0 10px 24px -14px rgba(0, 0, 0, 0.5);
+}
+
+.card-portrait img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: min(240px, 60vw);
+    max-height: 280px;
+    object-fit: contain;
+}
+
 .card-campaigns {
     list-style: none;
     margin: 1.5rem auto 0;
