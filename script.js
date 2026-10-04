@@ -1,12 +1,10 @@
 // Data (`campaigns` and `characters`) comes from characters.js, generated from the
 // TTRPG Wiki vault by sync/sync.js. Shapes:
-//   campaign:  { Name, Cover }
+//   campaigns: [ Name ]
 //   character: { Name, Status, Portrait, Campaigns: [ { Name, Role, Player?, Description? } ] }
 
 (function () {
     "use strict";
-
-    var campaignByName = new Map(campaigns.map(function (c) { return [c.Name, c]; }));
 
     // ---- elements ------------------------------------------------------------
 
@@ -16,7 +14,6 @@
     var cardPortrait = document.getElementById("card-portrait");
     var cardPortraitImage = document.getElementById("card-portrait-image");
     var cardCampaigns = document.getElementById("card-campaigns");
-    var covers = [document.getElementById("cover-a"), document.getElementById("cover-b")];
     var drawButton = document.getElementById("draw");
     var poolSize = document.getElementById("pool-size");
     var filters = document.getElementById("filters");
@@ -79,22 +76,6 @@
 
     // ---- rendering -----------------------------------------------------------
 
-    var coverIndex = 0;
-
-    function showCover(campaignName) {
-        var campaign = campaignByName.get(campaignName);
-        var next = covers[(coverIndex + 1) % 2];
-        var current = covers[coverIndex];
-        if (!campaign || !campaign.Cover) {
-            current.classList.remove("is-visible");
-            return;
-        }
-        next.style.backgroundImage = "url(\"" + campaign.Cover + "\")";
-        next.classList.add("is-visible");
-        current.classList.remove("is-visible");
-        coverIndex = (coverIndex + 1) % 2;
-    }
-
     function showPortrait(character) {
         if (!character.Portrait) {
             cardPortrait.hidden = true;
@@ -135,7 +116,6 @@
         });
 
         card.classList.add("has-character");
-        showCover((focus[0] || character.Campaigns[0] || {}).Name);
     }
 
     // ---- the draw ------------------------------------------------------------
@@ -182,15 +162,15 @@
 
     // ---- setup ---------------------------------------------------------------
 
-    campaigns.forEach(function (campaign) {
+    campaigns.forEach(function (campaignName) {
         var label = document.createElement("label");
         label.className = "chip";
         var input = document.createElement("input");
         input.type = "checkbox";
         input.name = "campaign";
-        input.value = campaign.Name;
+        input.value = campaignName;
         var text = document.createElement("span");
-        text.textContent = campaign.Name;
+        text.textContent = campaignName;
         label.appendChild(input);
         label.appendChild(text);
         campaignChips.appendChild(label);

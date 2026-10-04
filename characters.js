@@ -2,23 +2,23 @@
 // Do not edit by hand: change the vault or sync/overrides.json and run `node sync/sync.js`.
 
 const campaigns = [
-    { "Name": "Curse of Strahd", "Cover": "covers/curse-of-strahd.webp" },
-    { "Name": "Tomb of Horrors", "Cover": "covers/tomb-of-horrors.webp" },
-    { "Name": "Waterdeep: Dragon Heist", "Cover": "covers/waterdeep-dragon-heist.webp" },
-    { "Name": "Orrery of the Wanderer", "Cover": "covers/orrery-of-the-wanderer.webp" },
-    { "Name": "Borca", "Cover": "covers/borca.webp" },
-    { "Name": "Wild Beyond the Witchlight", "Cover": "covers/wild-beyond-the-witchlight.webp" },
-    { "Name": "Strixhaven: Year 1", "Cover": "covers/strixhaven-year-1.webp" },
-    { "Name": "Dungeon of the Mad Mage", "Cover": "covers/dungeon-of-the-mad-mage.webp" },
-    { "Name": "Lost Laboratory of Kwalish", "Cover": "covers/lost-laboratory-of-kwalish.webp" },
-    { "Name": "City of Eyes", "Cover": "covers/city-of-eyes.webp" },
-    { "Name": "Star Wars: Stranded on Parnassos", "Cover": "covers/star-wars-stranded-on-parnassos.webp" },
-    { "Name": "Journeys through the Radiant Citadel", "Cover": "covers/journeys-through-the-radiant-citadel.webp" },
-    { "Name": "Menace Under Otari", "Cover": "covers/menace-under-otari.webp" },
-    { "Name": "Re: Strahd", "Cover": "covers/re-strahd.webp" },
-    { "Name": "Volo's Guide to Getting Murdered", "Cover": "covers/volo-s-guide-to-getting-murdered.webp" },
-    { "Name": "Objects of Interest: Forged in Fire", "Cover": "covers/objects-of-interest-forged-in-fire.webp" },
-    { "Name": "Chains of Asmodeus", "Cover": "covers/chains-of-asmodeus.webp" }
+    "Curse of Strahd",
+    "Tomb of Horrors",
+    "Waterdeep: Dragon Heist",
+    "Orrery of the Wanderer",
+    "Borca",
+    "Wild Beyond the Witchlight",
+    "Strixhaven: Year 1",
+    "Dungeon of the Mad Mage",
+    "Lost Laboratory of Kwalish",
+    "City of Eyes",
+    "Star Wars: Stranded on Parnassos",
+    "Journeys through the Radiant Citadel",
+    "Menace Under Otari",
+    "Re: Strahd",
+    "Volo's Guide to Getting Murdered",
+    "Objects of Interest: Forged in Fire",
+    "Chains of Asmodeus"
 ];
 
 const characters = [

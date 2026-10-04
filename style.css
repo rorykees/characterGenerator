@@ -73,28 +73,11 @@ button { font: inherit; cursor: pointer; }
     color: var(--on-page-soft);
 }
 
-/* ---- the stage: cover backdrop + card -------------------------------------- */
+/* ---- the stage: the card ----------------------------------------------------- */
 
 .stage {
-    position: relative;
     padding: 2rem 1.25rem;
-    isolation: isolate;
 }
-
-.stage-cover {
-    position: absolute;
-    inset: 0;
-    border-radius: 20px;
-    background-size: cover;
-    background-position: center;
-    filter: blur(14px) saturate(0.85);
-    opacity: 0;
-    transform: scale(1.04);
-    transition: opacity 600ms ease;
-    z-index: -1;
-}
-
-.stage-cover.is-visible { opacity: 0.55; }
 
 .card {
     position: relative;
@@ -320,7 +303,6 @@ button { font: inherit; cursor: pointer; }
 @media (max-width: 520px) {
     .page { padding-top: 1.5rem; }
     .stage { padding: 1rem 0; }
-    .stage-cover { border-radius: 12px; }
     .card { padding: 2rem 1.25rem 1.75rem; }
     .draw-row, .filters, .colophon { margin-left: 0; margin-right: 0; }
     .draw { width: 100%; text-align: center; }
@@ -329,5 +311,5 @@ button { font: inherit; cursor: pointer; }
 /* ---- motion ---------------------------------------------------------------- */
 
 @media (prefers-reduced-motion: reduce) {
-    .stage-cover, .draw, .chip span { transition: none; }
+    .draw, .chip span { transition: none; }
 }
