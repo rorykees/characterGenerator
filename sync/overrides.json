@@ -1,0 +1,810 @@
+{
+  "_comment": "names: vault file name -> display name shown in the generator. extras: characters that have no note in the vault, kept here by hand (Role defaults to NPC). extraCampaigns: campaign memberships (display names) added on top of what the vault lists, keyed by vault file name.",
+  "names": {
+    "Abel Brentstock": "Abel",
+    "Amelia Hawthorne": "Amelia",
+    "Aren Romenza": "Aren",
+    "Aurora Luna Wynterstarr": "Aurora",
+    "Brawn McGable": "Brawn",
+    "Briar de L'aunaie": "Briar",
+    "Cadoras Damellawar": "Cadoras",
+    "Casavel Hlaeraheal": "Casavel",
+    "Charlotte de Fortuna": "Lottie",
+    "Darcelle Eversea": "Darcy",
+    "Davil Starsong": "Davil",
+    "Dyre Longstrider": "Dyre",
+    "Erasmus van Richten": "Erasmus",
+    "Evaline Rajarn": "Evie",
+    "Ewyn the Divine Vorpal Moonblade": "Ewyn",
+    "Ezmerelda d'Avenir": "Ezmerelda",
+    "Fen Ruldegost": "Fen",
+    "Floon Blagmaar": "Floon",
+    "Fox d'Avenir": "Fox",
+    "Frahl Boartrap": "Frahl",
+    "Freek Ismarkovich": "Freek",
+    "Gage Kamdyn": "Gage",
+    "Gildha Duhn": "Gildha",
+    "Gleam Selenelion": "Gleam",
+    "Glister Selenelion": "Glister",
+    "Godfrey Gwilym": "Godfrey",
+    "Gorkoh Nightrattle": "Gorkoh",
+    "Grayson Wildemere": "Grayson",
+    "Grunka Shatterstone": "Grunka",
+    "Guthildi Alabastrus Bloodquake IV": "Guthildi",
+    "Ingrid van Richten": "Ingrid",
+    "Ireena Astorio": "Ireena",
+    "Ismark Kolyanovich": "Ismark",
+    "Ivana Boritsi": "Ivana",
+    "Jari Sur": "Jari",
+    "Javenesh Stoutclaw": "Javenesh",
+    "Jean-Baptiste Escher": "Escher",
+    "Jorn Horn": "Jorn",
+    "Jutt Dragonskull": "Jutt",
+    "Kitty Windrivver": "Kitty",
+    "Krue d'Avenir": "Krue",
+    "Manilfari du Cerceau": "Mani",
+    "Marsh Ruldegost": "Marsh",
+    "Meff Demonclaw": "Meff",
+    "Minarthok Lee": "Mina",
+    "Myrtle Ismarkovna": "Myrtle",
+    "Nia Skultrac": "Nia",
+    "Nostalia Romaine": "Nostalia",
+    "Prydevere Milivera": "Prydevere",
+    "Quentillius Antiphiun Melentor III": "Quentillius",
+    "Renaer Neverember": "Renaer",
+    "Rosimyffenbip Wuzfeddlims": "Rosie",
+    "Rubina Larkingdale": "Rubina",
+    "Rudolph d'Avenir": "Rudolph",
+    "Rudolph van Richten": "Rictavio",
+    "Ruik Dwin'anea": "Ruik",
+    "Ruslana Nochnik": "Ruslana",
+    "Selise Astorio": "Selise",
+    "Silver Lovelysong": "Silver",
+    "Skoll de Marais": "Skoll",
+    "Strahd von Zarovich": "Strahd",
+    "Talanatha Three-Coins": "Talanatha",
+    "Tashlyn Yafeera": "Tashlyn",
+    "Tilana Kapule": "Tilana",
+    "Tordit Beerbelly": "Tordit",
+    "Vajra Safahr": "Vajra",
+    "Velastrias Shaerival": "Velastrias",
+    "Vih'zel Amreth": "Vih'zel",
+    "Volothamp Geddarm": "Volo",
+    "Wizzeril Hognoggin": "Wizzy",
+    "Yagra Stonefist": "Yagra",
+    "Yesper Taltos": "Yesper"
+  },
+  "extraCampaigns": {
+    "Jean-Baptiste Escher": [
+      "City of Eyes"
+    ],
+    "Quentillius Antiphiun Melentor III": [
+      "City of Eyes"
+    ],
+    "Freek Ismarkovich": [
+      "Curse of Strahd",
+      "City of Eyes"
+    ],
+    "Myrtle Ismarkovna": [
+      "Curse of Strahd",
+      "City of Eyes"
+    ],
+    "Yagra Stonefist": [
+      "Lost Laboratory of Kwalish"
+    ]
+  },
+  "extras": [
+    {
+      "Name": "The Abbot (Jude Law)",
+      "Campaigns": [
+        "Curse of Strahd"
+      ]
+    },
+    {
+      "Name": "Baron Vallakovich",
+      "Campaigns": [
+        "Curse of Strahd"
+      ]
+    },
+    {
+      "Name": "Blinksy",
+      "Campaigns": [
+        "Curse of Strahd"
+      ]
+    },
+    {
+      "Name": "Christopher",
+      "Campaigns": [
+        "Curse of Strahd",
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Pidlwick",
+      "Campaigns": [
+        "Curse of Strahd",
+        "Wild Beyond the Witchlight",
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Rahadin",
+      "Campaigns": [
+        "Curse of Strahd"
+      ]
+    },
+    {
+      "Name": "Victor",
+      "Campaigns": [
+        "Curse of Strahd"
+      ]
+    },
+    {
+      "Name": "Avi",
+      "Campaigns": [
+        "Waterdeep: Dragon Heist",
+        "Lost Laboratory of Kwalish"
+      ]
+    },
+    {
+      "Name": "Yurk",
+      "Campaigns": [
+        "Waterdeep: Dragon Heist",
+        "Lost Laboratory of Kwalish"
+      ]
+    },
+    {
+      "Name": "Embric",
+      "Campaigns": [
+        "Waterdeep: Dragon Heist",
+        "Lost Laboratory of Kwalish"
+      ]
+    },
+    {
+      "Name": "Emmek",
+      "Campaigns": [
+        "Waterdeep: Dragon Heist"
+      ]
+    },
+    {
+      "Name": "Hrangor",
+      "Campaigns": [
+        "Waterdeep: Dragon Heist",
+        "Orrery of the Wanderer",
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Lif",
+      "Campaigns": [
+        "Waterdeep: Dragon Heist",
+        "Lost Laboratory of Kwalish"
+      ]
+    },
+    {
+      "Name": "Nim",
+      "Campaigns": [
+        "Waterdeep: Dragon Heist",
+        "Lost Laboratory of Kwalish"
+      ]
+    },
+    {
+      "Name": "Otis",
+      "Campaigns": [
+        "Waterdeep: Dragon Heist",
+        "Orrery of the Wanderer"
+      ]
+    },
+    {
+      "Name": "Trench",
+      "Campaigns": [
+        "Waterdeep: Dragon Heist"
+      ]
+    },
+    {
+      "Name": "Omin",
+      "Campaigns": [
+        "Orrery of the Wanderer"
+      ]
+    },
+    {
+      "Name": "Sildar",
+      "Campaigns": [
+        "Orrery of the Wanderer"
+      ]
+    },
+    {
+      "Name": "Thetsis",
+      "Campaigns": [
+        "Orrery of the Wanderer"
+      ]
+    },
+    {
+      "Name": "Wester",
+      "Campaigns": [
+        "Orrery of the Wanderer"
+      ]
+    },
+    {
+      "Name": "Bavlorna Blightstraw",
+      "Campaigns": [
+        "Wild Beyond the Witchlight"
+      ]
+    },
+    {
+      "Name": "Bloody Toes",
+      "Campaigns": [
+        "Wild Beyond the Witchlight"
+      ]
+    },
+    {
+      "Name": "Candlefoot",
+      "Campaigns": [
+        "Wild Beyond the Witchlight",
+        "Lost Laboratory of Kwalish"
+      ]
+    },
+    {
+      "Name": "Charm",
+      "Campaigns": [
+        "Wild Beyond the Witchlight",
+        "Lost Laboratory of Kwalish"
+      ]
+    },
+    {
+      "Name": "Clapperclaw",
+      "Campaigns": [
+        "Wild Beyond the Witchlight"
+      ]
+    },
+    {
+      "Name": "Dumphrey Frogart",
+      "Campaigns": [
+        "Wild Beyond the Witchlight"
+      ]
+    },
+    {
+      "Name": "Elidon",
+      "Campaigns": [
+        "Wild Beyond the Witchlight"
+      ]
+    },
+    {
+      "Name": "Endelyn Moongrave",
+      "Campaigns": [
+        "Wild Beyond the Witchlight"
+      ]
+    },
+    {
+      "Name": "Feenia",
+      "Campaigns": [
+        "Wild Beyond the Witchlight"
+      ]
+    },
+    {
+      "Name": "Jingle Jangle",
+      "Campaigns": [
+        "Wild Beyond the Witchlight"
+      ]
+    },
+    {
+      "Name": "Juniper",
+      "Campaigns": [
+        "Wild Beyond the Witchlight"
+      ]
+    },
+    {
+      "Name": "Lamorna",
+      "Campaigns": [
+        "Wild Beyond the Witchlight"
+      ]
+    },
+    {
+      "Name": "Mr. Light",
+      "Campaigns": [
+        "Wild Beyond the Witchlight"
+      ]
+    },
+    {
+      "Name": "Mr. Witch",
+      "Campaigns": [
+        "Wild Beyond the Witchlight"
+      ]
+    },
+    {
+      "Name": "Pollenella",
+      "Campaigns": [
+        "Wild Beyond the Witchlight"
+      ]
+    },
+    {
+      "Name": "Skabatha Nightshade",
+      "Campaigns": [
+        "Wild Beyond the Witchlight",
+        "Dungeon of the Mad Mage"
+      ]
+    },
+    {
+      "Name": "Sir Talavar",
+      "Campaigns": [
+        "Wild Beyond the Witchlight"
+      ]
+    },
+    {
+      "Name": "Thaco",
+      "Campaigns": [
+        "Wild Beyond the Witchlight",
+        "Lost Laboratory of Kwalish"
+      ]
+    },
+    {
+      "Name": "Tsu",
+      "Campaigns": [
+        "Wild Beyond the Witchlight"
+      ]
+    },
+    {
+      "Name": "Will of the Feywild",
+      "Campaigns": [
+        "Wild Beyond the Witchlight"
+      ]
+    },
+    {
+      "Name": "Zaria",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Nassari",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Tullus",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Drazhomir",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Dusty",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Prismari",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Genevayne",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Glitter Dew",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Ivan",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Larine",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Melwythorne",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Nora",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Pewter",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Brenneth",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Lang",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Ruxa",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Rampart",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Roberta",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Roneca",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Shuvadri",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Urzmaktok",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Whippoorwill",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Zanther",
+      "Campaigns": [
+        "Strixhaven: Year 1"
+      ]
+    },
+    {
+      "Name": "Bone Devil",
+      "Campaigns": [
+        "Lost Laboratory of Kwalish"
+      ]
+    },
+    {
+      "Name": "Eclipse",
+      "Campaigns": [
+        "Lost Laboratory of Kwalish"
+      ]
+    },
+    {
+      "Name": "Father Taps",
+      "Campaigns": [
+        "Lost Laboratory of Kwalish"
+      ]
+    },
+    {
+      "Name": "Gearbox",
+      "Campaigns": [
+        "Lost Laboratory of Kwalish"
+      ]
+    },
+    {
+      "Name": "Gloine Nathair-Nathair",
+      "Campaigns": [
+        "Lost Laboratory of Kwalish"
+      ]
+    },
+    {
+      "Name": "Jery",
+      "Campaigns": [
+        "Lost Laboratory of Kwalish"
+      ]
+    },
+    {
+      "Name": "Mary",
+      "Campaigns": [
+        "Lost Laboratory of Kwalish"
+      ]
+    },
+    {
+      "Name": "Rusty Bucket",
+      "Campaigns": [
+        "Lost Laboratory of Kwalish"
+      ]
+    },
+    {
+      "Name": "Halleth",
+      "Campaigns": [
+        "Dungeon of the Mad Mage"
+      ]
+    },
+    {
+      "Name": "Mirabelle",
+      "Campaigns": [
+        "Dungeon of the Mad Mage"
+      ]
+    },
+    {
+      "Name": "Wobbles",
+      "Campaigns": [
+        "Dungeon of the Mad Mage"
+      ]
+    },
+    {
+      "Name": "Darribeth",
+      "Campaigns": [
+        "Dungeon of the Mad Mage"
+      ]
+    },
+    {
+      "Name": "Lucian",
+      "Campaigns": [
+        "Dungeon of the Mad Mage"
+      ]
+    },
+    {
+      "Name": "Esvele",
+      "Campaigns": [
+        "Waterdeep: Dragon Heist",
+        "Dungeon of the Mad Mage"
+      ]
+    },
+    {
+      "Name": "Felrax",
+      "Campaigns": [
+        "Dungeon of the Mad Mage"
+      ]
+    },
+    {
+      "Name": "Frerk",
+      "Campaigns": [
+        "Dungeon of the Mad Mage"
+      ]
+    },
+    {
+      "Name": "Yek",
+      "Campaigns": [
+        "Dungeon of the Mad Mage"
+      ]
+    },
+    {
+      "Name": "Mattrim",
+      "Campaigns": [
+        "Dungeon of the Mad Mage"
+      ]
+    },
+    {
+      "Name": "Rizzeryl",
+      "Campaigns": [
+        "Dungeon of the Mad Mage"
+      ]
+    },
+    {
+      "Name": "Zilitsa",
+      "Campaigns": [
+        "Dungeon of the Mad Mage"
+      ]
+    },
+    {
+      "Name": "Mirror Nia",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Balzac",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Birroo",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Brynhilda Pedersen",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Cheshire",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Chococo",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Clara",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Daphne",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Deannach",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Dr. Brains",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Dr. Zakari",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Faladdin Blackhelm",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Gaunt Silhouette",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Gren",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Iabrochorum",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Isabella",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Jim Darkmagic",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Johannes",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Little Balzac",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Lurker",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Nurse Joy",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Ottelie",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Robi Junior (Pidlwick III)",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Porter",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Quevven Teh'Kinrellz",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Rupert Deadbolt",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Sackville Grabbins",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Sandman",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Shanix Breakrattle",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "Struthio",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "The Cat Lord",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "The Fisher King",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    },
+    {
+      "Name": "The Painted Lady",
+      "Campaigns": [
+        "City of Eyes"
+      ]
+    }
+  ]
+}

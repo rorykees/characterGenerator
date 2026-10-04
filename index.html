@@ -17,155 +17,39 @@
 
         <!-- welcome section -->
         <div class="row">
-            <section id="begin-page" data-current="current" class="col-sm-12">
+            <section id="begin-page" class="col-sm-12">
                 <h1>Character Generator</h1>
                 <p>Generate a random NPC or player character from our D&D Campaigns</p>
-                <button id="begin-button" type="button" class="btn btn-primary">Generate from all campaigns</button>
             </section>
         </div>
 
-        <!-- complete section -->
+        <!-- all characters -->
         <div class="row">
-            <section id="generation-complete" class="col-sm-12">
-                <h1 id="character"></h1>
+            <section class="col-sm-12 generator" data-pool="all">
+                <button type="button" class="btn btn-primary">Generate from all campaigns</button>
+                <h1 class="character-name"></h1>
+                <h5 class="campaign-heading"></h5>
+                <ul class="campaign-list"></ul>
             </section>
         </div>
 
+        <!-- player characters -->
         <div class="row">
-            <section class="col-sm-12">
-                <h5 id="campaign"></h5>
-                <ul id="campaigns"></ul>
+            <section class="col-sm-12 generator" data-pool="players">
+                <button type="button" class="btn btn-primary">Generate from all player characters</button>
+                <h1 class="character-name"></h1>
+                <h5 class="campaign-heading"></h5>
+                <ul class="campaign-list"></ul>
             </section>
         </div>
 
-        <!-- player character section -->
-        <div class="row">
-            <section id="player-page" data-current="current" class="col-sm-12">
-                <button id="player-button" type="button" class="btn btn-primary">Generate from all player characters</button>
-            </section>
-        </div>
+        <!-- one section per campaign is generated here by script.js from characters.js -->
+        <div id="campaign-generators"></div>
 
-        <div class="row">
-            <section id="player-complete" class="col-sm-12">
-                <h1 id="player-character"></h1>
-            </section>
-        </div>
-
-        <div class="row">
-            <section class="col-sm-12">
-                <h5 id="player-campaign"></h5>
-                <ul id="player-campaigns"></ul>
-            </section>
-        </div>
-
-
-        <!-- curse of strahd section -->
-        <div class="row">
-            <section id="cos-page" data-current="current" class="col-sm-12">
-                <button id="cos-button" type="button" class="btn btn-primary">Generate from Curse of Strahd</button>
-            </section>
-        </div>
-
-        <div class="row">
-            <section id="cos-complete" class="col-sm-12">
-                <h1 id="cos-character"></h1>
-            </section>
-        </div>
-
-        <!-- dragon heist section -->
-        <div class="row">
-            <section id="dh-page" data-current="current" class="col-sm-12">
-                <button id="dh-button" type="button" class="btn btn-primary">Generate from Waterdeep: Dragon Heist</button>
-            </section>
-        </div>
-
-        <div class="row">
-            <section id="dh-complete" class="col-sm-12">
-                <h1 id="dh-character"></h1>
-            </section>
-        </div>
-
-        <!-- orrery section -->
-        <div class="row">
-            <section id="orrery-page" data-current="current" class="col-sm-12">
-                <button id="orrery-button" type="button" class="btn btn-primary">Generate from Orrery of the Wanderer</button>
-            </section>
-        </div>
-
-        <div class="row">
-            <section id="orrery-complete" class="col-sm-12">
-                <h1 id="orrery-character"></h1>
-            </section>
-        </div>
-
-        <!-- witchlight section -->
-        <div class="row">
-            <section id="wl-page" data-current="current" class="col-sm-12">
-                <button id="wl-button" type="button" class="btn btn-primary">Generate from Wild Beyond the Witchlight</button>
-            </section>
-        </div>
-
-        <div class="row">
-            <section id="wl-complete" class="col-sm-12">
-                <h1 id="wl-character"></h1>
-            </section>
-        </div>
-
-        <!-- strixhaven section -->
-        <div class="row">
-            <section id="sh-page" data-current="current" class="col-sm-12">
-                <button id="sh-button" type="button" class="btn btn-primary">Generate from Strixhaven: Campus Kerfuffle</button>
-            </section>
-        </div>
-
-        <div class="row">
-            <section id="sh-complete" class="col-sm-12">
-                <h1 id="sh-character"></h1>
-            </section>
-        </div>
-
-        <!-- lost lab section -->
-        <div class="row">
-            <section id="ll-page" data-current="current" class="col-sm-12">
-                <button id="ll-button" type="button" class="btn btn-primary">Generate from Lost Laboratory of Kwalish</button>
-            </section>
-        </div>
-
-        <div class="row">
-            <section id="ll-complete" class="col-sm-12">
-                <h1 id="ll-character"></h1>
-            </section>
-        </div>
-
-        <!-- mad mage section -->
-        <div class="row">
-            <section id="mm-page" data-current="current" class="col-sm-12">
-                <button id="mm-button" type="button" class="btn btn-primary">Generate from Dungeon of the Mad Mage</button>
-            </section>
-        </div>
-
-        <div class="row">
-            <section id="mm-complete" class="col-sm-12">
-                <h1 id="mm-character"></h1>
-            </section>
-        </div>
-
-         <!-- city of eyes section section -->
-        <div class="row">
-            <section id="coe-page" data-current="current" class="col-sm-12">
-                <button id="coe-button" type="button" class="btn btn-primary">Generate from City of Eyes</button>
-            </section>
-        </div>
-
-        <div class="row">
-            <section id="coe-complete" class="col-sm-12">
-                <h1 id="coe-character"></h1>
-            </section>
-        </div>
-        
     </div>
 
-    <!-- js -->
+    <!-- js: characters.js is generated by sync/sync.js and must load first -->
+    <script src="characters.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,7 +1,9 @@
 /* element selectors */
 body {
-    background-color: #F4D58D;
+    background-color: #233e7d;
     font-family: sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
 }
 
 section {
@@ -16,10 +18,12 @@ section {
 }
 
 .btn {
-    background-color: #708D81;
+    background-color: #75370b;
     border: none;
     width: 100%;
     margin-bottom: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
 }
 
 #begin-page,
