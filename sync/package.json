@@ -1,0 +1,11 @@
+{
+  "name": "character-generator-sync",
+  "private": true,
+  "description": "Builds characters.js and the image folders from the TTRPG Wiki vault.",
+  "scripts": {
+    "sync": "node sync.js"
+  },
+  "dependencies": {
+    "sharp": "^0.35.5"
+  }
+}
