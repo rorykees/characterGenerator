@@ -24,6 +24,8 @@ const campaigns = [
 const characters = [
     {
         "Name": "Abel",
+        "Aliases": ["Abel Brentstock"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Abel-Brentstock",
         "Status": "Alive",
         "Portrait": "portraits/abel-brentstock.webp",
         "Campaigns": [
@@ -32,6 +34,8 @@ const characters = [
     },
     {
         "Name": "Abi-Dalzim",
+        "Aliases": ["Abi-Dalzim the White","Prashnak of the Wilting"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Abi-Dalzim",
         "Status": "Alive",
         "Portrait": "portraits/abi-dalzim.webp",
         "Campaigns": [
@@ -40,6 +44,8 @@ const characters = [
     },
     {
         "Name": "Abigor",
+        "Aliases": ["Eligos","Captain Abigor","Bellowing Duke","Duke of the Styx"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Abigor",
         "Status": "Dead",
         "Portrait": "portraits/abigor.webp",
         "Campaigns": [
@@ -48,6 +54,8 @@ const characters = [
     },
     {
         "Name": "Abriel Redchord",
+        "Aliases": ["Ayleen Kormallis"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Abriel-Redchord",
         "Status": "Alive",
         "Portrait": "portraits/abriel-redchord.webp",
         "Campaigns": [
@@ -56,6 +64,8 @@ const characters = [
     },
     {
         "Name": "Achlys",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Achlys",
         "Status": "Alive",
         "Portrait": "portraits/achlys.webp",
         "Campaigns": [
@@ -66,6 +76,8 @@ const characters = [
     },
     {
         "Name": "Adramalech",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Adramalech",
         "Status": "Dead",
         "Portrait": "portraits/adramalech.webp",
         "Campaigns": [
@@ -74,6 +86,8 @@ const characters = [
     },
     {
         "Name": "Aelvette",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Aelvette",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -82,6 +96,8 @@ const characters = [
     },
     {
         "Name": "Aetna",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Aetna",
         "Status": "Alive",
         "Portrait": "portraits/aetna.webp",
         "Campaigns": [
@@ -90,6 +106,8 @@ const characters = [
     },
     {
         "Name": "Amelia",
+        "Aliases": ["Amelia Hawthorne","Hawthorne"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Amelia-Hawthorne",
         "Status": "Alive",
         "Portrait": "portraits/amelia-hawthorne.webp",
         "Campaigns": [
@@ -99,6 +117,8 @@ const characters = [
     },
     {
         "Name": "Amidor",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Amidor",
         "Status": "Alive",
         "Portrait": "portraits/amidor.webp",
         "Campaigns": [
@@ -107,6 +127,8 @@ const characters = [
     },
     {
         "Name": "Ammisyll Veldann",
+        "Aliases": ["Lady Veldann","Governor Veldann of Nimlith"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ammisyll-Veldann",
         "Status": "Alive",
         "Portrait": "portraits/ammisyll-veldann.webp",
         "Campaigns": [
@@ -115,6 +137,8 @@ const characters = [
     },
     {
         "Name": "Anagwendol",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Anagwendol",
         "Status": "Alive",
         "Portrait": "portraits/anagwendol.webp",
         "Campaigns": [
@@ -123,6 +147,8 @@ const characters = [
     },
     {
         "Name": "Anastrasya Karelova (Scaena)",
+        "Aliases": ["Ana Karelova"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Anastrasya-Karelova-(Scaena)",
         "Status": "Alive",
         "Portrait": "portraits/anastrasya-karelova-scaena.webp",
         "Campaigns": [
@@ -131,6 +157,8 @@ const characters = [
     },
     {
         "Name": "Andros",
+        "Aliases": ["Ansten Marshlily"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Andros",
         "Status": "Alive",
         "Portrait": "portraits/andros.webp",
         "Campaigns": [
@@ -139,6 +167,8 @@ const characters = [
     },
     {
         "Name": "Arabelle Zsoltsy (Scaena)",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Arabelle-Zsolty",
         "Status": "Alive",
         "Portrait": "portraits/arabelle-zsoltsy-scaena.webp",
         "Campaigns": [
@@ -147,6 +177,8 @@ const characters = [
     },
     {
         "Name": "Aran Tal",
+        "Aliases": ["Aran"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Aran-Tal",
         "Status": "Alive",
         "Portrait": "portraits/aran-tal.webp",
         "Campaigns": [
@@ -155,6 +187,8 @@ const characters = [
     },
     {
         "Name": "Aranya",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Aranya",
         "Status": "Alive",
         "Portrait": "portraits/aranya.webp",
         "Campaigns": [
@@ -163,6 +197,8 @@ const characters = [
     },
     {
         "Name": "Aren",
+        "Aliases": ["Aren Romenza"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Aren-Romenza",
         "Status": "Alive",
         "Portrait": "portraits/aren-romenza.webp",
         "Campaigns": [
@@ -171,6 +207,8 @@ const characters = [
     },
     {
         "Name": "Aurora",
+        "Aliases": ["Aurora Luna Wynterstarr","Avtonoma Nochnik"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Aurora-Luna-Wynterstarr",
         "Status": "Alive",
         "Portrait": "portraits/aurora-luna-wynterstarr.webp",
         "Campaigns": [
@@ -179,6 +217,8 @@ const characters = [
     },
     {
         "Name": "Aurora de L'aunaie",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Aurora-de-L'aunaie",
         "Status": "Alive",
         "Portrait": "portraits/aurora-de-l-aunaie.webp",
         "Campaigns": [
@@ -187,6 +227,8 @@ const characters = [
     },
     {
         "Name": "Avi",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -196,6 +238,8 @@ const characters = [
     },
     {
         "Name": "Azure",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Azure",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -204,6 +248,8 @@ const characters = [
     },
     {
         "Name": "Baalzebul",
+        "Aliases": ["Triel","Lord of the Seventh","Lord of the Flies","Lord of Lies","Fallen One","Slug Archduke"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Baalzebul",
         "Status": "Alive",
         "Portrait": "portraits/baalzebul.webp",
         "Campaigns": [
@@ -212,6 +258,8 @@ const characters = [
     },
     {
         "Name": "Babolax",
+        "Aliases": ["The Director"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Babolax",
         "Status": "Alive",
         "Portrait": "portraits/babolax.webp",
         "Campaigns": [
@@ -222,6 +270,8 @@ const characters = [
     },
     {
         "Name": "Balzac",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -230,6 +280,8 @@ const characters = [
     },
     {
         "Name": "Barachiel",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Barachiel",
         "Status": "Alive",
         "Portrait": "portraits/barachiel.webp",
         "Campaigns": [
@@ -238,6 +290,8 @@ const characters = [
     },
     {
         "Name": "Baron Vallakovich",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -246,6 +300,8 @@ const characters = [
     },
     {
         "Name": "Bavlorna Blightstraw",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -254,6 +310,8 @@ const characters = [
     },
     {
         "Name": "Belial",
+        "Aliases": ["Lord of the Fourth","Lord of Pain and Suffering"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Belial",
         "Status": "Alive",
         "Portrait": "portraits/belial.webp",
         "Campaigns": [
@@ -262,6 +320,8 @@ const characters = [
     },
     {
         "Name": "Bella (Scaena)",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Bella-(Scaena)",
         "Status": "Alive",
         "Portrait": "portraits/bella-scaena.webp",
         "Campaigns": [
@@ -270,6 +330,8 @@ const characters = [
     },
     {
         "Name": "Belle Mere",
+        "Aliases": ["Captain Belle Mere"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Belle-Mere",
         "Status": "Alive",
         "Portrait": "portraits/belle-mere.webp",
         "Campaigns": [
@@ -278,6 +340,8 @@ const characters = [
     },
     {
         "Name": "Birroo",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -286,6 +350,8 @@ const characters = [
     },
     {
         "Name": "Blaedswith Ashenwynd",
+        "Aliases": ["Blaed Ashenwynd","Blaedswith Wynflaed Ashenwynd"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Blaed",
         "Status": "Alive",
         "Portrait": "portraits/blaedswith-ashenwynd.webp",
         "Campaigns": [
@@ -294,6 +360,8 @@ const characters = [
     },
     {
         "Name": "Blightmar",
+        "Aliases": ["General Blightmar","Blood Lord Blightmar","Blightmar the Heinous Maw"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Blightmar",
         "Status": "Dead",
         "Portrait": "portraits/blightmar.webp",
         "Campaigns": [
@@ -302,6 +370,8 @@ const characters = [
     },
     {
         "Name": "Blinksy",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -310,6 +380,8 @@ const characters = [
     },
     {
         "Name": "Bloody Toes",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -318,6 +390,8 @@ const characters = [
     },
     {
         "Name": "Bone Devil",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -326,6 +400,8 @@ const characters = [
     },
     {
         "Name": "Bonespur",
+        "Aliases": ["Tsarina Duchku"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Bonespur",
         "Status": "Alive",
         "Portrait": "portraits/bonespur.webp",
         "Campaigns": [
@@ -334,6 +410,8 @@ const characters = [
     },
     {
         "Name": "Brawn",
+        "Aliases": ["Brawn McGable"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Brawn-McGable",
         "Status": "Alive",
         "Portrait": "portraits/brawn-mcgable.webp",
         "Campaigns": [
@@ -343,6 +421,8 @@ const characters = [
     },
     {
         "Name": "Breadstick Fundi",
+        "Aliases": ["Deadstick"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Breadstick-Fundi",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -351,6 +431,8 @@ const characters = [
     },
     {
         "Name": "Brenneth",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -359,6 +441,8 @@ const characters = [
     },
     {
         "Name": "Briar",
+        "Aliases": ["Briar de L'aunaie"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Briar-de-L'aunaie",
         "Status": "Alive",
         "Portrait": "portraits/briar-de-l-aunaie.webp",
         "Campaigns": [
@@ -369,6 +453,8 @@ const characters = [
     },
     {
         "Name": "Brok",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Brok",
         "Status": "Alive",
         "Portrait": "portraits/brok.webp",
         "Campaigns": [
@@ -377,6 +463,8 @@ const characters = [
     },
     {
         "Name": "Brynhilda Pedersen",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -385,6 +473,8 @@ const characters = [
     },
     {
         "Name": "Cadoras",
+        "Aliases": ["Cadoras Damellawar"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Cadoras-Damellawar",
         "Status": "Alive",
         "Portrait": "portraits/cadoras-damellawar.webp",
         "Campaigns": [
@@ -393,6 +483,8 @@ const characters = [
     },
     {
         "Name": "Calenhad Strongheart",
+        "Aliases": ["Sir Strongheart"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Calenhad-Strongheart",
         "Status": "Alive",
         "Portrait": "portraits/calenhad-strongheart.webp",
         "Campaigns": [
@@ -401,6 +493,8 @@ const characters = [
     },
     {
         "Name": "Calor Galateth",
+        "Aliases": ["Calor"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Calor-Galateth",
         "Status": "Alive",
         "Portrait": "portraits/calor-galateth.webp",
         "Campaigns": [
@@ -409,6 +503,8 @@ const characters = [
     },
     {
         "Name": "Candlefoot",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -418,6 +514,8 @@ const characters = [
     },
     {
         "Name": "Casavel",
+        "Aliases": ["Casavel Hlaeraheal","Cas"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Casavel-Hlaeraheal",
         "Status": "Alive",
         "Portrait": "portraits/casavel-hlaeraheal.webp",
         "Campaigns": [
@@ -426,6 +524,8 @@ const characters = [
     },
     {
         "Name": "Charm",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -435,6 +535,8 @@ const characters = [
     },
     {
         "Name": "Cheshire",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -443,6 +545,8 @@ const characters = [
     },
     {
         "Name": "Chococo",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -451,6 +555,8 @@ const characters = [
     },
     {
         "Name": "Christopher",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -460,6 +566,8 @@ const characters = [
     },
     {
         "Name": "Chun Hana",
+        "Aliases": ["Dr. Hana"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Chun-Hana",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -468,6 +576,8 @@ const characters = [
     },
     {
         "Name": "Cicero",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Cicero",
         "Status": "Alive",
         "Portrait": "portraits/cicero.webp",
         "Campaigns": [
@@ -476,6 +586,8 @@ const characters = [
     },
     {
         "Name": "Clapperclaw",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -484,6 +596,8 @@ const characters = [
     },
     {
         "Name": "Clara",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -492,6 +606,8 @@ const characters = [
     },
     {
         "Name": "Colleen Thimble",
+        "Aliases": ["Detective Thimble","Colly Thimble"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Colleen-Thimble",
         "Status": "Alive",
         "Portrait": "portraits/colleen-thimble.webp",
         "Campaigns": [
@@ -500,6 +616,8 @@ const characters = [
     },
     {
         "Name": "Cornelius Brassgrave",
+        "Aliases": ["Sir Brassgrave"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Cornelius-Brassgrave",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -508,6 +626,8 @@ const characters = [
     },
     {
         "Name": "Corteso",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Corteso",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -516,6 +636,8 @@ const characters = [
     },
     {
         "Name": "Crypta",
+        "Aliases": ["Z","Zaria T'Avain (Stolen Identity)"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Crypta",
         "Status": "Alive",
         "Portrait": "portraits/crypta.webp",
         "Campaigns": [
@@ -524,6 +646,8 @@ const characters = [
     },
     {
         "Name": "Dandelion",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Dandelion",
         "Status": "Alive",
         "Portrait": "portraits/dandelion.webp",
         "Campaigns": [
@@ -532,6 +656,8 @@ const characters = [
     },
     {
         "Name": "Daphne",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -540,6 +666,8 @@ const characters = [
     },
     {
         "Name": "Darcy",
+        "Aliases": ["Darcelle Eversea","Darcelle"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Darcy-Eversea",
         "Status": "Alive",
         "Portrait": "portraits/darcelle-eversea.webp",
         "Campaigns": [
@@ -548,6 +676,8 @@ const characters = [
     },
     {
         "Name": "Darribeth",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -556,6 +686,8 @@ const characters = [
     },
     {
         "Name": "Davil",
+        "Aliases": ["Davil Starsong"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Davil-Starsong",
         "Status": "Alive",
         "Portrait": "portraits/davil-starsong.webp",
         "Campaigns": [
@@ -566,6 +698,8 @@ const characters = [
     },
     {
         "Name": "Deannach",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -574,6 +708,8 @@ const characters = [
     },
     {
         "Name": "Dr. Brains",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -582,6 +718,8 @@ const characters = [
     },
     {
         "Name": "Dr. Zakari",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -590,6 +728,8 @@ const characters = [
     },
     {
         "Name": "Drazhomir",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -598,6 +738,8 @@ const characters = [
     },
     {
         "Name": "Dre Hilltop",
+        "Aliases": ["Lady Dre"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Lady-Dre",
         "Status": "Alive",
         "Portrait": "portraits/dre-hilltop.webp",
         "Campaigns": [
@@ -606,6 +748,8 @@ const characters = [
     },
     {
         "Name": "Dumphrey Frogart",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -614,6 +758,8 @@ const characters = [
     },
     {
         "Name": "Durge",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Durge",
         "Status": "Alive",
         "Portrait": "portraits/durge.webp",
         "Campaigns": [
@@ -622,6 +768,8 @@ const characters = [
     },
     {
         "Name": "Dusty",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -630,6 +778,8 @@ const characters = [
     },
     {
         "Name": "Dyre",
+        "Aliases": ["Dyre Longstrider"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Dyre-Longstrider",
         "Status": "Alive",
         "Portrait": "portraits/dyre-longstrider.webp",
         "Campaigns": [
@@ -639,6 +789,8 @@ const characters = [
     },
     {
         "Name": "Eclipse",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -647,6 +799,8 @@ const characters = [
     },
     {
         "Name": "Ecstasy",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ecstasy",
         "Status": "Alive",
         "Portrait": "portraits/ecstasy.webp",
         "Campaigns": [
@@ -655,6 +809,8 @@ const characters = [
     },
     {
         "Name": "Elidon",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -663,6 +819,8 @@ const characters = [
     },
     {
         "Name": "Elkhorn",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Elkhorn",
         "Status": "Alive",
         "Portrait": "portraits/elkhorn.webp",
         "Campaigns": [
@@ -671,6 +829,8 @@ const characters = [
     },
     {
         "Name": "Ellis Hilltop",
+        "Aliases": ["Hilltop"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ellis-Hilltop",
         "Status": "Alive",
         "Portrait": "portraits/ellis-hilltop.webp",
         "Campaigns": [
@@ -679,6 +839,8 @@ const characters = [
     },
     {
         "Name": "Elysia Saltwound",
+        "Aliases": ["Lysi Saltwound"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Elysia-Saltwound",
         "Status": "Alive",
         "Portrait": "portraits/elysia-saltwound.webp",
         "Campaigns": [
@@ -687,6 +849,8 @@ const characters = [
     },
     {
         "Name": "Embric",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -696,6 +860,8 @@ const characters = [
     },
     {
         "Name": "Emmek",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -704,6 +870,8 @@ const characters = [
     },
     {
         "Name": "Emran Sur",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Emran-Sur",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -712,6 +880,8 @@ const characters = [
     },
     {
         "Name": "Endelyn Moongrave",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -720,6 +890,8 @@ const characters = [
     },
     {
         "Name": "Erasmus",
+        "Aliases": ["Erasmus van Richten","Razzi"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Erasmus-van-Richten",
         "Status": "Dead",
         "Portrait": "portraits/erasmus-van-richten.webp",
         "Campaigns": [
@@ -729,6 +901,8 @@ const characters = [
     },
     {
         "Name": "Escher",
+        "Aliases": ["Jean-Baptiste Escher"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Escher",
         "Status": "Alive",
         "Portrait": "portraits/jean-baptiste-escher.webp",
         "Campaigns": [
@@ -739,6 +913,8 @@ const characters = [
     },
     {
         "Name": "Esha",
+        "Aliases": ["Three"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Esha",
         "Status": "Alive",
         "Portrait": "portraits/esha.webp",
         "Campaigns": [
@@ -747,6 +923,8 @@ const characters = [
     },
     {
         "Name": "Esvele",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -756,6 +934,8 @@ const characters = [
     },
     {
         "Name": "Evard",
+        "Aliases": ["Evard the Black","Mad Mage of the Bissel March"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Evard",
         "Status": "Alive",
         "Portrait": "portraits/evard.webp",
         "Campaigns": [
@@ -764,6 +944,8 @@ const characters = [
     },
     {
         "Name": "Evie",
+        "Aliases": ["Evaline Rajarn","Evaline","Princess Evaline Rajarn"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Evie-Rajarn",
         "Status": "Alive",
         "Portrait": "portraits/evaline-rajarn.webp",
         "Campaigns": [
@@ -774,6 +956,8 @@ const characters = [
     },
     {
         "Name": "Ewyn",
+        "Aliases": ["Ewyn the Divine Vorpal Moonblade","Ewyn the Dancing Moonblade"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ewyn",
         "Status": "Alive",
         "Portrait": "portraits/ewyn-the-divine-vorpal-moonblade.webp",
         "Campaigns": [
@@ -785,6 +969,8 @@ const characters = [
     },
     {
         "Name": "Exethanter",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Exethanter",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -796,6 +982,8 @@ const characters = [
     },
     {
         "Name": "Ezmerelda",
+        "Aliases": ["Ezmerelda d'Avenir","Ez","Victoria van Richten","Ezra Weathermay-Foxgrove","Mathilda von Holz","Magda Petrovna","Lavinia Juste","Nyanka Lukresh","Minodora Grygorova","Nimira Nimirova","Zondra Voltanescu","Dezdrelda ApBlanc","Korina Lansten","Diavola Karushkin","Ruxandra Groza"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ezmerelda-d'Avenir",
         "Status": "Alive",
         "Portrait": "portraits/ezmerelda-d-avenir.webp",
         "Campaigns": [
@@ -812,6 +1000,8 @@ const characters = [
     },
     {
         "Name": "Ezmerelda Love",
+        "Aliases": ["Ezmerelda d'Avenir (Scaena)"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ezmerelda-Love",
         "Status": "Alive",
         "Portrait": "portraits/ezmerelda-love.webp",
         "Campaigns": [
@@ -820,6 +1010,8 @@ const characters = [
     },
     {
         "Name": "Ezra",
+        "Aliases": ["Our Guardian in the Mists"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ezra",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -828,6 +1020,8 @@ const characters = [
     },
     {
         "Name": "Faladdin Blackhelm",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -836,6 +1030,8 @@ const characters = [
     },
     {
         "Name": "Father Taps",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -844,6 +1040,8 @@ const characters = [
     },
     {
         "Name": "Fayelara Kos",
+        "Aliases": ["Faye","Fayelara"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Fayelara-Kos",
         "Status": "Alive",
         "Portrait": "portraits/fayelara-kos.webp",
         "Campaigns": [
@@ -852,6 +1050,8 @@ const characters = [
     },
     {
         "Name": "Fayphena Forefog",
+        "Aliases": ["Fay Forefog"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Fayphena-Forefog",
         "Status": "Alive",
         "Portrait": "portraits/fayphena-forefog.webp",
         "Campaigns": [
@@ -860,6 +1060,8 @@ const characters = [
     },
     {
         "Name": "Feenia",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -868,6 +1070,8 @@ const characters = [
     },
     {
         "Name": "Felrax",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -876,6 +1080,8 @@ const characters = [
     },
     {
         "Name": "Fen",
+        "Aliases": ["Fen Ruldegost"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Fen-Ruldegost",
         "Status": "Alive",
         "Portrait": "portraits/fen-ruldegost.webp",
         "Campaigns": [
@@ -885,6 +1091,8 @@ const characters = [
     },
     {
         "Name": "Firan Zal'Honan",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Firan-Zal'Honan",
         "Status": "Alive",
         "Portrait": "portraits/firan-zal-honan.webp",
         "Campaigns": [
@@ -893,6 +1101,8 @@ const characters = [
     },
     {
         "Name": "Fizhgerald",
+        "Aliases": ["Fizh"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Fizhgerald",
         "Status": "Alive",
         "Portrait": "portraits/fizhgerald.webp",
         "Campaigns": [
@@ -901,6 +1111,8 @@ const characters = [
     },
     {
         "Name": "Floon",
+        "Aliases": ["Floon Blagmaar"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Floon-Blagmaar",
         "Status": "Alive",
         "Portrait": "portraits/floon-blagmaar.webp",
         "Campaigns": [
@@ -911,6 +1123,8 @@ const characters = [
     },
     {
         "Name": "Foulsham",
+        "Aliases": ["Mr. Foulsham"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Foulsham",
         "Status": "Alive",
         "Portrait": "portraits/foulsham.webp",
         "Campaigns": [
@@ -919,6 +1133,8 @@ const characters = [
     },
     {
         "Name": "Fox",
+        "Aliases": ["Fox d'Avenir","Fox (Alt Timeline)","Future Fox"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Fox-d'Avenir",
         "Status": "Alive",
         "Portrait": "portraits/fox-d-avenir.webp",
         "Campaigns": [
@@ -929,6 +1145,8 @@ const characters = [
     },
     {
         "Name": "Frahl",
+        "Aliases": ["Frahl Boartrap","FB"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Frahl-Boartrap",
         "Status": "Alive",
         "Portrait": "portraits/frahl-boartrap.webp",
         "Campaigns": [
@@ -938,6 +1156,8 @@ const characters = [
     },
     {
         "Name": "Francis Adelir",
+        "Aliases": ["Francis","Fritz"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Francis-Adelir",
         "Status": "Alive",
         "Portrait": "portraits/francis-adelir.webp",
         "Campaigns": [
@@ -946,6 +1166,8 @@ const characters = [
     },
     {
         "Name": "Franz Ismarkovich",
+        "Aliases": ["Franz Targolov"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Franz-Ismarkovich",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -954,6 +1176,8 @@ const characters = [
     },
     {
         "Name": "Freek",
+        "Aliases": ["Freek Ismarkovich","Freek Belasco"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Freek-Ismarkovich",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -964,6 +1188,8 @@ const characters = [
     },
     {
         "Name": "Frerk",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -972,6 +1198,8 @@ const characters = [
     },
     {
         "Name": "Gage",
+        "Aliases": ["Gage Kamdyn"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Gage-Kamdyn",
         "Status": "Alive",
         "Portrait": "portraits/gage-kamdyn.webp",
         "Campaigns": [
@@ -980,6 +1208,8 @@ const characters = [
     },
     {
         "Name": "Gallagher Love",
+        "Aliases": ["Gallagher","Love"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Gallagher-Love",
         "Status": "Alive",
         "Portrait": "portraits/gallagher-love.webp",
         "Campaigns": [
@@ -988,6 +1218,8 @@ const characters = [
     },
     {
         "Name": "Gaunt Silhouette",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -996,6 +1228,8 @@ const characters = [
     },
     {
         "Name": "Gearbox",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1004,6 +1238,8 @@ const characters = [
     },
     {
         "Name": "Genevayne",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1012,6 +1248,8 @@ const characters = [
     },
     {
         "Name": "Gennifer Weathermay-Foxgrove",
+        "Aliases": ["Gennie Weathermay-Foxgrove"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Gennifer-Weathermay-Foxgrove",
         "Status": "Alive",
         "Portrait": "portraits/gennifer-weathermay-foxgrove.webp",
         "Campaigns": [
@@ -1020,6 +1258,8 @@ const characters = [
     },
     {
         "Name": "Gildha",
+        "Aliases": ["Gildha Duhn"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Gildha-Duhn",
         "Status": "Alive",
         "Portrait": "portraits/gildha-duhn.webp",
         "Campaigns": [
@@ -1028,6 +1268,8 @@ const characters = [
     },
     {
         "Name": "Glasya",
+        "Aliases": ["Lord of the Sixth","Princess of Hell","Princess of the Night","Queen of the Erinyes"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Glasya",
         "Status": "Alive",
         "Portrait": "portraits/glasya.webp",
         "Campaigns": [
@@ -1036,6 +1278,8 @@ const characters = [
     },
     {
         "Name": "Gleam",
+        "Aliases": ["Gleam Selenelion"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Gleam",
         "Status": "Alive",
         "Portrait": "portraits/gleam-selenelion.webp",
         "Campaigns": [
@@ -1045,6 +1289,8 @@ const characters = [
     },
     {
         "Name": "Glister",
+        "Aliases": ["Glister Selenelion"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Glister",
         "Status": "Alive",
         "Portrait": "portraits/glister-selenelion.webp",
         "Campaigns": [
@@ -1054,6 +1300,8 @@ const characters = [
     },
     {
         "Name": "Glitter Dew",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1062,6 +1310,8 @@ const characters = [
     },
     {
         "Name": "Gloine Nathair-Nathair",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1070,6 +1320,8 @@ const characters = [
     },
     {
         "Name": "Godfrey",
+        "Aliases": ["Godfrey Gwilym","Sir Godfrey Gwilym"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Godfrey-Gwilym",
         "Status": "Dead",
         "Portrait": "portraits/godfrey-gwilym.webp",
         "Campaigns": [
@@ -1078,6 +1330,8 @@ const characters = [
     },
     {
         "Name": "Gorkoh",
+        "Aliases": ["Gorkoh Nightrattle"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Gorkoh",
         "Status": "Alive",
         "Portrait": "portraits/gorkoh-nightrattle.webp",
         "Campaigns": [
@@ -1087,6 +1341,8 @@ const characters = [
     },
     {
         "Name": "Grayson",
+        "Aliases": ["Grayson Wildemere","Greer"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Grayson-Wildemere",
         "Status": "Alive",
         "Portrait": "portraits/grayson-wildemere.webp",
         "Campaigns": [
@@ -1095,6 +1351,8 @@ const characters = [
     },
     {
         "Name": "Grayson Love",
+        "Aliases": ["Grace Love"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Grayson-Love",
         "Status": "Alive",
         "Portrait": "portraits/grayson-love.webp",
         "Campaigns": [
@@ -1103,6 +1361,8 @@ const characters = [
     },
     {
         "Name": "Greeter",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Greeter",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1111,6 +1371,8 @@ const characters = [
     },
     {
         "Name": "Gren",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1119,6 +1381,8 @@ const characters = [
     },
     {
         "Name": "Grunka",
+        "Aliases": ["Grunka Shatterstone"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Grunka",
         "Status": "Alive",
         "Portrait": "portraits/grunka-shatterstone.webp",
         "Campaigns": [
@@ -1127,6 +1391,8 @@ const characters = [
     },
     {
         "Name": "Guthildi",
+        "Aliases": ["Guthildi Alabastrus Bloodquake IV"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Guthildi",
         "Status": "Alive",
         "Portrait": "portraits/guthildi-alabastrus-bloodquake-iv.webp",
         "Campaigns": [
@@ -1137,6 +1403,8 @@ const characters = [
     },
     {
         "Name": "Halleth",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1145,6 +1413,8 @@ const characters = [
     },
     {
         "Name": "Hati",
+        "Aliases": ["L'Omino","Managarmr"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Hati",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1155,6 +1425,8 @@ const characters = [
     },
     {
         "Name": "Helga Ruvak",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Helga-Ruvak",
         "Status": "Alive",
         "Portrait": "portraits/helga-ruvak.webp",
         "Campaigns": [
@@ -1163,6 +1435,8 @@ const characters = [
     },
     {
         "Name": "Hrangor",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1173,6 +1447,8 @@ const characters = [
     },
     {
         "Name": "Iabrochorum",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1181,6 +1457,8 @@ const characters = [
     },
     {
         "Name": "IMPALA",
+        "Aliases": ["Intermediary Probability Analysis Learning Algorithm"],
+        "Link": "https://coast-ttrpg-wiki.com/character/IMPALA",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1189,6 +1467,8 @@ const characters = [
     },
     {
         "Name": "Ingrid",
+        "Aliases": ["Ingrid van Richten"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ingrid-van-Richten",
         "Status": "Dead",
         "Portrait": "portraits/ingrid-van-richten.webp",
         "Campaigns": [
@@ -1197,6 +1477,8 @@ const characters = [
     },
     {
         "Name": "Ireena",
+        "Aliases": ["Ireena Astorio","Tatyana Federovna (Reincarnated)","Ireena Kolyana"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ireena-Astorio",
         "Status": "Alive",
         "Portrait": "portraits/ireena-astorio.webp",
         "Campaigns": [
@@ -1209,6 +1491,8 @@ const characters = [
     },
     {
         "Name": "Ireena von Zarovich",
+        "Aliases": ["Mathilda Konstantinova","Blue Ireena","Ireena Kolyana (Scaena)"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ireena-von-Zarovich",
         "Status": "Alive",
         "Portrait": "portraits/ireena-von-zarovich.webp",
         "Campaigns": [
@@ -1217,6 +1501,8 @@ const characters = [
     },
     {
         "Name": "Isabella",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1225,6 +1511,8 @@ const characters = [
     },
     {
         "Name": "Isaias Damasio",
+        "Aliases": ["Isaias"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Isaias-Damasio",
         "Status": "Alive",
         "Portrait": "portraits/isaias-damasio.webp",
         "Campaigns": [
@@ -1233,6 +1521,8 @@ const characters = [
     },
     {
         "Name": "Ismark",
+        "Aliases": ["Ismark Kolyanovich","Ismark the Lesser"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ismark-Kolyanovich",
         "Status": "Alive",
         "Portrait": "portraits/ismark-kolyanovich.webp",
         "Campaigns": [
@@ -1242,6 +1532,8 @@ const characters = [
     },
     {
         "Name": "Ismark Kolyanovich (Scaena)",
+        "Aliases": ["Life"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ismark-Kolyanovich-(Scaena)",
         "Status": "Alive",
         "Portrait": "portraits/ismark-kolyanovich-scaena.webp",
         "Campaigns": [
@@ -1250,6 +1542,8 @@ const characters = [
     },
     {
         "Name": "Itzmin del Prado",
+        "Aliases": ["Astaverde"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Itzmin-del-Prado",
         "Status": "Dead",
         "Portrait": "portraits/itzmin-del-prado.webp",
         "Campaigns": [
@@ -1258,6 +1552,8 @@ const characters = [
     },
     {
         "Name": "Ivan",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1266,6 +1562,8 @@ const characters = [
     },
     {
         "Name": "Ivana",
+        "Aliases": ["Ivana Boritsi","Belladona"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ivana-Boritsi",
         "Status": "Alive",
         "Portrait": "portraits/ivana-boritsi.webp",
         "Campaigns": [
@@ -1275,6 +1573,8 @@ const characters = [
     },
     {
         "Name": "Ives Ismarkovich",
+        "Aliases": ["Ives"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ives-Ismarkovich",
         "Status": "Alive",
         "Portrait": "portraits/ives-ismarkovich.webp",
         "Campaigns": [
@@ -1283,6 +1583,8 @@ const characters = [
     },
     {
         "Name": "Jari",
+        "Aliases": ["Jari Sur"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Jari-Sur",
         "Status": "Alive",
         "Portrait": "portraits/jari-sur.webp",
         "Campaigns": [
@@ -1291,6 +1593,8 @@ const characters = [
     },
     {
         "Name": "Javenesh",
+        "Aliases": ["Javenesh Stoutclaw"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Javenesh-Stoutclaw",
         "Status": "Alive",
         "Portrait": "portraits/javenesh-stoutclaw.webp",
         "Campaigns": [
@@ -1299,6 +1603,8 @@ const characters = [
     },
     {
         "Name": "Jean-Baptiste Escher (Scaena)",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Escher-(Scaena)",
         "Status": "Alive",
         "Portrait": "portraits/jean-baptiste-escher-scaena.webp",
         "Campaigns": [
@@ -1307,6 +1613,8 @@ const characters = [
     },
     {
         "Name": "Jenevere",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Jenevere",
         "Status": "Alive",
         "Portrait": "portraits/jenevere.webp",
         "Campaigns": [
@@ -1315,6 +1623,8 @@ const characters = [
     },
     {
         "Name": "Jery",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1323,6 +1633,8 @@ const characters = [
     },
     {
         "Name": "Ji-me Vidio",
+        "Aliases": ["Ji-me"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ji-me-Vidio",
         "Status": "Alive",
         "Portrait": "portraits/ji-me-vidio.webp",
         "Campaigns": [
@@ -1331,6 +1643,8 @@ const characters = [
     },
     {
         "Name": "Jim Darkmagic",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1339,6 +1653,8 @@ const characters = [
     },
     {
         "Name": "Jingle Jangle",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1347,6 +1663,8 @@ const characters = [
     },
     {
         "Name": "Jirko Ismarkovich",
+        "Aliases": ["Jirko Karushkin"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Jirko-Ismarkovich",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1355,6 +1673,8 @@ const characters = [
     },
     {
         "Name": "Joan Hargrave",
+        "Aliases": ["\"Black Joan\" Hargrave","Black Joan"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Black-Joan",
         "Status": "Dead",
         "Portrait": "portraits/joan-hargrave.webp",
         "Campaigns": [
@@ -1363,6 +1683,8 @@ const characters = [
     },
     {
         "Name": "Johannes",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1371,6 +1693,8 @@ const characters = [
     },
     {
         "Name": "Jord",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Jord",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1380,6 +1704,8 @@ const characters = [
     },
     {
         "Name": "Jorn",
+        "Aliases": ["Jorn Horn","Istrid Horn"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Jorn-Horn",
         "Status": "Alive",
         "Portrait": "portraits/jorn-horn.webp",
         "Campaigns": [
@@ -1390,6 +1716,8 @@ const characters = [
     },
     {
         "Name": "Juniper",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1398,6 +1726,8 @@ const characters = [
     },
     {
         "Name": "Jutt",
+        "Aliases": ["Jutt Dragonskull"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Jutt",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1406,6 +1736,8 @@ const characters = [
     },
     {
         "Name": "Kala Mabarin",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Kala-Mabarin",
         "Status": "Alive",
         "Portrait": "portraits/kala-mabarin.webp",
         "Campaigns": [
@@ -1414,6 +1746,8 @@ const characters = [
     },
     {
         "Name": "Kallessk",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Kallessk",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1422,6 +1756,8 @@ const characters = [
     },
     {
         "Name": "Kargan Skul",
+        "Aliases": ["Baroness Skul"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Kargan-Skul",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1430,6 +1766,8 @@ const characters = [
     },
     {
         "Name": "Ker",
+        "Aliases": ["Lord Ker"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ker",
         "Status": "Alive",
         "Portrait": "portraits/ker.webp",
         "Campaigns": [
@@ -1438,6 +1776,8 @@ const characters = [
     },
     {
         "Name": "Kholtris",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Kholtris",
         "Status": "Alive",
         "Portrait": "portraits/kholtris.webp",
         "Campaigns": [
@@ -1446,6 +1786,8 @@ const characters = [
     },
     {
         "Name": "Kianna",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Kianna",
         "Status": "Alive",
         "Portrait": "portraits/kianna.webp",
         "Campaigns": [
@@ -1454,6 +1796,8 @@ const characters = [
     },
     {
         "Name": "King Doerdon",
+        "Aliases": ["Doerdon"],
+        "Link": "https://coast-ttrpg-wiki.com/character/King-Doerdon",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1462,6 +1806,8 @@ const characters = [
     },
     {
         "Name": "Kira Risk",
+        "Aliases": ["Kira"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Kira-Risk",
         "Status": "Alive",
         "Portrait": "portraits/kira-risk.webp",
         "Campaigns": [
@@ -1470,6 +1816,8 @@ const characters = [
     },
     {
         "Name": "Kitty",
+        "Aliases": ["Kitty Windrivver","Felicity","Felicity Marsk"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Kitty-Windrivver",
         "Status": "Alive",
         "Portrait": "portraits/kitty-windrivver.webp",
         "Campaigns": [
@@ -1478,6 +1826,8 @@ const characters = [
     },
     {
         "Name": "Klendisk",
+        "Aliases": ["Baron Klendisk"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Klendisk",
         "Status": "Alive",
         "Portrait": "portraits/klendisk.webp",
         "Campaigns": [
@@ -1486,6 +1836,8 @@ const characters = [
     },
     {
         "Name": "Koh Tam",
+        "Aliases": ["High Priest Koh Tam"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Koh-Tam",
         "Status": "Alive",
         "Portrait": "portraits/koh-tam.webp",
         "Campaigns": [
@@ -1494,6 +1846,8 @@ const characters = [
     },
     {
         "Name": "Kordichai",
+        "Aliases": ["Lord Kordichai","Kordchai the Hunter"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Kordichai",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1502,6 +1856,8 @@ const characters = [
     },
     {
         "Name": "Krue",
+        "Aliases": ["Krue d'Avenir"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Krue",
         "Status": "Alive",
         "Portrait": "portraits/krue-d-avenir.webp",
         "Campaigns": [
@@ -1516,6 +1872,8 @@ const characters = [
     },
     {
         "Name": "Kwalish",
+        "Aliases": ["Kwalish the Golden","Mad Mage of Dragondoom"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Kwalish",
         "Status": "Alive",
         "Portrait": "portraits/kwalish.webp",
         "Campaigns": [
@@ -1524,6 +1882,8 @@ const characters = [
     },
     {
         "Name": "Kyward Apostasio",
+        "Aliases": ["Kyward Lapin Apostasio"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Kyward-Apostasio",
         "Status": "Alive",
         "Portrait": "portraits/kyward-apostasio.webp",
         "Campaigns": [
@@ -1532,6 +1892,8 @@ const characters = [
     },
     {
         "Name": "La Fata",
+        "Aliases": ["Lady of Change"],
+        "Link": "https://coast-ttrpg-wiki.com/character/La-Fata",
         "Status": "Alive",
         "Portrait": "portraits/la-fata.webp",
         "Campaigns": [
@@ -1540,6 +1902,8 @@ const characters = [
     },
     {
         "Name": "Lacrymosa",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Lacrymosa",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1548,6 +1912,8 @@ const characters = [
     },
     {
         "Name": "Lamorna",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1556,6 +1922,8 @@ const characters = [
     },
     {
         "Name": "Lang",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1564,6 +1932,8 @@ const characters = [
     },
     {
         "Name": "Larine",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1572,6 +1942,8 @@ const characters = [
     },
     {
         "Name": "Larisa Sur",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Larisa-Sur",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1580,6 +1952,8 @@ const characters = [
     },
     {
         "Name": "Laurie Weathermay-Foxgrove",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Laurie-Weathermay-Foxgrove",
         "Status": "Alive",
         "Portrait": "portraits/laurie-weathermay-foxgrove.webp",
         "Campaigns": [
@@ -1588,6 +1962,8 @@ const characters = [
     },
     {
         "Name": "Lemont Sediam Juste",
+        "Aliases": ["Gisbert of Lippe","Juste","Nox Dilisnya"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Juste",
         "Status": "Alive",
         "Portrait": "portraits/lemont-sediam-juste.webp",
         "Campaigns": [
@@ -1596,6 +1972,8 @@ const characters = [
     },
     {
         "Name": "Lif",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1605,6 +1983,8 @@ const characters = [
     },
     {
         "Name": "Liko",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Liko",
         "Status": "Alive",
         "Portrait": "portraits/liko.webp",
         "Campaigns": [
@@ -1613,6 +1993,8 @@ const characters = [
     },
     {
         "Name": "Little Balzac",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1621,6 +2003,8 @@ const characters = [
     },
     {
         "Name": "Little Strahd",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Little-Strahd",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1629,6 +2013,8 @@ const characters = [
     },
     {
         "Name": "Lottie",
+        "Aliases": ["Charlotte de Fortuna","Just Lottie"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Lottie",
         "Status": "Alive",
         "Portrait": "portraits/charlotte-de-fortuna.webp",
         "Campaigns": [
@@ -1637,6 +2023,8 @@ const characters = [
     },
     {
         "Name": "Lucian",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1645,6 +2033,8 @@ const characters = [
     },
     {
         "Name": "Ludmilla Love",
+        "Aliases": ["\"Red Fangs\" Graben","Ludmilla Vilisevic (Scaena)"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ludmilla-Love",
         "Status": "Alive",
         "Portrait": "portraits/ludmilla-love.webp",
         "Campaigns": [
@@ -1653,6 +2043,8 @@ const characters = [
     },
     {
         "Name": "Lurker",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1661,6 +2053,8 @@ const characters = [
     },
     {
         "Name": "Lynx",
+        "Aliases": ["Jynx","Ditch Fundi (Stolen Identity)"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Lynx",
         "Status": "Alive",
         "Portrait": "portraits/lynx.webp",
         "Campaigns": [
@@ -1669,6 +2063,8 @@ const characters = [
     },
     {
         "Name": "Lyssa von Zarovich",
+        "Aliases": ["Lyssa Heitman","Giselle Fallona","Talena","Irina","Ireena Kolokoff","Catherine Wagner","Saint Ecaterina of Orasnou","Natasha Itskovich","Merilee Markuza","Katarina of Zeidenburg","Lady Elizabeth Michelle Cole III","Marusca Vitez","Ariana Bartel","Callian DeSlop","Bathilda Sud","Annie Smitters","Dr. Clarice Manticue","Elessi Florea"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Lyssa-von-Zarovich",
         "Status": "Alive",
         "Portrait": "portraits/lyssa-von-zarovich.webp",
         "Campaigns": [
@@ -1677,6 +2073,8 @@ const characters = [
     },
     {
         "Name": "Madryck Roslof",
+        "Aliases": ["Madryck"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Madryck-Roslof",
         "Status": "Alive",
         "Portrait": "portraits/madryck-roslof.webp",
         "Campaigns": [
@@ -1685,6 +2083,8 @@ const characters = [
     },
     {
         "Name": "Magaggog Bootbottle",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Magaggog-Bootbottle",
         "Status": "Alive",
         "Portrait": "portraits/magaggog-bootbottle.webp",
         "Campaigns": [
@@ -1693,6 +2093,8 @@ const characters = [
     },
     {
         "Name": "Mani",
+        "Aliases": ["Manilfari du Cerceau","Manilfari"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Mani-du-Cerceau",
         "Status": "Alive",
         "Portrait": "portraits/manilfari-du-cerceau.webp",
         "Campaigns": [
@@ -1702,6 +2104,8 @@ const characters = [
     },
     {
         "Name": "Maria Adelir",
+        "Aliases": ["Rudolph van Richten (Scaena)"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Maria-Adelir",
         "Status": "Alive",
         "Portrait": "portraits/maria-adelir.webp",
         "Campaigns": [
@@ -1710,6 +2114,8 @@ const characters = [
     },
     {
         "Name": "Marsh",
+        "Aliases": ["Marsh Ruldegost"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Marsh-Ruldegost",
         "Status": "Alive",
         "Portrait": "portraits/marsh-ruldegost.webp",
         "Campaigns": [
@@ -1718,6 +2124,8 @@ const characters = [
     },
     {
         "Name": "Mary",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1726,6 +2134,8 @@ const characters = [
     },
     {
         "Name": "Mattrim",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1734,6 +2144,8 @@ const characters = [
     },
     {
         "Name": "Meff",
+        "Aliases": ["Meff Demonclaw"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Meff",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1742,6 +2154,8 @@ const characters = [
     },
     {
         "Name": "Melo Sur",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Melo-Sur",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1750,6 +2164,8 @@ const characters = [
     },
     {
         "Name": "Melwythorne",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1758,6 +2174,8 @@ const characters = [
     },
     {
         "Name": "Mephistopheles",
+        "Aliases": ["Lord of the Eighth","Lord of the Citadel","Lord of Hellfire","Duke of Brimstone","Baron of Cania","Mephisto","Cold Lord","Baron Molikroth"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Mephistopheles",
         "Status": "Alive",
         "Portrait": "portraits/mephistopheles.webp",
         "Campaigns": [
@@ -1766,6 +2184,8 @@ const characters = [
     },
     {
         "Name": "Mina",
+        "Aliases": ["Minarthok Lee","Mina Lee"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Mina-Lee",
         "Status": "Alive",
         "Portrait": "portraits/minarthok-lee.webp",
         "Campaigns": [
@@ -1774,6 +2194,8 @@ const characters = [
     },
     {
         "Name": "Minsc",
+        "Aliases": ["The Beloved Ranger"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Minsc",
         "Status": "Alive",
         "Portrait": "portraits/minsc.webp",
         "Campaigns": [
@@ -1782,6 +2204,8 @@ const characters = [
     },
     {
         "Name": "Mirabelle",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1790,6 +2214,8 @@ const characters = [
     },
     {
         "Name": "Mirror Nia",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1798,6 +2224,8 @@ const characters = [
     },
     {
         "Name": "Molliver",
+        "Aliases": ["Molly"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Molliver",
         "Status": "Alive",
         "Portrait": "portraits/molliver.webp",
         "Campaigns": [
@@ -1806,6 +2234,8 @@ const characters = [
     },
     {
         "Name": "Morax",
+        "Aliases": ["Brother Morax"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Morax",
         "Status": "Dead",
         "Portrait": "portraits/morax.webp",
         "Campaigns": [
@@ -1814,6 +2244,8 @@ const characters = [
     },
     {
         "Name": "Morcades Gable",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Morcades-Gable",
         "Status": "Dead",
         "Portrait": "portraits/morcades-gable.webp",
         "Campaigns": [
@@ -1822,6 +2254,8 @@ const characters = [
     },
     {
         "Name": "Mordenkainen",
+        "Aliases": ["Mad Mage of Mount Baratok"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Mordenkainen",
         "Status": "Alive",
         "Portrait": "portraits/mordenkainen.webp",
         "Campaigns": [
@@ -1831,6 +2265,8 @@ const characters = [
     },
     {
         "Name": "Morty",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Morty",
         "Status": "Alive",
         "Portrait": "portraits/morty.webp",
         "Campaigns": [
@@ -1839,6 +2275,8 @@ const characters = [
     },
     {
         "Name": "Mr. Light",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1847,6 +2285,8 @@ const characters = [
     },
     {
         "Name": "Mr. Witch",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1855,6 +2295,8 @@ const characters = [
     },
     {
         "Name": "Myrtle",
+        "Aliases": ["Myrtle Ismarkovna","Myrtle Diavolov"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Myrtle-Ismarkovna",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1865,6 +2307,8 @@ const characters = [
     },
     {
         "Name": "Mystic",
+        "Aliases": ["Mysty"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Mysty",
         "Status": "Alive",
         "Portrait": "portraits/mystic.webp",
         "Campaigns": [
@@ -1873,6 +2317,8 @@ const characters = [
     },
     {
         "Name": "Nassari",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1881,6 +2327,8 @@ const characters = [
     },
     {
         "Name": "Neferon",
+        "Aliases": ["Heinrich Stolt"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Neferon",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1890,6 +2338,8 @@ const characters = [
     },
     {
         "Name": "Nia",
+        "Aliases": ["Nia Skultrac","Komtesse Nia Skultrac","Nia Cartluks"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Nia-Skultrac",
         "Status": "Alive",
         "Portrait": "portraits/nia-skultrac.webp",
         "Campaigns": [
@@ -1903,6 +2353,8 @@ const characters = [
     },
     {
         "Name": "Nim",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1912,6 +2364,8 @@ const characters = [
     },
     {
         "Name": "Nora",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1920,6 +2374,8 @@ const characters = [
     },
     {
         "Name": "Nostalia",
+        "Aliases": ["Nostalia Romaine","Dagger"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Nostalia-Romaine",
         "Status": "Alive",
         "Portrait": "portraits/nostalia-romaine.webp",
         "Campaigns": [
@@ -1929,6 +2385,8 @@ const characters = [
     },
     {
         "Name": "Notte von Zarovich",
+        "Aliases": ["Notte","Nacht","Notte Civile Boritsi","Notte Boritsi"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Notte-von-Zarovich",
         "Status": "Alive",
         "Portrait": "portraits/notte-von-zarovich.webp",
         "Campaigns": [
@@ -1937,6 +2395,8 @@ const characters = [
     },
     {
         "Name": "Nurse Joy",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1945,6 +2405,8 @@ const characters = [
     },
     {
         "Name": "Oberon",
+        "Aliases": ["Oberon the Purple","Oberon the Forgotten"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Oberon",
         "Status": "Alive",
         "Portrait": "portraits/oberon.webp",
         "Campaigns": [
@@ -1953,6 +2415,8 @@ const characters = [
     },
     {
         "Name": "Ōdachi",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Odachi",
         "Status": "Alive",
         "Portrait": "portraits/odachi.webp",
         "Campaigns": [
@@ -1961,6 +2425,8 @@ const characters = [
     },
     {
         "Name": "Oddlewin",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Oddlewin",
         "Status": "Alive",
         "Portrait": "portraits/oddlewin.webp",
         "Campaigns": [
@@ -1969,6 +2435,8 @@ const characters = [
     },
     {
         "Name": "Old Death",
+        "Aliases": ["Strahd von Zarovich I","Death"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Death",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1977,6 +2445,8 @@ const characters = [
     },
     {
         "Name": "Omin",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -1985,6 +2455,8 @@ const characters = [
     },
     {
         "Name": "Orcades Gable",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Orcades-Gable",
         "Status": "Alive",
         "Portrait": "portraits/orcades-gable.webp",
         "Campaigns": [
@@ -1993,6 +2465,8 @@ const characters = [
     },
     {
         "Name": "Orishada",
+        "Aliases": ["The Floating Duke of Agora"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Orishada",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2001,6 +2475,8 @@ const characters = [
     },
     {
         "Name": "Osybus",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Osybus",
         "Status": "Alive",
         "Portrait": "portraits/osybus.webp",
         "Campaigns": [
@@ -2009,6 +2485,8 @@ const characters = [
     },
     {
         "Name": "Otis",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2018,6 +2496,8 @@ const characters = [
     },
     {
         "Name": "Ottelie",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2026,6 +2506,8 @@ const characters = [
     },
     {
         "Name": "Paloma",
+        "Aliases": ["La Paloma"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Paloma",
         "Status": "Alive",
         "Portrait": "portraits/paloma.webp",
         "Campaigns": [
@@ -2034,6 +2516,8 @@ const characters = [
     },
     {
         "Name": "Patsky",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Patsky",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2042,6 +2526,8 @@ const characters = [
     },
     {
         "Name": "Pazrodine",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Pazrodine",
         "Status": "Alive",
         "Portrait": "portraits/pazrodine.webp",
         "Campaigns": [
@@ -2050,6 +2536,8 @@ const characters = [
     },
     {
         "Name": "Petre Teodorus",
+        "Aliases": ["Father Teodorus"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Petre-Teodorus",
         "Status": "Alive",
         "Portrait": "portraits/petre-teodorus.webp",
         "Campaigns": [
@@ -2058,6 +2546,8 @@ const characters = [
     },
     {
         "Name": "Pewter",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2066,6 +2556,8 @@ const characters = [
     },
     {
         "Name": "Pidlwick",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2076,6 +2568,8 @@ const characters = [
     },
     {
         "Name": "Pietra van Riese",
+        "Aliases": ["\"Jackboot\" van Riese","Lady Death"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Pietra-van-Riese",
         "Status": "Alive",
         "Portrait": "portraits/pietra-van-riese.webp",
         "Campaigns": [
@@ -2085,6 +2579,8 @@ const characters = [
     },
     {
         "Name": "Pollenella",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2093,6 +2589,8 @@ const characters = [
     },
     {
         "Name": "Porter",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2101,6 +2599,8 @@ const characters = [
     },
     {
         "Name": "Prismari",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2109,6 +2609,8 @@ const characters = [
     },
     {
         "Name": "Prydevere",
+        "Aliases": ["Prydevere Milivera"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Prydevere-Milivera",
         "Status": "Alive",
         "Portrait": "portraits/prydevere-milivera.webp",
         "Campaigns": [
@@ -2117,6 +2619,8 @@ const characters = [
     },
     {
         "Name": "Quentillius",
+        "Aliases": ["Quentillius Antiphiun Melentor III","Mysterious Stranger Q","Q"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Quentillius-Antiphiun-Melentor-III",
         "Status": "Alive",
         "Portrait": "portraits/quentillius-antiphiun-melentor-iii.webp",
         "Campaigns": [
@@ -2126,6 +2630,8 @@ const characters = [
     },
     {
         "Name": "Quevven Teh'Kinrellz",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2134,6 +2640,8 @@ const characters = [
     },
     {
         "Name": "Quincey Pasqual Morris (Scaena)",
+        "Aliases": ["Quincey Morris","Quincey P. Morris"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Quincey-Morris-(Re:Strahd)",
         "Status": "Alive",
         "Portrait": "portraits/quincey-pasqual-morris-scaena.webp",
         "Campaigns": [
@@ -2142,6 +2650,8 @@ const characters = [
     },
     {
         "Name": "Rahadin",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2150,6 +2660,8 @@ const characters = [
     },
     {
         "Name": "Rahadin Zdravkov (Scaena)",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Rahadin-(Scaena)",
         "Status": "Alive",
         "Portrait": "portraits/rahadin-zdravkov-scaena.webp",
         "Campaigns": [
@@ -2158,6 +2670,8 @@ const characters = [
     },
     {
         "Name": "Ramius Dangremond",
+        "Aliases": ["High Rider Dangremond"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ramius-Dangremond",
         "Status": "Alive",
         "Portrait": "portraits/ramius-dangremond.webp",
         "Campaigns": [
@@ -2166,6 +2680,8 @@ const characters = [
     },
     {
         "Name": "Rampart",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2174,6 +2690,8 @@ const characters = [
     },
     {
         "Name": "Renaer",
+        "Aliases": ["Renaer Neverember"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Renaer-Neverember",
         "Status": "Alive",
         "Portrait": "portraits/renaer-neverember.webp",
         "Campaigns": [
@@ -2182,6 +2700,8 @@ const characters = [
     },
     {
         "Name": "Reynard Ratflea",
+        "Aliases": ["Guildmaster Reynard","King Reynard the Ringent"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Reynard-Ratflea",
         "Status": "Alive",
         "Portrait": "portraits/reynard-ratflea.webp",
         "Campaigns": [
@@ -2190,6 +2710,8 @@ const characters = [
     },
     {
         "Name": "Rictavio",
+        "Aliases": ["Rudolph van Richten","Lord Kobal von Rictavio","Baron Radovan von Rictavio","Waltar von Heilvar","Rudy (by Ingrid)"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Rictavio",
         "Status": "Alive",
         "Portrait": "portraits/rudolph-van-richten.webp",
         "Campaigns": [
@@ -2203,6 +2725,8 @@ const characters = [
     },
     {
         "Name": "Risk",
+        "Aliases": ["Risky"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Risk",
         "Status": "Alive",
         "Portrait": "portraits/risk.webp",
         "Campaigns": [
@@ -2211,6 +2735,8 @@ const characters = [
     },
     {
         "Name": "Rizzeryl",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2219,6 +2745,8 @@ const characters = [
     },
     {
         "Name": "Roberta",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2227,6 +2755,8 @@ const characters = [
     },
     {
         "Name": "Robi Junior (Pidlwick III)",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2235,6 +2765,8 @@ const characters = [
     },
     {
         "Name": "Roneca",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2243,6 +2775,8 @@ const characters = [
     },
     {
         "Name": "Rosa",
+        "Aliases": ["Doña Rosa"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Rosa",
         "Status": "Alive",
         "Portrait": "portraits/rosa.webp",
         "Campaigns": [
@@ -2251,6 +2785,8 @@ const characters = [
     },
     {
         "Name": "Rosie",
+        "Aliases": ["Rosimyffenbip Wuzfeddlims"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Rosie-Wuzfeddlims",
         "Status": "Alive",
         "Portrait": "portraits/rosimyffenbip-wuzfeddlims.webp",
         "Campaigns": [
@@ -2259,6 +2795,8 @@ const characters = [
     },
     {
         "Name": "Rubina",
+        "Aliases": ["Rubina Larkingdale"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Rubina-Larkingdale",
         "Status": "Alive",
         "Portrait": "portraits/rubina-larkingdale.webp",
         "Campaigns": [
@@ -2267,6 +2805,8 @@ const characters = [
     },
     {
         "Name": "Rudolph",
+        "Aliases": ["Rudolph d'Avenir","Rudy"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Rudolph-d'Avenir",
         "Status": "Alive",
         "Portrait": "portraits/rudolph-d-avenir.webp",
         "Campaigns": [
@@ -2277,6 +2817,8 @@ const characters = [
     },
     {
         "Name": "Ruik",
+        "Aliases": ["Ruik Dwin'anea"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ruik-Dwin'anea",
         "Status": "Alive",
         "Portrait": "portraits/ruik-dwin-anea.webp",
         "Campaigns": [
@@ -2287,6 +2829,8 @@ const characters = [
     },
     {
         "Name": "Rupert Deadbolt",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2295,6 +2839,8 @@ const characters = [
     },
     {
         "Name": "Ruslana",
+        "Aliases": ["Ruslana Nochnik"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ruslana-Nochnik",
         "Status": "Alive",
         "Portrait": "portraits/ruslana-nochnik.webp",
         "Campaigns": [
@@ -2303,6 +2849,8 @@ const characters = [
     },
     {
         "Name": "Rusty Bucket",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2311,6 +2859,8 @@ const characters = [
     },
     {
         "Name": "Ruxa",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2319,6 +2869,8 @@ const characters = [
     },
     {
         "Name": "Sackville Grabbins",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2327,6 +2879,8 @@ const characters = [
     },
     {
         "Name": "Samira Arah",
+        "Aliases": ["Madame Samira"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Samira-Arah",
         "Status": "Alive",
         "Portrait": "portraits/samira-arah.webp",
         "Campaigns": [
@@ -2335,6 +2889,8 @@ const characters = [
     },
     {
         "Name": "Sandman",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2343,6 +2899,8 @@ const characters = [
     },
     {
         "Name": "Seku Awaud",
+        "Aliases": ["Seku"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Seku-Awaud",
         "Status": "Alive",
         "Portrait": "portraits/seku-awaud.webp",
         "Campaigns": [
@@ -2351,6 +2909,8 @@ const characters = [
     },
     {
         "Name": "Selise",
+        "Aliases": ["Selise Astorio"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Selise-Astorio",
         "Status": "Alive",
         "Portrait": "portraits/selise-astorio.webp",
         "Campaigns": [
@@ -2362,6 +2922,8 @@ const characters = [
     },
     {
         "Name": "Serapio",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Serapio",
         "Status": "Alive",
         "Portrait": "portraits/serapio.webp",
         "Campaigns": [
@@ -2370,6 +2932,8 @@ const characters = [
     },
     {
         "Name": "Shanix Breakrattle",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2378,6 +2942,8 @@ const characters = [
     },
     {
         "Name": "Shuvadri",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2386,6 +2952,8 @@ const characters = [
     },
     {
         "Name": "Sildar",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2394,6 +2962,8 @@ const characters = [
     },
     {
         "Name": "Silver",
+        "Aliases": ["Silver Lovelysong"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Silver-Lovelysong",
         "Status": "Alive",
         "Portrait": "portraits/silver-lovelysong.webp",
         "Campaigns": [
@@ -2402,6 +2972,8 @@ const characters = [
     },
     {
         "Name": "Sir Talavar",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2410,6 +2982,8 @@ const characters = [
     },
     {
         "Name": "Skabatha Nightshade",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2419,6 +2993,8 @@ const characters = [
     },
     {
         "Name": "Skeemo Weirdbottle",
+        "Aliases": ["Skeems Weirdbottle"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Skeemo-Weirdbottle",
         "Status": "Dead",
         "Portrait": "portraits/skeemo-weirdbottle.webp",
         "Campaigns": [
@@ -2427,6 +3003,8 @@ const characters = [
     },
     {
         "Name": "Skelly",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Skelly",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2435,6 +3013,8 @@ const characters = [
     },
     {
         "Name": "Skoll",
+        "Aliases": ["Skoll de Marais","Marquis Aluya de Marais"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Skoll-de-Marais",
         "Status": "Alive",
         "Portrait": "portraits/skoll-de-marais.webp",
         "Campaigns": [
@@ -2448,6 +3028,8 @@ const characters = [
     },
     {
         "Name": "Sonja Florakis",
+        "Aliases": ["Sonja Euterpe Florakis"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Sonja-Florakis",
         "Status": "Alive",
         "Portrait": "portraits/sonja-florakis.webp",
         "Campaigns": [
@@ -2456,6 +3038,8 @@ const characters = [
     },
     {
         "Name": "Stella von Zarovich",
+        "Aliases": ["Little Kitty","Lady Stella","Stella Wachter (Scaena)"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Stella-von-Zarovich",
         "Status": "Alive",
         "Portrait": "portraits/stella-von-zarovich.webp",
         "Campaigns": [
@@ -2464,6 +3048,8 @@ const characters = [
     },
     {
         "Name": "Strahd",
+        "Aliases": ["Strahd von Zarovich","The Devil","The Vampyr","Vasili von Holtz","Strahd Relvaunder"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Strahd-von-Zarovich",
         "Status": "Alive",
         "Portrait": "portraits/strahd-von-zarovich.webp",
         "Campaigns": [
@@ -2472,6 +3058,8 @@ const characters = [
     },
     {
         "Name": "Strashka Relvaunder",
+        "Aliases": ["Strahd von Zarovich (Scaena)","New Death"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Strashka-Relvaunder",
         "Status": "Alive",
         "Portrait": "portraits/strashka-relvaunder.webp",
         "Campaigns": [
@@ -2480,6 +3068,8 @@ const characters = [
     },
     {
         "Name": "Struthio",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2488,6 +3078,8 @@ const characters = [
     },
     {
         "Name": "Sumari",
+        "Aliases": ["Pao-Pao"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Sumari",
         "Status": "Alive",
         "Portrait": "portraits/sumari.webp",
         "Campaigns": [
@@ -2496,6 +3088,8 @@ const characters = [
     },
     {
         "Name": "Sylqen Silverwatch",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Sylqen-Silverwatch",
         "Status": "Alive",
         "Portrait": "portraits/sylqen-silverwatch.webp",
         "Campaigns": [
@@ -2504,6 +3098,8 @@ const characters = [
     },
     {
         "Name": "Synestia Whitechapel",
+        "Aliases": ["Syn Whitechapel"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Synestia-Whitechapel",
         "Status": "Alive",
         "Portrait": "portraits/synestia-whitechapel.webp",
         "Campaigns": [
@@ -2512,6 +3108,8 @@ const characters = [
     },
     {
         "Name": "Talanatha",
+        "Aliases": ["Talanatha Three-Coins"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Talanatha-Three-Coins",
         "Status": "Alive",
         "Portrait": "portraits/talanatha-three-coins.webp",
         "Campaigns": [
@@ -2520,6 +3118,8 @@ const characters = [
     },
     {
         "Name": "Tashlyn",
+        "Aliases": ["Tashlyn Yafeera"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Tashlyn-Yafeera",
         "Status": "Alive",
         "Portrait": "portraits/tashlyn-yafeera.webp",
         "Campaigns": [
@@ -2531,6 +3131,8 @@ const characters = [
     },
     {
         "Name": "Telphusa",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Telphusa",
         "Status": "Alive",
         "Portrait": "portraits/telphusa.webp",
         "Campaigns": [
@@ -2539,6 +3141,8 @@ const characters = [
     },
     {
         "Name": "Ten",
+        "Aliases": ["Talith Aelar"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ten",
         "Status": "Alive",
         "Portrait": "portraits/ten.webp",
         "Campaigns": [
@@ -2547,6 +3151,8 @@ const characters = [
     },
     {
         "Name": "Tenser",
+        "Aliases": ["Tenser the Blue","Manzorian of Waterdeep"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Tenser",
         "Status": "Alive",
         "Portrait": "portraits/tenser.webp",
         "Campaigns": [
@@ -2555,6 +3161,8 @@ const characters = [
     },
     {
         "Name": "Thaco",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2564,6 +3172,8 @@ const characters = [
     },
     {
         "Name": "Thalia",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Thalia",
         "Status": "Alive",
         "Portrait": "portraits/thalia.webp",
         "Campaigns": [
@@ -2572,6 +3182,8 @@ const characters = [
     },
     {
         "Name": "The Abbot (Jude Law)",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2580,6 +3192,8 @@ const characters = [
     },
     {
         "Name": "The Cat Lord",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2588,6 +3202,8 @@ const characters = [
     },
     {
         "Name": "The Fisher King",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2596,6 +3212,8 @@ const characters = [
     },
     {
         "Name": "The Painted Lady",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2604,6 +3222,8 @@ const characters = [
     },
     {
         "Name": "The Spider",
+        "Aliases": ["Damháin","The Duchess","Gregor","Unspeakable Denizen"],
+        "Link": "https://coast-ttrpg-wiki.com/character/TheSpider",
         "Status": "Dead",
         "Portrait": "portraits/the-spider.webp",
         "Campaigns": [
@@ -2612,6 +3232,8 @@ const characters = [
     },
     {
         "Name": "Thetsis",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2620,6 +3242,8 @@ const characters = [
     },
     {
         "Name": "Tiax",
+        "Aliases": ["Tiax the Mighty"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Tiax",
         "Status": "Alive",
         "Portrait": "portraits/tiax.webp",
         "Campaigns": [
@@ -2628,6 +3252,8 @@ const characters = [
     },
     {
         "Name": "Tilana",
+        "Aliases": ["Tilana Kapule"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Tilana-Kapule",
         "Status": "Alive",
         "Portrait": "portraits/tilana-kapule.webp",
         "Campaigns": [
@@ -2636,6 +3262,8 @@ const characters = [
     },
     {
         "Name": "Titan",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Titan",
         "Status": "Alive",
         "Portrait": "portraits/titan.webp",
         "Campaigns": [
@@ -2644,6 +3272,8 @@ const characters = [
     },
     {
         "Name": "To'vvag'das'vak'thur'ai'thumonic'ar of the Greater Eye",
+        "Aliases": ["Monicar, G.E."],
+        "Link": "https://coast-ttrpg-wiki.com/character/Monicar",
         "Status": "Alive",
         "Portrait": "portraits/to-vvag-das-vak-thur-ai-thumonic-ar-of-the-greater-eye.webp",
         "Campaigns": [
@@ -2652,6 +3282,8 @@ const characters = [
     },
     {
         "Name": "Tordit",
+        "Aliases": ["Tordit Beerbelly","Map Boy"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Tordit",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2660,6 +3292,8 @@ const characters = [
     },
     {
         "Name": "Trench",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2668,6 +3302,8 @@ const characters = [
     },
     {
         "Name": "Trilla",
+        "Aliases": ["Tav"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Trilla",
         "Status": "Alive",
         "Portrait": "portraits/trilla.webp",
         "Campaigns": [
@@ -2676,6 +3312,8 @@ const characters = [
     },
     {
         "Name": "Tsu",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2684,6 +3322,8 @@ const characters = [
     },
     {
         "Name": "Tullus",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2692,6 +3332,8 @@ const characters = [
     },
     {
         "Name": "Tungsten Ward",
+        "Aliases": ["Tungsten","Ward","Proclaimer Ward"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Tungsten-Ward",
         "Status": "Alive",
         "Portrait": "portraits/tungsten-ward.webp",
         "Campaigns": [
@@ -2700,6 +3342,8 @@ const characters = [
     },
     {
         "Name": "Tzunk",
+        "Aliases": ["Tzunk the Orange","Tzunk of the Infinite Planes"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Tzunk",
         "Status": "Alive",
         "Portrait": "portraits/tzunk.webp",
         "Campaigns": [
@@ -2708,6 +3352,8 @@ const characters = [
     },
     {
         "Name": "Urzmaktok",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2716,6 +3362,8 @@ const characters = [
     },
     {
         "Name": "Vajra",
+        "Aliases": ["Vajra Safahr","Blackstaff of Waterdeep"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Vajra-Safahr",
         "Status": "Alive",
         "Portrait": "portraits/vajra-safahr.webp",
         "Campaigns": [
@@ -2727,6 +3375,8 @@ const characters = [
     },
     {
         "Name": "Vasilka (Scaena)",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Vasilka-(Scaena)",
         "Status": "Alive",
         "Portrait": "portraits/vasilka-scaena.webp",
         "Campaigns": [
@@ -2735,6 +3385,8 @@ const characters = [
     },
     {
         "Name": "Velastrias",
+        "Aliases": ["Velastrias Shaerival","Vel Shaerival"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Velastrias",
         "Status": "Alive",
         "Portrait": "portraits/velastrias-shaerival.webp",
         "Campaigns": [
@@ -2743,6 +3395,8 @@ const characters = [
     },
     {
         "Name": "Victor",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2751,6 +3405,8 @@ const characters = [
     },
     {
         "Name": "Victor Vallakovich (Scaena)",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Victor-Vallakovich-(Scaena)",
         "Status": "Alive",
         "Portrait": "portraits/victor-vallakovich-scaena.webp",
         "Campaigns": [
@@ -2759,6 +3415,8 @@ const characters = [
     },
     {
         "Name": "Vih'zel",
+        "Aliases": ["Vih'zel Amreth"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Vih'zel-Amreth",
         "Status": "Alive",
         "Portrait": "portraits/vih-zel-amreth.webp",
         "Campaigns": [
@@ -2767,6 +3425,8 @@ const characters = [
     },
     {
         "Name": "Vito Romenza",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Vito-Romenza",
         "Status": "Alive",
         "Portrait": "portraits/vito-romenza.webp",
         "Campaigns": [
@@ -2775,6 +3435,8 @@ const characters = [
     },
     {
         "Name": "Volenta Popofsky (Scaena)",
+        "Aliases": ["Sister Vola"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Volenta-Popofsky-(Scaena)",
         "Status": "Alive",
         "Portrait": "portraits/volenta-popofsky-scaena.webp",
         "Campaigns": [
@@ -2783,6 +3445,8 @@ const characters = [
     },
     {
         "Name": "Volo",
+        "Aliases": ["Volothamp Geddarm","Volothamp"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Volo-Geddarm",
         "Status": "Alive",
         "Portrait": "portraits/volothamp-geddarm.webp",
         "Campaigns": [
@@ -2795,6 +3459,8 @@ const characters = [
     },
     {
         "Name": "Vyldara",
+        "Aliases": ["Vile"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Vyldara",
         "Status": "Dead",
         "Portrait": "portraits/vyldara.webp",
         "Campaigns": [
@@ -2803,6 +3469,8 @@ const characters = [
     },
     {
         "Name": "Wester",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2811,6 +3479,8 @@ const characters = [
     },
     {
         "Name": "Whippoorwill",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2819,6 +3489,8 @@ const characters = [
     },
     {
         "Name": "Whisper",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Whisper",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2827,6 +3499,8 @@ const characters = [
     },
     {
         "Name": "Will of the Feywild",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2835,6 +3509,8 @@ const characters = [
     },
     {
         "Name": "Wizzy",
+        "Aliases": ["Wizzeril Hognoggin"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Wizzy",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2843,6 +3519,8 @@ const characters = [
     },
     {
         "Name": "Wobbles",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2851,6 +3529,8 @@ const characters = [
     },
     {
         "Name": "Woe Ismae",
+        "Aliases": ["Woe"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Woe-Ismae",
         "Status": "Alive",
         "Portrait": "portraits/woe-ismae.webp",
         "Campaigns": [
@@ -2859,6 +3539,8 @@ const characters = [
     },
     {
         "Name": "Yagra",
+        "Aliases": ["Yagra Stonefist"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Yagra-Stonefist",
         "Status": "Alive",
         "Portrait": "portraits/yagra-stonefist.webp",
         "Campaigns": [
@@ -2870,6 +3552,8 @@ const characters = [
     },
     {
         "Name": "Yarnspinner",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Yarnspinner",
         "Status": "Alive",
         "Portrait": "portraits/yarnspinner.webp",
         "Campaigns": [
@@ -2878,6 +3562,8 @@ const characters = [
     },
     {
         "Name": "Yek",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2886,6 +3572,8 @@ const characters = [
     },
     {
         "Name": "Yesper",
+        "Aliases": ["Yesper Taltos","Yesper Janek"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Yesper-Taltos",
         "Status": "Alive",
         "Portrait": "portraits/yesper-taltos.webp",
         "Campaigns": [
@@ -2896,6 +3584,8 @@ const characters = [
     },
     {
         "Name": "Yesper Taltos (Scaena)",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Yesper-Taltos-(Scaena)",
         "Status": "Alive",
         "Portrait": "portraits/yesper-taltos-scaena.webp",
         "Campaigns": [
@@ -2904,6 +3594,8 @@ const characters = [
     },
     {
         "Name": "Ygor",
+        "Aliases": [],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ygor",
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2912,6 +3604,8 @@ const characters = [
     },
     {
         "Name": "Yurk",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2921,6 +3615,8 @@ const characters = [
     },
     {
         "Name": "Yves Kolyanovich",
+        "Aliases": ["Yves","Yves Antoine Olivier Carrion","Yves Carrion"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Yves-Kolyanovich",
         "Status": "Alive",
         "Portrait": "portraits/yves-kolyanovich.webp",
         "Campaigns": [
@@ -2929,6 +3625,8 @@ const characters = [
     },
     {
         "Name": "Zanther",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2937,6 +3635,8 @@ const characters = [
     },
     {
         "Name": "Zaria",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2945,6 +3645,8 @@ const characters = [
     },
     {
         "Name": "Zilitsa",
+        "Aliases": [],
+        "Link": null,
         "Status": "Alive",
         "Portrait": null,
         "Campaigns": [
@@ -2953,6 +3655,8 @@ const characters = [
     },
     {
         "Name": "Ziraj",
+        "Aliases": ["Ziraj the Hunter"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Ziraj",
         "Status": "Alive",
         "Portrait": "portraits/ziraj.webp",
         "Campaigns": [
@@ -2961,6 +3665,8 @@ const characters = [
     },
     {
         "Name": "Zybilna",
+        "Aliases": ["Iggwilv","Hura","Tasha","Natasha","Witch Queen"],
+        "Link": "https://coast-ttrpg-wiki.com/character/Zybilna",
         "Status": "Alive",
         "Portrait": "portraits/zybilna.webp",
         "Campaigns": [

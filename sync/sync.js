@@ -4,7 +4,8 @@
 //   node sync/sync.js [path-to-vault]
 //
 // Sources:
-//   <vault>/Characters/*.md  - frontmatter "Campaign" list gives each character's campaigns
+//   <vault>/Characters/*.md  - frontmatter "Campaign" list gives each character's campaigns;
+//                              "aliases", "Status", "Portrait" and "permalink" fill in the card
 //   <vault>/Campaigns/*.md   - "## Cast" / "## Secondary Cast" bullets give the player characters
 //                              per campaign (with who played them and their class); "Start Date"
 //                              orders the campaigns
@@ -21,6 +22,7 @@ let sharp = null;
 try { sharp = require("sharp"); } catch (e) { /* images are skipped below with a warning */ }
 
 const VAULT = process.argv[2] || "C:\\Users\\roryk\\OneDrive\\Documents\\Vaults\\TTRPG Wiki";
+const WIKI_BASE = "https://coast-ttrpg-wiki.com"; // + the note's `permalink`
 const ROOT = path.join(__dirname, "..");
 const OVERRIDES = JSON.parse(fs.readFileSync(path.join(__dirname, "overrides.json"), "utf8"));
 
@@ -176,8 +178,15 @@ for (const file of markdownFiles(path.join(VAULT, "Characters"))) {
     }
 
     const displayName = OVERRIDES.names[file.name] || file.name;
+    const rawAliases = Array.isArray(fm.aliases) ? fm.aliases : [];
+    const aliases = rawAliases
+        .map(a => a.replace(/^'(.*)'$/, "$1").trim())      // '"Black Joan" Hargrave' -> "Black Joan" Hargrave
+        .filter(a => a && a !== displayName && a !== file.name);
+    if (displayName !== file.name) aliases.unshift(file.name); // the full name is worth showing too
     characters.push({
         Name: displayName,
+        Aliases: aliases,
+        Link: typeof fm.permalink === "string" ? WIKI_BASE + encodeURI(fm.permalink) : null,
         Status: typeof fm.Status === "string" ? fm.Status : "Alive",
         Portrait: queueImage(typeof fm.Portrait === "string" ? linkTarget(fm.Portrait) : null, "portraits", file.name, 480),
         Campaigns: memberships,
@@ -187,6 +196,8 @@ for (const file of markdownFiles(path.join(VAULT, "Characters"))) {
 for (const extra of OVERRIDES.extras) {
     characters.push({
         Name: extra.Name,
+        Aliases: [],
+        Link: null,
         Status: extra.Status || "Alive",
         Portrait: null,
         Campaigns: extra.Campaigns.map(c => ({ Name: c, Role: extra.Role || "NPC" })),
@@ -235,6 +246,8 @@ const out = [
         return [
             "    {",
             `        "Name": ${JSON.stringify(c.Name)},`,
+            `        "Aliases": ${JSON.stringify(c.Aliases)},`,
+            `        "Link": ${JSON.stringify(c.Link)},`,
             `        "Status": ${JSON.stringify(c.Status)},`,
             `        "Portrait": ${JSON.stringify(c.Portrait)},`,
             '        "Campaigns": [',

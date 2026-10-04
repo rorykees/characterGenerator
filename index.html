@@ -19,23 +19,24 @@
             <p>Draw a random character from our campaigns.</p>
         </header>
 
-        <!-- the draw: parchment card, then the draw button -->
+        <!-- the draw button stays above the card so it never moves when the card grows -->
+        <div class="draw-row">
+            <button type="button" class="draw" id="draw">Draw a character</button>
+            <p class="pool-size" id="pool-size"></p>
+        </div>
+
         <section class="stage" aria-label="Drawn character">
             <article class="card" id="card" aria-live="polite">
                 <p class="card-empty" id="card-empty">Press Draw to pull a character from the box.</p>
-                <h2 class="card-name" id="card-name"></h2>
+                <h2 class="card-name"><a id="card-name" class="card-name-link" target="_blank" rel="noopener"></a></h2>
                 <p class="card-status" id="card-status"></p>
+                <p class="card-aliases" id="card-aliases"></p>
                 <figure class="card-portrait" id="card-portrait" hidden>
                     <img id="card-portrait-image" alt="" width="240" height="240">
                 </figure>
                 <ul class="card-campaigns" id="card-campaigns"></ul>
             </article>
         </section>
-
-        <div class="draw-row">
-            <button type="button" class="draw" id="draw">Draw a character</button>
-            <p class="pool-size" id="pool-size"></p>
-        </div>
 
         <!-- filters -->
         <form class="filters" id="filters">
@@ -45,6 +46,7 @@
                     <label class="chip"><input type="radio" name="who" value="anyone" checked><span>Anyone</span></label>
                     <label class="chip"><input type="radio" name="who" value="players"><span>Player characters</span></label>
                     <label class="chip"><input type="radio" name="who" value="npcs"><span>NPCs</span></label>
+                    <!-- one "Played by" chip per player is added here by script.js -->
                 </div>
             </fieldset>
 

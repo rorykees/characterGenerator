@@ -4,7 +4,7 @@ Picks a random NPC or player character from our tabletop campaigns.
 
 ## Files
 
-- `index.html`, `style.css`, `script.js` - the page: one draw button, a result card, and filters for role and campaign. The campaign filters are built from the data at load time, so there is nothing to add here when a campaign or character is added.
+- `index.html`, `style.css`, `script.js` - the page: one draw button, a result card, and filters for role, player, and campaign. The player and campaign filters are built from the data at load time, so there is nothing to add here when a campaign, player, or character is added.
 - `characters.js` - the data (`campaigns` and `characters`). **Generated, do not edit by hand.**
 - `portraits/` - character portraits shown under the name, resized from the vault into small WebP files. **Generated, do not edit by hand.**
 - `sync/sync.js` - builds `characters.js` from the TTRPG Wiki Obsidian vault.
@@ -34,7 +34,7 @@ What the sync reads from the vault:
 
 - `Characters/*.md` frontmatter `Campaign` list for each character's campaigns. Notes with an empty list are skipped.
 - `Campaigns/*.md` `## Cast` and `## Secondary Cast` bullets for who was a player character in that campaign, who played them, and their class. Everyone else in the campaign is an NPC. `Start Date` sets the campaign order and the first alias sets the display name.
-- `Characters/*.md` `Status` marks a character as deceased on the card, and `Portrait` names the image resized into `portraits/`.
+- `Characters/*.md` `Status` marks a character as deceased on the card, `aliases` fill the "Also known as" line, `Portrait` names the image resized into `portraits/`, and `permalink` (prefixed with the wiki URL set in `sync/sync.js`) makes the name a link to the wiki.
 
 Images are only reconverted when the vault file is newer than the copy in the repo, so reruns are quick.
 
@@ -43,6 +43,8 @@ Each character in `characters.js` ends up as:
 ```js
 {
     "Name": "Ezmerelda",
+    "Aliases": ["Ezmerelda d'Avenir", "Ez"],
+    "Link": "https://coast-ttrpg-wiki.com/character/Ezmerelda-d'Avenir",
     "Status": "Alive",
     "Portrait": "portraits/ezmerelda-d-avenir.webp",
     "Campaigns": [
